@@ -15,8 +15,6 @@ Este repositorio contiene los archivos utilizados para el desarrollo, automatiza
 - Proyecto de simulación 3D de la planta.
 - Proyecto de programación del PLC.
 - Proyecto de visualización y supervisión SCADA.
-- Listado de variables y señales.
-- Capturas y documentación auxiliar.
 
 ## Software empleado
 
