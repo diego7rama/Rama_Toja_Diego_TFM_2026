@@ -1,0 +1,3909 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FEFExchangeFile>
+	<fileHeader company="Schneider Automation" product="Unity Pro XLS V13.0 - 170914B" dateTime="date_and_time#2026-6-22-23:43:38" content="Archivo de origen del proyecto" DTDVersion="41"></fileHeader>
+	<contentHeader name="Proyecto" version="0.0.360" dateTime="date_and_time#2026-6-5-20:24:23"></contentHeader>
+	<commParameters>
+		<PLCAddress address="SYS" media="TCPIP" nbTries="3" timeout="3000" highSpeed="0"></PLCAddress>
+		<simulatorAddress address="127.0.0.1" media="TCPIP" nbTries="3" timeout="3000"></simulatorAddress>
+		<bandwith animation="70" PLCMonitor="10" PLCScreen="10" diagnostic="10"></bandwith>
+	</commParameters>
+	<IOConf>
+		<PLC autoRun="false" MWInitZero="true" ColdStartOnly="false" ccotfActive="false" numberInternalWord="1024" numberConstantWord="256" numberInternalBit="512">
+			<partItem family="Micro Basic" partNumber="BMXP342000" vendorName="Schneider Automation" version="02.70"></partItem>
+			<equipInfo topoAddress="\0.0\0.0" position="0"></equipInfo>
+			<configATS>
+				<busATS name="XBusMicro">
+					<equipInfo topoAddress="\0" position="0"></equipInfo>
+					<rackATS>
+						<partItem family="Rack" partNumber="BMXXBP0800" vendorName="Schneider Automation" version="01.00"></partItem>
+						<equipInfo topoAddress="\0.0\0" position="0"></equipInfo>
+						<powerSupply>
+							<partItem family="Supply" partNumber="BMXCPS2000" vendorName="Schneider Automation" version="01.00"></partItem>
+							<equipInfo topoAddress="\0.0\0.(P) (P)" position="-1"></equipInfo>
+						</powerSupply>
+						<moduleATS UCMod="true">
+							<partItem family="Micro Basic" partNumber="BMXP342000" vendorName="Schneider Automation" version="02.70"></partItem>
+							<equipInfo topoAddress="\0.0\0.0" position="0"></equipInfo>
+							<configModule>
+								<channelATS ASFCatKey="ModbusSerialPort" task="MAST" number="0">
+									<descFB code="0" version="255"></descFB>
+									<descIOB IOBFileName="IOB_3_0010000_32S" version="1"></descIOB>
+									<paramKW>
+										<hexaValue hexaValue="0x7"></hexaValue>
+										<hexaValue hexaValue="0xb04"></hexaValue>
+										<hexaValue hexaValue="0x2"></hexaValue>
+										<hexaValue hexaValue="0x1"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+									</paramKW>
+								</channelATS>
+							</configModule>
+						</moduleATS>
+						<moduleATS>
+							<partItem family="Discrete" partNumber="BMXDDI6402K" vendorName="Schneider Automation" version="02.00"></partItem>
+							<equipInfo topoAddress="\0.0\0.1" position="1"></equipInfo>
+							<configModule>
+								<channelATS ASFCatKey="BasicInRackTORInSTD_MASTER" task="MAST" number="0">
+									<descFB code="1" version="17"></descFB>
+									<descIOB IOBFileName="IOB_0_0002000_32S" version="1"></descIOB>
+									<paramKW>
+										<hexaValue hexaValue="0x1"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+									</paramKW>
+								</channelATS>
+								<channelATS ASFCatKey="BasicInRackTORInSTD_MASTER" task="MAST" number="8">
+									<descFB code="1" version="17"></descFB>
+									<descIOB IOBFileName="IOB_0_0002000_32S" version="1"></descIOB>
+									<paramKW>
+										<hexaValue hexaValue="0x1"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+									</paramKW>
+								</channelATS>
+								<channelATS ASFCatKey="BasicInRackTORInSTD_MASTER" task="MAST" number="16">
+									<descFB code="1" version="17"></descFB>
+									<descIOB IOBFileName="IOB_0_0002000_32S" version="1"></descIOB>
+									<paramKW>
+										<hexaValue hexaValue="0x1"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+									</paramKW>
+								</channelATS>
+								<channelATS ASFCatKey="BasicInRackTORInSTD_MASTER" task="MAST" number="24">
+									<descFB code="1" version="17"></descFB>
+									<descIOB IOBFileName="IOB_0_0002000_32S" version="1"></descIOB>
+									<paramKW>
+										<hexaValue hexaValue="0x1"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+									</paramKW>
+								</channelATS>
+								<channelATS ASFCatKey="BasicInRackTORInSTD_MASTER" task="MAST" number="32">
+									<descFB code="1" version="17"></descFB>
+									<descIOB IOBFileName="IOB_0_0002000_32S" version="1"></descIOB>
+									<paramKW>
+										<hexaValue hexaValue="0x1"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+									</paramKW>
+								</channelATS>
+								<channelATS ASFCatKey="BasicInRackTORInSTD_MASTER" task="MAST" number="40">
+									<descFB code="1" version="17"></descFB>
+									<descIOB IOBFileName="IOB_0_0002000_32S" version="1"></descIOB>
+									<paramKW>
+										<hexaValue hexaValue="0x1"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+									</paramKW>
+								</channelATS>
+								<channelATS ASFCatKey="BasicInRackTORInSTD_MASTER" task="MAST" number="48">
+									<descFB code="1" version="17"></descFB>
+									<descIOB IOBFileName="IOB_0_0002000_32S" version="1"></descIOB>
+									<paramKW>
+										<hexaValue hexaValue="0x1"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+									</paramKW>
+								</channelATS>
+								<channelATS ASFCatKey="BasicInRackTORInSTD_MASTER" task="MAST" number="56">
+									<descFB code="1" version="17"></descFB>
+									<descIOB IOBFileName="IOB_0_0002000_32S" version="1"></descIOB>
+									<paramKW>
+										<hexaValue hexaValue="0x1"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+									</paramKW>
+								</channelATS>
+							</configModule>
+						</moduleATS>
+						<moduleATS>
+							<partItem family="Discrete" partNumber="BMXDDO6402K" vendorName="Schneider Automation" version="02.00"></partItem>
+							<equipInfo topoAddress="\0.0\0.2" position="2"></equipInfo>
+							<configModule>
+								<channelATS ASFCatKey="BaInRackTOROutReactivateAndFallBackAndSupplyMonitoring_MASTER" task="MAST" number="0">
+									<descFB code="1" version="17"></descFB>
+									<descIOB IOBFileName="IOB_0_0102000_32S" version="1"></descIOB>
+									<paramKW>
+										<hexaValue hexaValue="0x16"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+									</paramKW>
+								</channelATS>
+								<channelATS ASFCatKey="BaInRackTOROutReactivateAndFallBackAndSupplyMonitoring_MASTER" task="MAST" number="8">
+									<descFB code="1" version="17"></descFB>
+									<descIOB IOBFileName="IOB_0_0102000_32S" version="1"></descIOB>
+									<paramKW>
+										<hexaValue hexaValue="0x16"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+									</paramKW>
+								</channelATS>
+								<channelATS ASFCatKey="BaInRackTOROutReactivateAndFallBackAndSupplyMonitoring_MASTER" task="MAST" number="16">
+									<descFB code="1" version="17"></descFB>
+									<descIOB IOBFileName="IOB_0_0102000_32S" version="1"></descIOB>
+									<paramKW>
+										<hexaValue hexaValue="0x16"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+									</paramKW>
+								</channelATS>
+								<channelATS ASFCatKey="BaInRackTOROutReactivateAndFallBackAndSupplyMonitoring_MASTER" task="MAST" number="24">
+									<descFB code="1" version="17"></descFB>
+									<descIOB IOBFileName="IOB_0_0102000_32S" version="1"></descIOB>
+									<paramKW>
+										<hexaValue hexaValue="0x16"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+									</paramKW>
+								</channelATS>
+								<channelATS ASFCatKey="BaInRackTOROutReactivateAndFallBackAndSupplyMonitoring_MASTER" task="MAST" number="32">
+									<descFB code="1" version="17"></descFB>
+									<descIOB IOBFileName="IOB_0_0102000_32S" version="1"></descIOB>
+									<paramKW>
+										<hexaValue hexaValue="0x16"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+									</paramKW>
+								</channelATS>
+								<channelATS ASFCatKey="BaInRackTOROutReactivateAndFallBackAndSupplyMonitoring_MASTER" task="MAST" number="40">
+									<descFB code="1" version="17"></descFB>
+									<descIOB IOBFileName="IOB_0_0102000_32S" version="1"></descIOB>
+									<paramKW>
+										<hexaValue hexaValue="0x16"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+									</paramKW>
+								</channelATS>
+								<channelATS ASFCatKey="BaInRackTOROutReactivateAndFallBackAndSupplyMonitoring_MASTER" task="MAST" number="48">
+									<descFB code="1" version="17"></descFB>
+									<descIOB IOBFileName="IOB_0_0102000_32S" version="1"></descIOB>
+									<paramKW>
+										<hexaValue hexaValue="0x16"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+									</paramKW>
+								</channelATS>
+								<channelATS ASFCatKey="BaInRackTOROutReactivateAndFallBackAndSupplyMonitoring_MASTER" task="MAST" number="56">
+									<descFB code="1" version="17"></descFB>
+									<descIOB IOBFileName="IOB_0_0102000_32S" version="1"></descIOB>
+									<paramKW>
+										<hexaValue hexaValue="0x16"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+									</paramKW>
+								</channelATS>
+							</configModule>
+						</moduleATS>
+					</rackATS>
+				</busATS>
+			</configATS>
+		</PLC>
+	</IOConf>
+	<EFBSource nameOfEFBType="TON" version="1.00" dateTime="dt#2017-07-17-15:26:04">
+		<comment>On delay</comment>
+		<attribute name="TypeDescriptiveForm" value="  The function block is used as the On delay.  When the function block is called for the first time, the initial state of ET is &quot;0&quot;.&#xA;"></attribute>
+		<attribute name="IsTypeHidden" value="FALSE"></attribute>
+		<attribute name="IsTypeDiagnostic" value="FALSE"></attribute>
+		<attribute name="TypeCodeCheckSumString" value="B257"></attribute>
+		<attribute name="TypeSignatureCheckSumString" value="16D2"></attribute>
+		<ExternalToolsOnly>
+			<inputParameters>
+				<variables name="IN" typeName="BOOL">
+					<comment>Start delay</comment>
+					<attribute name="PositionPin" value="1"></attribute>
+					<attribute name="IsPinDiagnosticable" value="0"></attribute>
+				</variables>
+				<variables name="PT" typeName="TIME">
+					<comment>Preset delay time</comment>
+					<attribute name="PositionPin" value="2"></attribute>
+				</variables>
+			</inputParameters>
+			<outputParameters>
+				<variables name="Q" typeName="BOOL">
+					<comment>Delayed output</comment>
+					<attribute name="PositionPin" value="1"></attribute>
+				</variables>
+				<variables name="ET" typeName="TIME">
+					<comment>Internal time</comment>
+					<attribute name="PositionPin" value="2"></attribute>
+				</variables>
+			</outputParameters>
+		</ExternalToolsOnly>
+	</EFBSource>
+	<EFBSource nameOfEFBType="F_TRIG" version="1.00" dateTime="dt#2017-07-17-15:53:52">
+		<comment>Falling edge detection</comment>
+		<attribute name="TypeDescriptiveForm" value="  This function block is used for the detection of falling edges 1 -&gt; 0.&#xA;  Output Q becomes &quot;1&quot; if there is a transition from &quot;1&quot; to &quot;0&quot; at the CLK input.&#xA;  The output will remain at &quot;1&quot; from one function block execution to the next;&#xA;  the output subsequently returns to &quot;0&quot;.&#xA;&#xA;  Note: This function block is not available in the LD (Ladder Diagram) programming language,&#xA;        since the same functionality can be achieved there with the &quot;Contact - negative edge&quot;.&#xA;"></attribute>
+		<attribute name="IsTypeHidden" value="FALSE"></attribute>
+		<attribute name="IsTypeDiagnostic" value="FALSE"></attribute>
+		<attribute name="TypeCodeCheckSumString" value="D0FC"></attribute>
+		<attribute name="TypeSignatureCheckSumString" value="576B"></attribute>
+		<ExternalToolsOnly>
+			<inputParameters>
+				<variables name="CLK" typeName="BOOL">
+					<comment>Clock input</comment>
+					<attribute name="PositionPin" value="1"></attribute>
+					<attribute name="IsPinDiagnosticable" value="0"></attribute>
+				</variables>
+			</inputParameters>
+			<outputParameters>
+				<variables name="Q" typeName="BOOL">
+					<comment>Output</comment>
+					<attribute name="PositionPin" value="1"></attribute>
+				</variables>
+			</outputParameters>
+		</ExternalToolsOnly>
+	</EFBSource>
+	<EFSource nameOfEFType="CLEARCHART" version="1.00" dateTime="dt#2017-07-17-15:45:07">
+		<comment>Reset all active steps of a SFC Chart</comment>
+		<attribute name="TypeDescriptiveForm" value="  This function is used to reset all active steps.&#xA;  Danger: CLEARCHART should not be used for error detection on controllers for machine&#xA;          tools or, processing or material handling systems when they are running.&#xA;          Failure to observe this precaution could result in death or serious injury.&#xA;&#xA;  If a rising edge at CLEAR_I is detected, all active steps will be stopped and reset.&#xA;  This status is maintained as long as the input CLEAR_I is true. It will even be maintained after&#xA;  setting CLEAR_I to false. The situation is shown at the output (CLEAR_O = 1).&#xA;&#xA;  Once CLEAR_I is set to 0, the steps can be activated by the EFB SFCCNTRL (input INIT),&#xA;  the function INITCHART or some other step-activation command (externally).&#xA;&#xA;  Note: Output CLEAR_O shows the actual state of the chart. It may be reset by EFB SFCCNTRL,&#xA;        the function INITCHART, the procedure RESETSTEP or some other command (externally).&#xA;"></attribute>
+		<attribute name="IsTypeHidden" value="FALSE"></attribute>
+		<attribute name="TypeCodeCheckSumString" value="F9F1"></attribute>
+		<attribute name="TypeSignatureCheckSumString" value="E9CE"></attribute>
+		<ExternalToolsOnly>
+			<inputParameters>
+				<variables name="CHARTREF" typeName="SFCCHART_STATE">
+					<comment>Link to SFC-chart</comment>
+					<attribute name="PositionPin" value="1"></attribute>
+				</variables>
+				<variables name="CLEAR_I" typeName="BOOL">
+					<comment>0-&gt;1: Reset a SFC Chart</comment>
+					<attribute name="PositionPin" value="2"></attribute>
+				</variables>
+			</inputParameters>
+			<outputParameters>
+				<variables name="CLEAR_O" typeName="BOOL">
+					<comment>Chart was reset, no active step</comment>
+					<attribute name="PositionPin" value="2"></attribute>
+				</variables>
+			</outputParameters>
+		</ExternalToolsOnly>
+	</EFSource>
+	<EFSource nameOfEFType="INITCHART" version="1.00" dateTime="dt#2017-07-17-15:45:07">
+		<comment>reset all active steps, standardises start of chart</comment>
+		<attribute name="TypeDescriptiveForm" value="  This function is used to reset all active steps and standardises starts of charts.&#xA;  Danger: INITCHART should not be used for error detection on controllers for machine&#xA;          tools or, process or material handling systems when they are running.&#xA;          Failure to observe this precaution could result in death or serious injury.&#xA;&#xA;  Note: INITCHART has the highest priority of all EFs and EFBs controlling SFC charts.&#xA;&#xA;  If the input INIT_I=1, the chart is stopped and all active steps are reset.&#xA;  This situation is maintained as long as the input INIT_I is true.&#xA;  On a falling edge at INIT_I the chart will be started in standardized status.&#xA;  Output INIT_O will indicate this for one scan.&#xA;&#xA;  Note: Output INIT_O shows the actual state of the chart but the chart may also be&#xA;        started by EFB SFCCNTRL or some other command (externally).&#xA;"></attribute>
+		<attribute name="IsTypeHidden" value="FALSE"></attribute>
+		<attribute name="TypeCodeCheckSumString" value="0DBF"></attribute>
+		<attribute name="TypeSignatureCheckSumString" value="E7F5"></attribute>
+		<ExternalToolsOnly>
+			<inputParameters>
+				<variables name="CHARTREF" typeName="SFCCHART_STATE">
+					<comment>Link to SFC-chart</comment>
+					<attribute name="PositionPin" value="1"></attribute>
+				</variables>
+				<variables name="INIT_I" typeName="BOOL">
+					<comment>Reset and start a SFC Chart</comment>
+					<attribute name="PositionPin" value="2"></attribute>
+				</variables>
+			</inputParameters>
+			<outputParameters>
+				<variables name="INIT_O" typeName="BOOL">
+					<comment>Show value of INIT_I in effect</comment>
+					<attribute name="PositionPin" value="2"></attribute>
+				</variables>
+			</outputParameters>
+		</ExternalToolsOnly>
+	</EFSource>
+	<EFBSource nameOfEFBType="DELAY" version="1.00" dateTime="dt#2017-07-17-16:16:40">
+		<comment>Deadtime device</comment>
+		<attribute name="TypeDescriptiveForm" value="  With this function block the input signal is delayed by a deadtime.  The function block delays the signal X by the deadtime T_DELAY before it appears again at Y.&#xA;  The function block incorporates a delay buffer for 128 elements (X values), meaning that&#xA;  during the time span T_DELAY 128 X values can be stored. The buffer is used in such a way&#xA;  that it corresponds with the operating mode.&#xA;  The value of the Y output remains unchanged after cold and warm system starts.&#xA;  The internal values are set to the value of X.&#xA;  After a change of deadtime T_DELAY or a cold or warm system start, the output READY goes to &quot;0&quot;.&#xA;  This means: that the buffer is not ready because it is empty.&#xA;  The function block has the following operating mode: Manual, halt and automatic mode.&#xA;  REMARK: The delay time continues to run even if the block is disabled via the EN parameter,&#xA;          because the block calculates its time differences according to the system clock.&#xA;"></attribute>
+		<attribute name="IsTypeHidden" value="FALSE"></attribute>
+		<attribute name="IsTypeDiagnostic" value="FALSE"></attribute>
+		<attribute name="TypeCodeCheckSumString" value="451C"></attribute>
+		<attribute name="TypeSignatureCheckSumString" value="5B19"></attribute>
+		<ExternalToolsOnly>
+			<inputParameters>
+				<variables name="MAN" typeName="BOOL">
+					<comment>1: Manual operating mode</comment>
+					<attribute name="PositionPin" value="1"></attribute>
+					<attribute name="IsPinDiagnosticable" value="0"></attribute>
+				</variables>
+				<variables name="HALT" typeName="BOOL">
+					<comment>1: Halt mode</comment>
+					<attribute name="PositionPin" value="2"></attribute>
+					<attribute name="IsPinDiagnosticable" value="0"></attribute>
+				</variables>
+				<variables name="X" typeName="REAL">
+					<comment>Input</comment>
+					<attribute name="PositionPin" value="3"></attribute>
+				</variables>
+				<variables name="T_DELAY" typeName="TIME">
+					<comment>Dead time delay constant</comment>
+					<attribute name="PositionPin" value="4"></attribute>
+				</variables>
+				<variables name="YMAN" typeName="REAL">
+					<comment>Manually manipulated value</comment>
+					<attribute name="PositionPin" value="5"></attribute>
+				</variables>
+			</inputParameters>
+			<outputParameters>
+				<variables name="Y" typeName="REAL">
+					<comment>Output</comment>
+					<attribute name="PositionPin" value="3"></attribute>
+				</variables>
+				<variables name="READY" typeName="BOOL">
+					<comment>Delay buffer ready</comment>
+					<attribute name="PositionPin" value="4"></attribute>
+				</variables>
+			</outputParameters>
+		</ExternalToolsOnly>
+	</EFBSource>
+	<EFSource nameOfEFType="SETSTEP" version="1.00" dateTime="dt#2017-07-17-15:45:07">
+		<comment>Set one Step in a SFC Chart</comment>
+		<attribute name="TypeDescriptiveForm" value="  This procedure is used to set a step in a chart.&#xA;  Danger: SETSTEP should not be used for error detection on controllers for machine&#xA;          tool or, process or material handling systems when they are running.&#xA;          Failure to observe this precaution could result in death or serious injury.&#xA;&#xA;  Note: This procedure may only be invoked in &quot;Multi-Token&quot; mode.&#xA;&#xA;  The step remains set as long as the procedure is processed.&#xA;"></attribute>
+		<attribute name="IsTypeHidden" value="FALSE"></attribute>
+		<attribute name="TypeCodeCheckSumString" value="C008"></attribute>
+		<attribute name="TypeSignatureCheckSumString" value="290D"></attribute>
+		<ExternalToolsOnly>
+			<inputParameters>
+				<variables name="STEPNAME" typeName="SFCSTEP_STATE">
+					<comment>Step to set</comment>
+					<attribute name="PositionPin" value="1"></attribute>
+				</variables>
+				<variables name="CHARTREF" typeName="SFCCHART_STATE">
+					<attribute name="PositionPin" value="2"></attribute>
+					<attribute name="IsVariableHidden" value="-1"></attribute>
+				</variables>
+			</inputParameters>
+		</ExternalToolsOnly>
+	</EFSource>
+	<EFBSource nameOfEFBType="TP" version="1.00" dateTime="dt#2017-07-17-15:26:04">
+		<comment>Pulse</comment>
+		<attribute name="TypeDescriptiveForm" value="  The function block is used for the generation of a pulse with defined duration.  When the function block is called for the first time, the initial state of ET is &quot;0&quot;.&#xA;"></attribute>
+		<attribute name="IsTypeHidden" value="FALSE"></attribute>
+		<attribute name="IsTypeDiagnostic" value="FALSE"></attribute>
+		<attribute name="TypeCodeCheckSumString" value="C1F7"></attribute>
+		<attribute name="TypeSignatureCheckSumString" value="16D2"></attribute>
+		<ExternalToolsOnly>
+			<inputParameters>
+				<variables name="IN" typeName="BOOL">
+					<comment>Trigger pulse</comment>
+					<attribute name="PositionPin" value="1"></attribute>
+					<attribute name="IsPinDiagnosticable" value="0"></attribute>
+				</variables>
+				<variables name="PT" typeName="TIME">
+					<comment>Preset pulse duration</comment>
+					<attribute name="PositionPin" value="2"></attribute>
+				</variables>
+			</inputParameters>
+			<outputParameters>
+				<variables name="Q" typeName="BOOL">
+					<comment>Pulse output</comment>
+					<attribute name="PositionPin" value="1"></attribute>
+				</variables>
+				<variables name="ET" typeName="TIME">
+					<comment>Internal time</comment>
+					<attribute name="PositionPin" value="2"></attribute>
+				</variables>
+			</outputParameters>
+		</ExternalToolsOnly>
+	</EFBSource>
+	<EFSource nameOfEFType="SET" version="1.00" dateTime="dt#2017-07-17-16:00:18">
+		<comment>SET TO 1</comment>
+		<attribute name="IsTypeHidden" value="FALSE"></attribute>
+		<attribute name="TypeCodeCheckSumString" value="0000"></attribute>
+		<attribute name="TypeSignatureCheckSumString" value="903F"></attribute>
+		<ExternalToolsOnly>
+			<outputParameters>
+				<variables name="OUT" typeName="BOOL">
+					<comment>Operand to be setted</comment>
+					<attribute name="PositionPin" value="1"></attribute>
+				</variables>
+			</outputParameters>
+		</ExternalToolsOnly>
+	</EFSource>
+	<EFSource nameOfEFType="RESET" version="1.00" dateTime="dt#2017-07-17-16:00:18">
+		<comment>SET TO ZERO</comment>
+		<attribute name="IsTypeHidden" value="FALSE"></attribute>
+		<attribute name="TypeCodeCheckSumString" value="0000"></attribute>
+		<attribute name="TypeSignatureCheckSumString" value="903F"></attribute>
+		<ExternalToolsOnly>
+			<outputParameters>
+				<variables name="OUT" typeName="BOOL">
+					<comment>Operand to be reseted</comment>
+					<attribute name="PositionPin" value="1"></attribute>
+				</variables>
+			</outputParameters>
+		</ExternalToolsOnly>
+	</EFSource>
+	<EFSource nameOfEFType="TIME_TO_INT" version="1.00" dateTime="dt#2017-07-17-16:01:57">
+		<comment>Type conversion</comment>
+		<attribute name="TypeDescriptiveForm" value="  The function converts an input value of the data type TIME to a  BOOL, BYTE, WORD, DWORD, INT, DINT, UINT, UDINT or REAL data type.&#xA;  Note: The function converts strictly in accordance with IEC rules.&#xA;        Since this function has been realized as a generic function,&#xA;        there will also be a few illogical conversions, e.g. TIME_TO_BOOL.&#xA;  While converting an input value of data type TIME into an output value of data type&#xA;  BOOL, BYTE, WORD, INT or UINT, the least significant bits, respectively,&#xA;  are transferred from the input to the output.&#xA;"></attribute>
+		<attribute name="IsTypeHidden" value="FALSE"></attribute>
+		<attribute name="TypeCodeCheckSumString" value="0000"></attribute>
+		<attribute name="TypeSignatureCheckSumString" value="FFFD"></attribute>
+		<ExternalToolsOnly>
+			<inputParameters>
+				<variables name="IN" typeName="TIME">
+					<comment>Input value</comment>
+					<attribute name="PositionPin" value="1"></attribute>
+				</variables>
+			</inputParameters>
+			<outputParameters>
+				<variables name="OUT" typeName="INT">
+					<comment>Output value</comment>
+					<attribute name="PositionPin" value="1"></attribute>
+				</variables>
+			</outputParameters>
+		</ExternalToolsOnly>
+	</EFSource>
+	<EFBSource nameOfEFBType="R_TRIG" version="1.00" dateTime="dt#2017-07-17-15:53:52">
+		<comment>Rising edge detection</comment>
+		<attribute name="TypeDescriptiveForm" value="  This function block is used for the detection of rising edges 0 -&gt; 1.&#xA;  Output Q becomes &quot;1&quot; if there is a transition from &quot;0&quot; to &quot;1&quot; at the CLK input.&#xA;  The output remains at &quot;1&quot; from one function block execution to the next (one cycle);&#xA;  the output subsequently returns to &quot;0&quot;.&#xA;&#xA;  Note: This function block is not available in the LD (Ladder Diagram) programming language,&#xA;        since the same functionality can be achieved there with the &quot;Contact - positive edge&quot;.&#xA;"></attribute>
+		<attribute name="IsTypeHidden" value="FALSE"></attribute>
+		<attribute name="IsTypeDiagnostic" value="FALSE"></attribute>
+		<attribute name="TypeCodeCheckSumString" value="323D"></attribute>
+		<attribute name="TypeSignatureCheckSumString" value="576B"></attribute>
+		<ExternalToolsOnly>
+			<inputParameters>
+				<variables name="CLK" typeName="BOOL">
+					<comment>Clock input</comment>
+					<attribute name="PositionPin" value="1"></attribute>
+					<attribute name="IsPinDiagnosticable" value="0"></attribute>
+				</variables>
+			</inputParameters>
+			<outputParameters>
+				<variables name="Q" typeName="BOOL">
+					<comment>Output</comment>
+					<attribute name="PositionPin" value="1"></attribute>
+				</variables>
+			</outputParameters>
+		</ExternalToolsOnly>
+	</EFBSource>
+	<dataBlock>
+		<variables name="TON_0" typeName="TON"></variables>
+		<variables name="TON_1" typeName="TON"></variables>
+		<variables name="TON_2" typeName="TON"></variables>
+		<variables name="TON_3" typeName="TON"></variables>
+		<variables name="TON_4" typeName="TON"></variables>
+		<variables name="TON_5" typeName="TON"></variables>
+		<variables name="TON_6" typeName="TON"></variables>
+		<variables name="DELAY_0" typeName="DELAY"></variables>
+		<variables name="IN_Diffuse_Sensor_1" typeName="EBOOL"></variables>
+		<variables name="IN_Diffuse_Sensor_2" typeName="EBOOL"></variables>
+		<variables name="IN_Diffuse_Sensor_3" typeName="EBOOL"></variables>
+		<variables name="IN_Diffuse_Sensor_4" typeName="EBOOL"></variables>
+		<variables name="IN_Diffuse_Sensor_5" typeName="EBOOL"></variables>
+		<variables name="IN_Diffuse_Sensor_6" typeName="EBOOL"></variables>
+		<variables name="IN_Diffuse_Sensor_7" typeName="EBOOL"></variables>
+		<variables name="IN_Diffuse_Sensor_8" typeName="EBOOL"></variables>
+		<variables name="IN_Diffuse_Sensor_9" typeName="EBOOL"></variables>
+		<variables name="IN_Diffuse_Sensor_10" typeName="EBOOL"></variables>
+		<variables name="IN_Diffuse_Sensor_11" typeName="EBOOL"></variables>
+		<variables name="IN_Diffuse_Sensor_12" typeName="EBOOL"></variables>
+		<variables name="IN_Diffuse_Sensor_13" typeName="EBOOL"></variables>
+		<variables name="IN_Diffuse_Sensor_14" typeName="EBOOL"></variables>
+		<variables name="IN_Diffuse_Sensor_15" typeName="EBOOL"></variables>
+		<variables name="IN_Diffuse_Sensor_16" typeName="EBOOL"></variables>
+		<variables name="IN_Diffuse_Sensor_17" typeName="EBOOL"></variables>
+		<variables name="IN_Emergency_Stop_1" typeName="EBOOL"></variables>
+		<variables name="IN_FACTORY_IO_Paused" typeName="EBOOL"></variables>
+		<variables name="IN_FACTORY_IO_Reset" typeName="EBOOL"></variables>
+		<variables name="IN_FACTORY_IO_Running" typeName="EBOOL"></variables>
+		<variables name="IN_Palletizer_1_Clamped" typeName="EBOOL"></variables>
+		<variables name="IN_Palletizer_2_Clamped" typeName="EBOOL"></variables>
+		<variables name="IN_Palletizer_3_Clamped" typeName="EBOOL"></variables>
+		<variables name="IN_Palletizer_4_Clamped" typeName="EBOOL"></variables>
+		<variables name="IN_Palletizer_1_Plate_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Palletizer_2_Plate_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Palletizer_3_Plate_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Palletizer_4_Plate_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Palletizer_1_Pusher_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Palletizer_2_Pusher_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Palletizer_4_Pusher_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Palletizer_3_Pusher_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Palletizer_1_Elevator_Moving" typeName="EBOOL"></variables>
+		<variables name="IN_Palletizer_2_Elevator_Moving" typeName="EBOOL"></variables>
+		<variables name="IN_Palletizer_3_Elevator_Moving" typeName="EBOOL"></variables>
+		<variables name="IN_Palletizer_4_Elevator_Moving" typeName="EBOOL"></variables>
+		<variables name="IN_Pusher_1_Back_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Pusher_1_Front_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Reset_Button_1" typeName="EBOOL"></variables>
+		<variables name="IN_Right_Positioner_1_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Right_Positioner_2_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Right_Positioner_3_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Right_Positioner_1_Clamped" typeName="EBOOL"></variables>
+		<variables name="IN_Right_Positioner_2_Clamped" typeName="EBOOL"></variables>
+		<variables name="IN_Right_Positioner_3_Clamped" typeName="EBOOL"></variables>
+		<variables name="IN_Selector_1_State_1" typeName="EBOOL"></variables>
+		<variables name="IN_StackerCrane_1_X" typeName="EBOOL"></variables>
+		<variables name="IN_Selector_1_State_0" typeName="EBOOL"></variables>
+		<variables name="IN_Stacker_Crane_1_Z" typeName="EBOOL"></variables>
+		<variables name="IN_Stacker_Crane_2_X" typeName="EBOOL"></variables>
+		<variables name="IN_Stacker_Crane_2_Z" typeName="EBOOL"></variables>
+		<variables name="IN_Stacker_Crane_3_X" typeName="EBOOL"></variables>
+		<variables name="IN_Stacker_Crane_3_Z" typeName="EBOOL"></variables>
+		<variables name="IN_Stacker_Crane_4_X" typeName="EBOOL"></variables>
+		<variables name="IN_Stacker_Crane_4_Z" typeName="EBOOL"></variables>
+		<variables name="IN_Stacker_Crane_1_Left_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Stacker_Crane_2_Left_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Stacker_Crane_3_Left_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Stacker_Crane_4_Left_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Stacker_Crane_1_Right_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Stacker_Crane_2_Right_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Stacker_Crane_3_Right_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Stacker_Crane_4_Right_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Stacker_Crane_1_Middle_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Stacker_Crane_2_Middle_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Stacker_Crane_3_Middle_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Stacker_Crane_4_Middle_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Start_Button_1" typeName="EBOOL"></variables>
+		<variables name="IN_Stop_Button_1" typeName="EBOOL"></variables>
+		<variables name="IN_TAPickP_1_GripperRotating" typeName="EBOOL"></variables>
+		<variables name="IN_TAPickP_2_GripperRotating" typeName="EBOOL"></variables>
+		<variables name="IN_Vision_Sensor_1_Bool_0" typeName="EBOOL"></variables>
+		<variables name="IN_Vision_Sensor_1_Bool_1" typeName="EBOOL"></variables>
+		<variables name="IN_Vision_Sensor_1_Bool_2" typeName="EBOOL"></variables>
+		<variables name="IN_Vision_Sensor_1_Bool_3" typeName="EBOOL"></variables>
+		<variables name="IN_Vision_Sensor_2_Bool_0" typeName="EBOOL"></variables>
+		<variables name="IN_Vision_Sensor_2_Bool_1" typeName="EBOOL"></variables>
+		<variables name="IN_Vision_Sensor_2_Bool_2" typeName="EBOOL"></variables>
+		<variables name="IN_Vision_Sensor_2_Bool_3" typeName="EBOOL"></variables>
+		<variables name="IN_Vision_Sensor_3_Bool_0" typeName="EBOOL"></variables>
+		<variables name="IN_Vision_Sensor_3_Bool_1" typeName="EBOOL"></variables>
+		<variables name="IN_Vision_Sensor_3_Bool_2" typeName="EBOOL"></variables>
+		<variables name="IN_Vision_Sensor_3_Bool_3" typeName="EBOOL"></variables>
+		<variables name="IN_FACTORY_IO_Time_Scale" typeName="INT"></variables>
+		<variables name="IN_Light_Array_Emitter_1_Value" typeName="INT"></variables>
+		<variables name="IN_Light_Array_Emitter_2_Value" typeName="INT"></variables>
+		<variables name="IN_RFIDReader1Status" typeName="INT"></variables>
+		<variables name="IN_RFIDReader1ReadData" typeName="INT"></variables>
+		<variables name="IN_RFIDReader1CommandID" typeName="INT"></variables>
+		<variables name="OUT_Belt_Conveyor_Inclined_1" typeName="EBOOL"></variables>
+		<variables name="OUT_Belt_Conveyor_Inclined_2" typeName="EBOOL"></variables>
+		<variables name="OUT_Belt_Conveyor_Inclined_3" typeName="EBOOL"></variables>
+		<variables name="OUT_Belt_Conveyor_Inclined_4" typeName="EBOOL"></variables>
+		<variables name="OUT_FACTORY_IO_Pause" typeName="EBOOL"></variables>
+		<variables name="OUT_FACTORY_IO_Reset" typeName="EBOOL"></variables>
+		<variables name="OUT_FACTORY_IO_Run" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_1_Push" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_1_Turn" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_2_Push" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_2_Turn" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_3_Push" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_3_Turn" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_4_Push" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_4_Turn" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_1_Clamp" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_2_Clamp" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_3_Clamp" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_4_Clamp" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_1_Belt_Plus" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_1_Belt_Minus" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_2_Belt_Plus" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_2_Belt_Minus" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_3_Belt_Plus" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_3_Belt_Minus" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_4_Belt_Plus" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_4_Belt_Minus" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_1_Chain_Plus" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_1_Chain_Minus" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_2_Chain_Plus" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_2_Chain_Minus" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_3_Chain_Plus" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_3_Chain_Minus" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_4_Chain_Plus" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_4_Chain_Minus" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_1_Open_Plate" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_1_Elevator_Plus" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_1_Elevator_Minus" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_2_Open_Plate" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_2_Elevator_Plus" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_2_Elevator_Minus" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_3_Open_Plate" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_3_Elevator_Plus" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_3_Elevator_Minus" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_4_Open_Plate" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_4_Elevator_Plus" typeName="EBOOL"></variables>
+		<variables name="OUT_Palletizer_4_Elevator_Minus" typeName="EBOOL"></variables>
+		<variables name="OUT_Pivot_Arm_Sorter_1_Turn" typeName="EBOOL"></variables>
+		<variables name="OUT_Pivot_Arm_Sorter_2_Turn" typeName="EBOOL"></variables>
+		<variables name="OUT_Pivot_Arm_Sorter_1_Belt_Plus" typeName="EBOOL"></variables>
+		<variables name="OUT_Pivot_Arm_Sorter_2_Belt_Plus" typeName="EBOOL"></variables>
+		<variables name="OUT_Pop_Up_Wheel_Sorter_1_Plus" typeName="EBOOL"></variables>
+		<variables name="OUT_Pop_Up_Wheel_Sorter_3_Plus" typeName="EBOOL"></variables>
+		<variables name="OUT_Pop_Up_Wheel_Sorter_4_Plus" typeName="EBOOL"></variables>
+		<variables name="OUT_Pop_Up_Wheel_Sorter_1_Left" typeName="EBOOL"></variables>
+		<variables name="OUT_Pop_Up_Wheel_Sorter_3_Left" typeName="EBOOL"></variables>
+		<variables name="OUT_Pop_Up_Wheel_Sorter_4_Left" typeName="EBOOL"></variables>
+		<variables name="OUT_Pop_Up_Wheel_Sorter_1_Right" typeName="EBOOL"></variables>
+		<variables name="OUT_Pop_Up_Wheel_Sorter_3_Right" typeName="EBOOL"></variables>
+		<variables name="OUT_Pop_Up_Wheel_Sorter_4_Right" typeName="EBOOL"></variables>
+		<variables name="OUT_Pusher_1" typeName="EBOOL"></variables>
+		<variables name="OUT_Remover_1_Remove" typeName="EBOOL"></variables>
+		<variables name="OUT_Remover_2_Remove" typeName="EBOOL"></variables>
+		<variables name="OUT_Remover_3_Remove" typeName="EBOOL"></variables>
+		<variables name="OUT_Right_Positioner_1_Clamp" typeName="EBOOL"></variables>
+		<variables name="OUT_Right_Positioner_1_Raise" typeName="EBOOL"></variables>
+		<variables name="OUT_Right_Positioner_2_Clamp" typeName="EBOOL"></variables>
+		<variables name="OUT_Right_Positioner_2_Raise" typeName="EBOOL"></variables>
+		<variables name="OUT_Right_Positioner_3_Clamp" typeName="EBOOL"></variables>
+		<variables name="OUT_Right_Positioner_3_Raise" typeName="EBOOL"></variables>
+		<variables name="OUT_Stacker_Crane_1_Lift" typeName="EBOOL"></variables>
+		<variables name="OUT_Stacker_Crane_2_Lift" typeName="EBOOL"></variables>
+		<variables name="OUT_Stacker_Crane_3_Lift" typeName="EBOOL"></variables>
+		<variables name="OUT_Stacker_Crane_4_Lift" typeName="EBOOL"></variables>
+		<variables name="OUT_Stacker_Crane_1_Left" typeName="EBOOL"></variables>
+		<variables name="OUT_Stacker_Crane_2_Left" typeName="EBOOL"></variables>
+		<variables name="OUT_Stacker_Crane_3_Left" typeName="EBOOL"></variables>
+		<variables name="OUT_Stacker_Crane_4_Left" typeName="EBOOL"></variables>
+		<variables name="OUT_Stacker_Crane_1_Right" typeName="EBOOL"></variables>
+		<variables name="OUT_Stacker_Crane_2_Right" typeName="EBOOL"></variables>
+		<variables name="OUT_Stacker_Crane_3_Right" typeName="EBOOL"></variables>
+		<variables name="OUT_Stacker_Crane_4_Right" typeName="EBOOL"></variables>
+		<variables name="OUT_Two_Axis_Pick_Place_1_X" typeName="EBOOL"></variables>
+		<variables name="OUT_Two_Axis_Pick_Place_1_Z" typeName="EBOOL"></variables>
+		<variables name="OUT_Two_Axis_Pick_Place_2_X" typeName="EBOOL"></variables>
+		<variables name="OUT_Two_Axis_Pick_Place_2_Z" typeName="EBOOL"></variables>
+		<variables name="OUT_Two_Axis_Pick_Place_1_Grab" typeName="EBOOL"></variables>
+		<variables name="OUT_Two_Axis_Pick_Place_2_Grab" typeName="EBOOL"></variables>
+		<variables name="OUT_Digital_Display_1" typeName="INT"></variables>
+		<variables name="OUT_Digital_Display_2" typeName="INT"></variables>
+		<variables name="OUT_Digital_Display_3" typeName="INT"></variables>
+		<variables name="OUT_FACTORY_IO_Camera_Position" typeName="INT"></variables>
+		<variables name="OUT_RFID_Reader_1_Command" typeName="INT"></variables>
+		<variables name="OUT_RFID_Reader_1_Write_Data" typeName="INT"></variables>
+		<variables name="OUT_RFID_Reader_1_Memory_Index" typeName="INT"></variables>
+		<variables name="Sistema_On" typeName="BOOL"></variables>
+		<variables name="OUT_BeltConveyor_2_1" typeName="EBOOL"></variables>
+		<variables name="OUT_BeltConveyor_4_1" typeName="EBOOL"></variables>
+		<variables name="OUT_BeltConveyor_4_2" typeName="EBOOL"></variables>
+		<variables name="OUT_BeltConveyor_4_3" typeName="EBOOL"></variables>
+		<variables name="OUT_BeltConveyor_4_4" typeName="EBOOL"></variables>
+		<variables name="OUT_BeltConveyor_4_7" typeName="EBOOL"></variables>
+		<variables name="OUT_BeltConveyor_6_1" typeName="EBOOL"></variables>
+		<variables name="OUT_BeltConveyor_6_2" typeName="EBOOL"></variables>
+		<variables name="OUT_BeltConveyor_6_3" typeName="EBOOL"></variables>
+		<variables name="OUT_BeltConveyor_6_4" typeName="EBOOL"></variables>
+		<variables name="OUT_BeltConveyor_6_5" typeName="EBOOL"></variables>
+		<variables name="OUT_BeltConveyor_6_6" typeName="EBOOL"></variables>
+		<variables name="OUT_BeltConveyor_6_7" typeName="EBOOL"></variables>
+		<variables name="OUT_BeltConveyor_6_8" typeName="EBOOL"></variables>
+		<variables name="OUT_BeltConveyor_6_9" typeName="EBOOL"></variables>
+		<variables name="OUT_BeltConveyor_6_10" typeName="EBOOL"></variables>
+		<variables name="OUT_BeltConveyor_6_11" typeName="EBOOL"></variables>
+		<variables name="OUT_BeltConveyor_6_12" typeName="EBOOL"></variables>
+		<variables name="OUT_BeltConveyor_6_13" typeName="EBOOL"></variables>
+		<variables name="OUT_BeltConveyor_6_14" typeName="EBOOL"></variables>
+		<variables name="OUT_BeltConveyor_6_15" typeName="EBOOL"></variables>
+		<variables name="OUT_BeltConveyor_6_18" typeName="EBOOL"></variables>
+		<variables name="OUT_BeltConveyor_Inclined_1" typeName="EBOOL"></variables>
+		<variables name="OUT_BeltConveyor_Inclined_2" typeName="EBOOL"></variables>
+		<variables name="OUT_BeltConveyor_Inclined_3" typeName="EBOOL"></variables>
+		<variables name="OUT_BeltConveyor_Inclined_4" typeName="EBOOL"></variables>
+		<variables name="Estado_Seguridad" typeName="DINT"></variables>
+		<variables name="OUT_CurvedBeltConveyor1CCW" typeName="BOOL"></variables>
+		<variables name="OUT_CurvedBeltConveyor2CCW" typeName="BOOL"></variables>
+		<variables name="OUT_CurvedBeltConveyor3CCW" typeName="BOOL"></variables>
+		<variables name="OUT_CurvedBeltConveyor4CW" typeName="BOOL"></variables>
+		<variables name="OUT_CurvedBeltConveyor5CW" typeName="BOOL"></variables>
+		<variables name="OUT_CurvedBeltConveyor6CW" typeName="BOOL"></variables>
+		<variables name="OUT_Emitter1_Emit" typeName="BOOL"></variables>
+		<variables name="OUT_Emitter2_Emit" typeName="BOOL"></variables>
+		<variables name="OUT_Emitter3_Emit" typeName="BOOL"></variables>
+		<variables name="OUT_Emitter4_Emit" typeName="BOOL"></variables>
+		<variables name="OUT_Emitter5_Emit" typeName="BOOL"></variables>
+		<variables name="OUT_Emitter6_Emit" typeName="BOOL"></variables>
+		<variables name="OUT_Emitter7_Emit" typeName="BOOL"></variables>
+		<variables name="OUT_Pusher1" typeName="BOOL"></variables>
+		<variables name="IN_Pal1_Elevator_Back_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Pal2_Elevator_Back_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Pal3_Elevator_Back_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Pal4_Elevator_Back_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Pal_1_Elevator_Front_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Pal_2_Elevator_Front_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Pal_3_Elevator_Front_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Pal_4_Elevator_Front_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_TwoAxis_PickPlace_1_Detected" typeName="EBOOL"></variables>
+		<variables name="IN_TwoAxis_PickPlace_1_Moving_X" typeName="EBOOL"></variables>
+		<variables name="IN_TwoAxis_PickPlace_1_Moving_Z" typeName="EBOOL"></variables>
+		<variables name="IN_TwoAxis_PickPlace_1_Rotating" typeName="EBOOL"></variables>
+		<variables name="IN_TwoAxis_PickPlace_2_Detected" typeName="EBOOL"></variables>
+		<variables name="IN_TwoAxis_PickPlace_2_Moving_X" typeName="EBOOL"></variables>
+		<variables name="IN_TwoAxis_PickPlace_2_Moving_Z" typeName="EBOOL"></variables>
+		<variables name="IN_TwoAxis_PickPlace_2_Rotating" typeName="EBOOL"></variables>
+		<variables name="OUT_Pal_1_Elevator_Move_Limit" typeName="EBOOL"></variables>
+		<variables name="OUT_Pal_2_Elevator_Move_Limit" typeName="EBOOL"></variables>
+		<variables name="OUT_Pal_3_Elevator_Move_Limit" typeName="EBOOL"></variables>
+		<variables name="OUT_Pal_4_Elevator_Move_Limit" typeName="EBOOL"></variables>
+		<variables name="OUT_Pivot_Arm_Sorter_1_BeltMinus" typeName="EBOOL"></variables>
+		<variables name="OUT_Pivot_Arm_Sorter_2_BeltMinus" typeName="EBOOL"></variables>
+		<variables name="OUT_TwoAxis_PickPlace_1_CW" typeName="EBOOL"></variables>
+		<variables name="OUT_TwoAxis_PickPlace_2_CW" typeName="EBOOL"></variables>
+		<variables name="OUT_TwoAxis_PickPlace_1_Gr_CW" typeName="EBOOL"></variables>
+		<variables name="OUT_TwoAxis_PickPlace_1_CCW" typeName="EBOOL"></variables>
+		<variables name="OUT_TwoAxis_PickPlace_2_Gr_CW" typeName="EBOOL"></variables>
+		<variables name="OUT_TwoAxis_PickPlace_2_CCW" typeName="EBOOL"></variables>
+		<variables name="OUT_TwoAxis_PickPlace_1_Gr_CCW" typeName="EBOOL"></variables>
+		<variables name="OUT_TwoAxis_PickPlace_2_Gr_CCW" typeName="EBOOL"></variables>
+		<variables name="OUT_StCr_1_TargetPosition" typeName="INT">
+			<variableInit value="0"></variableInit>
+		</variables>
+		<variables name="OUT_StCr_2_Target_Position" typeName="INT">
+			<variableInit value="0"></variableInit>
+		</variables>
+		<variables name="OUT_StCr_3_Target_Position" typeName="INT">
+			<variableInit value="0"></variableInit>
+		</variables>
+		<variables name="OUT_StCr_4_Target_Position" typeName="INT">
+			<variableInit value="0"></variableInit>
+		</variables>
+		<variables name="IN_RFIDReader2Status" typeName="INT"></variables>
+		<variables name="IN_RFIDReader3ReadData" typeName="INT"></variables>
+		<variables name="IN_RFIDReader4CommandID" typeName="INT"></variables>
+		<variables name="IN_RFIDReader2ReadData" typeName="INT"></variables>
+		<variables name="IN_RFIDReader2CommandID" typeName="INT"></variables>
+		<variables name="OUT_RFID_Reader_2_Command" typeName="INT"></variables>
+		<variables name="OUT_RFID_Reader_2_Write_Data" typeName="INT"></variables>
+		<variables name="OUT_RFID_Reader_2_Memory_Index" typeName="INT"></variables>
+		<variables name="Random_Value" typeName="INT"></variables>
+		<variables name="Step_RFID2" typeName="INT"></variables>
+		<variables name="RFID_READER_1_Executecommand" typeName="EBOOL"></variables>
+		<variables name="RFID_READER_2_Executecommand" typeName="EBOOL"></variables>
+		<variables name="RFID_Write_LastID" typeName="INT">
+			<variableInit value="0"></variableInit>
+		</variables>
+		<variables name="RFID_Read_LastID" typeName="INT">
+			<variableInit value="0"></variableInit>
+		</variables>
+		<variables name="RFID_Write_Step" typeName="DINT"></variables>
+		<variables name="SeqIndex" typeName="INT"></variables>
+		<variables name="SeqDir" typeName="INT"></variables>
+		<variables name="Seq" typeName="ARRAY[0..14] OF INT">
+			<instanceElementDesc name="[0]">
+				<value>1</value>
+			</instanceElementDesc>
+			<instanceElementDesc name="[1]">
+				<value>0</value>
+			</instanceElementDesc>
+			<instanceElementDesc name="[2]">
+				<value>0</value>
+			</instanceElementDesc>
+			<instanceElementDesc name="[3]">
+				<value>1</value>
+			</instanceElementDesc>
+			<instanceElementDesc name="[4]">
+				<value>1</value>
+			</instanceElementDesc>
+			<instanceElementDesc name="[5]">
+				<value>1</value>
+			</instanceElementDesc>
+			<instanceElementDesc name="[6]">
+				<value>0</value>
+			</instanceElementDesc>
+			<instanceElementDesc name="[7]">
+				<value>0</value>
+			</instanceElementDesc>
+			<instanceElementDesc name="[8]">
+				<value>1</value>
+			</instanceElementDesc>
+			<instanceElementDesc name="[9]">
+				<value>0</value>
+			</instanceElementDesc>
+			<instanceElementDesc name="[10]">
+				<value>0</value>
+			</instanceElementDesc>
+			<instanceElementDesc name="[11]">
+				<value>1</value>
+			</instanceElementDesc>
+			<instanceElementDesc name="[12]">
+				<value>0</value>
+			</instanceElementDesc>
+			<instanceElementDesc name="[13]">
+				<value>1</value>
+			</instanceElementDesc>
+			<instanceElementDesc name="[14]">
+				<value>0</value>
+			</instanceElementDesc>
+		</variables>
+		<variables name="R_TRIG_0" typeName="R_TRIG"></variables>
+		<variables name="RFID_Read_Value" typeName="INT"></variables>
+		<variables name="R_TRIG_1" typeName="R_TRIG"></variables>
+		<variables name="RFID_Read_Pending" typeName="BOOL"></variables>
+		<variables name="RFID_Last_CommandID" typeName="INT"></variables>
+		<variables name="RFID_W_Pending" typeName="BOOL"></variables>
+		<variables name="RFID_W_LastCmdID" typeName="INT"></variables>
+		<variables name="RFID_R_Pending" typeName="BOOL"></variables>
+		<variables name="RFID_R_LastCmdID" typeName="INT"></variables>
+		<variables name="F_TRIG_0" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_1" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_2" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_3" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_4" typeName="F_TRIG"></variables>
+		<variables name="RFID_Slots" typeName="ARRAY[0..9] OF INT"></variables>
+		<variables name="SlotWrite" typeName="INT"></variables>
+		<variables name="SlotCount" typeName="DINT"></variables>
+		<variables name="SlotRead" typeName="INT"></variables>
+		<variables name="IN_Vision_Sensor_4_Bool_0" typeName="EBOOL"></variables>
+		<variables name="IN_Vision_Sensor_4_Bool_1" typeName="EBOOL"></variables>
+		<variables name="IN_Vision_Sensor_4_Bool_2" typeName="EBOOL"></variables>
+		<variables name="IN_Vision_Sensor_4_Bool_3" typeName="EBOOL"></variables>
+		<variables name="Destino_Caja" typeName="INT"></variables>
+		<variables name="R_TRIG_2" typeName="R_TRIG"></variables>
+		<variables name="TON_7" typeName="TON"></variables>
+		<variables name="R_TRIG_3" typeName="R_TRIG"></variables>
+		<variables name="R_TRIG_4" typeName="R_TRIG"></variables>
+		<variables name="TON_8" typeName="TON"></variables>
+		<variables name="TON_9" typeName="TON"></variables>
+		<variables name="TON_10" typeName="TON"></variables>
+		<variables name="Valor_Capturado" typeName="INT"></variables>
+		<variables name="R_TRIG_5" typeName="R_TRIG"></variables>
+		<variables name="R_TRIG_6" typeName="R_TRIG"></variables>
+		<variables name="R_TRIG_7" typeName="R_TRIG"></variables>
+		<variables name="IN_Vision_Sensor_5_Bool_0" typeName="EBOOL"></variables>
+		<variables name="IN_Vision_Sensor_5_Bool_1" typeName="EBOOL"></variables>
+		<variables name="IN_Vision_Sensor_5_Bool_2" typeName="EBOOL"></variables>
+		<variables name="IN_Vision_Sensor_5_Bool_3" typeName="EBOOL"></variables>
+		<variables name="R_TRIG_8" typeName="R_TRIG"></variables>
+		<variables name="R_TRIG_9" typeName="R_TRIG"></variables>
+		<variables name="R_TRIG_10" typeName="R_TRIG"></variables>
+		<variables name="R_TRIG_11" typeName="R_TRIG"></variables>
+		<variables name="R_TRIG_12" typeName="R_TRIG"></variables>
+		<variables name="Estado_Brazo1" typeName="DINT">
+			<variableInit value="0"></variableInit>
+		</variables>
+		<variables name="R_TRIG_13" typeName="R_TRIG"></variables>
+		<variables name="R_TRIG_14" typeName="R_TRIG"></variables>
+		<variables name="Contador_azules" typeName="INT">
+			<variableInit value="0"></variableInit>
+		</variables>
+		<variables name="Contador_verdes" typeName="INT">
+			<variableInit value="0"></variableInit>
+		</variables>
+		<variables name="R_TRIG_15" typeName="R_TRIG"></variables>
+		<variables name="R_TRIG_16" typeName="R_TRIG"></variables>
+		<variables name="R_TRIG_17" typeName="R_TRIG"></variables>
+		<variables name="R_TRIG_18" typeName="R_TRIG"></variables>
+		<variables name="R_TRIG_19" typeName="R_TRIG"></variables>
+		<variables name="Contador_gris" typeName="INT">
+			<variableInit value="0"></variableInit>
+		</variables>
+		<variables name="SC_Contador_verdes" typeName="INT"></variables>
+		<variables name="SC_Contador_azules" typeName="INT"></variables>
+		<variables name="SC_Contador_gris" typeName="INT"></variables>
+		<variables name="SC_Selector_0" typeName="EBOOL"></variables>
+		<variables name="SC_Selector_1" typeName="EBOOL"></variables>
+		<variables name="R_TRIG_20" typeName="R_TRIG"></variables>
+		<variables name="Contador_PF" typeName="INT">
+			<variableInit value="0"></variableInit>
+		</variables>
+		<variables name="SC_Contador_PF" typeName="INT"></variables>
+		<variables name="Contador_F_G" typeName="INT">
+			<variableInit value="0"></variableInit>
+		</variables>
+		<variables name="Contador_NF_G" typeName="INT">
+			<variableInit value="0"></variableInit>
+		</variables>
+		<variables name="Contador_P_nF" typeName="INT">
+			<variableInit value="0"></variableInit>
+		</variables>
+		<variables name="SC_Contador_NF_G" typeName="INT"></variables>
+		<variables name="SC_Contador_P_nF" typeName="INT"></variables>
+		<variables name="SC_Contador_F_G" typeName="INT"></variables>
+		<variables name="SC_IN_Emergency_Stop_1" typeName="EBOOL"></variables>
+		<variables name="SC_IN_Reset_Button_1" typeName="EBOOL"></variables>
+		<variables name="SC_IN_Start_Button_1" typeName="EBOOL"></variables>
+		<variables name="SC_IN_Stop_Button_1" typeName="EBOOL"></variables>
+		<variables name="R_TRIG_21" typeName="R_TRIG"></variables>
+		<variables name="R_TRIG_22" typeName="R_TRIG"></variables>
+		<variables name="F_TRIG_5" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_6" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_7" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_8" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_9" typeName="F_TRIG"></variables>
+		<variables name="R_TRIG_23" typeName="R_TRIG"></variables>
+		<variables name="R_TRIG_24" typeName="R_TRIG"></variables>
+		<variables name="F_TRIG_10" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_11" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_12" typeName="F_TRIG"></variables>
+		<variables name="R_TRIG_25" typeName="R_TRIG"></variables>
+		<variables name="F_TRIG_13" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_14" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_15" typeName="F_TRIG"></variables>
+		<variables name="TON_11" typeName="TON"></variables>
+		<variables name="TP_0" typeName="TP"></variables>
+		<variables name="F_TRIG_16" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_17" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_18" typeName="F_TRIG"></variables>
+		<variables name="R_TRIG_26" typeName="R_TRIG"></variables>
+		<variables name="F_TRIG_19" typeName="F_TRIG"></variables>
+		<variables name="TP_1" typeName="TP"></variables>
+		<variables name="TON_12" typeName="TON"></variables>
+		<variables name="R_TRIG_27" typeName="R_TRIG"></variables>
+		<variables name="F_TRIG_20" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_21" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_22" typeName="F_TRIG"></variables>
+		<variables name="OUT_BeltConveyor_4_5" typeName="EBOOL"></variables>
+		<variables name="OUT_BeltConveyor_4_6" typeName="EBOOL"></variables>
+		<variables name="OUT_Right_Positioner_4_Clamp" typeName="EBOOL"></variables>
+		<variables name="OUT_Right_Positioner_4_Raise" typeName="EBOOL"></variables>
+		<variables name="IN_Diffuse_Sensor_18" typeName="EBOOL"></variables>
+		<variables name="IN_Diffuse_Sensor_19" typeName="EBOOL"></variables>
+		<variables name="IN_Right_Positioner_4_Limit" typeName="EBOOL"></variables>
+		<variables name="IN_Right_Positioner_4_Clamped" typeName="EBOOL"></variables>
+		<variables name="IN_Vision_Sensor_6_Bool_0" typeName="EBOOL"></variables>
+		<variables name="IN_Vision_Sensor_6_Bool_1" typeName="EBOOL"></variables>
+		<variables name="IN_Vision_Sensor_6_Bool_2" typeName="EBOOL"></variables>
+		<variables name="IN_Vision_Sensor_6_Bool_3" typeName="EBOOL"></variables>
+		<variables name="F_TRIG_23" typeName="F_TRIG"></variables>
+		<variables name="SC_OUT_BeltConveyor_2_1" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_BeltConveyor_4_1" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_BeltConveyor_4_2" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_BeltConveyor_4_3" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_BeltConveyor_4_4" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_BeltConveyor_4_7" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_BeltConveyor_6_1" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_BeltConveyor_6_2" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_BeltConveyor_6_3" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_BeltConveyor_6_4" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_BeltConveyor_6_5" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_BeltConveyor_6_6" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_BeltConveyor_6_7" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_BeltConveyor_6_8" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_BeltConveyor_6_9" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_BeltConveyor_6_10" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_BeltConveyor_6_11" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_BeltConveyor_6_12" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_BeltConveyor_6_13" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_BeltConveyor_6_14" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_BeltConveyor_6_15" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_BeltConveyor_6_18" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_BeltConveyor_Inclined_1" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_BeltConveyor_Inclined_2" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_BeltConveyor_Inclined_3" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_BeltConveyor_Inclined_4" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_CurvedBeltConveyor4CW" typeName="BOOL"></variables>
+		<variables name="SC_OUT_CurvedBeltConveyor5CW" typeName="BOOL"></variables>
+		<variables name="SC_OUT_CurvedBeltConveyor6CW" typeName="BOOL"></variables>
+		<variables name="SC_OUT_CurvedBeltConveyor1CCW" typeName="BOOL"></variables>
+		<variables name="SC_OUT_CurvedBeltConveyor2CCW" typeName="BOOL"></variables>
+		<variables name="SC_OUT_CurvedBeltConveyor3CCW" typeName="BOOL"></variables>
+		<variables name="cont_azul" typeName="INT">
+			<variableInit value="0"></variableInit>
+		</variables>
+		<variables name="TON_13" typeName="TON"></variables>
+		<variables name="TON_14" typeName="TON"></variables>
+		<variables name="SC_OUT_BeltConveyor_4_5" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_BeltConveyor_4_6" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Two_Axis_Pick_Place_1_X" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Two_Axis_Pick_Place_1_Z" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Two_Axis_Pick_Place_2_X" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Two_Axis_Pick_Place_2_Z" typeName="EBOOL"></variables>
+		<variables name="R_TRIG_28" typeName="R_TRIG"></variables>
+		<variables name="TON_15" typeName="TON"></variables>
+		<variables name="cont_verde" typeName="INT">
+			<variableInit value="0"></variableInit>
+		</variables>
+		<variables name="TON_16" typeName="TON"></variables>
+		<variables name="cont_NF" typeName="INT">
+			<variableInit value="0"></variableInit>
+		</variables>
+		<variables name="R_TRIG_29" typeName="R_TRIG"></variables>
+		<variables name="TON_17" typeName="TON"></variables>
+		<variables name="TON_18" typeName="TON"></variables>
+		<variables name="cont_F" typeName="INT">
+			<variableInit value="0"></variableInit>
+		</variables>
+		<variables name="R_TRIG_30" typeName="R_TRIG"></variables>
+		<variables name="TON_19" typeName="TON"></variables>
+		<variables name="TON_20" typeName="TON"></variables>
+		<variables name="R_TRIG_31" typeName="R_TRIG"></variables>
+		<variables name="F_TRIG_24" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_25" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_26" typeName="F_TRIG"></variables>
+		<variables name="R_TRIG_32" typeName="R_TRIG"></variables>
+		<variables name="R_TRIG_33" typeName="R_TRIG"></variables>
+		<variables name="TP_2" typeName="TP"></variables>
+		<variables name="F_TRIG_27" typeName="F_TRIG"></variables>
+		<variables name="TP_3" typeName="TP"></variables>
+		<variables name="F_TRIG_28" typeName="F_TRIG"></variables>
+		<variables name="TP_4" typeName="TP"></variables>
+		<variables name="F_TRIG_29" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_30" typeName="F_TRIG"></variables>
+		<variables name="TP_5" typeName="TP"></variables>
+		<variables name="F_TRIG_31" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_32" typeName="F_TRIG"></variables>
+		<variables name="TP_6" typeName="TP"></variables>
+		<variables name="OUT_Chain_Transfer_1_plus" typeName="EBOOL"></variables>
+		<variables name="OUT_Chain_Transfer_1_minus" typeName="EBOOL"></variables>
+		<variables name="OUT_Chain_Transfer_1_Left" typeName="EBOOL"></variables>
+		<variables name="OUT_Chain_Transfer_1_Right" typeName="EBOOL"></variables>
+		<variables name="F_TRIG_33" typeName="F_TRIG"></variables>
+		<variables name="Position" typeName="INT">
+			<variableInit value="1"></variableInit>
+		</variables>
+		<variables name="F_TRIG_34" typeName="F_TRIG"></variables>
+		<variables name="TP_7" typeName="TP"></variables>
+		<variables name="F_TRIG_35" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_36" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_37" typeName="F_TRIG"></variables>
+		<variables name="TP_8" typeName="TP"></variables>
+		<variables name="TP_9" typeName="TP"></variables>
+		<variables name="Paso" typeName="INT"></variables>
+		<variables name="TP_10" typeName="TP"></variables>
+		<variables name="F_TRIG_38" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_39" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_40" typeName="F_TRIG"></variables>
+		<variables name="TP_11" typeName="TP"></variables>
+		<variables name="F_TRIG_41" typeName="F_TRIG"></variables>
+		<variables name="TP_12" typeName="TP"></variables>
+		<variables name="F_TRIG_42" typeName="F_TRIG"></variables>
+		<variables name="TP_13" typeName="TP"></variables>
+		<variables name="F_TRIG_43" typeName="F_TRIG"></variables>
+		<variables name="TP_14" typeName="TP"></variables>
+		<variables name="F_TRIG_44" typeName="F_TRIG"></variables>
+		<variables name="Paso_F" typeName="INT"></variables>
+		<variables name="Paso_NF" typeName="INT"></variables>
+		<variables name="Paso_V" typeName="INT"></variables>
+		<variables name="F_TRIG_45" typeName="F_TRIG"></variables>
+		<variables name="Position_V" typeName="INT">
+			<variableInit value="1"></variableInit>
+		</variables>
+		<variables name="F_TRIG_46" typeName="F_TRIG"></variables>
+		<variables name="TP_15" typeName="TP"></variables>
+		<variables name="F_TRIG_47" typeName="F_TRIG"></variables>
+		<variables name="Position_NF" typeName="INT">
+			<variableInit value="1"></variableInit>
+		</variables>
+		<variables name="Position_F" typeName="INT">
+			<variableInit value="1"></variableInit>
+		</variables>
+		<variables name="F_TRIG_48" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_49" typeName="F_TRIG"></variables>
+		<variables name="TP_16" typeName="TP"></variables>
+		<variables name="F_TRIG_50" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_51" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_52" typeName="F_TRIG"></variables>
+		<variables name="TP_17" typeName="TP"></variables>
+		<variables name="F_TRIG_53" typeName="F_TRIG"></variables>
+		<variables name="TP_18" typeName="TP"></variables>
+		<variables name="F_TRIG_54" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_55" typeName="F_TRIG"></variables>
+		<variables name="TP_19" typeName="TP"></variables>
+		<variables name="F_TRIG_56" typeName="F_TRIG"></variables>
+		<variables name="TP_20" typeName="TP"></variables>
+		<variables name="F_TRIG_57" typeName="F_TRIG"></variables>
+		<variables name="TP_21" typeName="TP"></variables>
+		<variables name="F_TRIG_58" typeName="F_TRIG"></variables>
+		<variables name="TP_22" typeName="TP"></variables>
+		<variables name="F_TRIG_59" typeName="F_TRIG"></variables>
+		<variables name="TP_23" typeName="TP"></variables>
+		<variables name="F_TRIG_60" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_61" typeName="F_TRIG"></variables>
+		<variables name="TP_24" typeName="TP"></variables>
+		<variables name="F_TRIG_62" typeName="F_TRIG"></variables>
+		<variables name="TP_25" typeName="TP"></variables>
+		<variables name="F_TRIG_63" typeName="F_TRIG"></variables>
+		<variables name="TP_26" typeName="TP"></variables>
+		<variables name="F_TRIG_64" typeName="F_TRIG"></variables>
+		<variables name="TP_27" typeName="TP"></variables>
+		<variables name="F_TRIG_65" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_66" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_67" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_68" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_69" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_70" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_71" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_72" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_73" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_74" typeName="F_TRIG"></variables>
+		<variables name="SC_OUT_Emitter4_Emit" typeName="BOOL"></variables>
+		<variables name="SC_OUT_Emitter5_Emit" typeName="BOOL"></variables>
+		<variables name="SC_OUT_Two_Axis_PP_2_Grab" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Two_Axis_PP_1_Grab" typeName="EBOOL"></variables>
+		<variables name="R_TRIG_34" typeName="R_TRIG"></variables>
+		<variables name="R_TRIG_35" typeName="R_TRIG"></variables>
+		<variables name="F_TRIG_75" typeName="F_TRIG"></variables>
+		<variables name="OUT_Roller_Conveyor_V" typeName="EBOOL"></variables>
+		<variables name="TP_28" typeName="TP"></variables>
+		<variables name="F_TRIG_76" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_77" typeName="F_TRIG"></variables>
+		<variables name="TP_29" typeName="TP"></variables>
+		<variables name="TP_30" typeName="TP"></variables>
+		<variables name="F_TRIG_78" typeName="F_TRIG"></variables>
+		<variables name="OUT_Roller_Conveyor_A" typeName="EBOOL"></variables>
+		<variables name="OUT_Roller_Conveyor_F" typeName="EBOOL"></variables>
+		<variables name="OUT_Roller_Conveyor_NF" typeName="EBOOL"></variables>
+		<variables name="TP_31" typeName="TP"></variables>
+		<variables name="TP_32" typeName="TP"></variables>
+		<variables name="F_TRIG_79" typeName="F_TRIG"></variables>
+		<variables name="TP_33" typeName="TP"></variables>
+		<variables name="F_TRIG_80" typeName="F_TRIG"></variables>
+		<variables name="TP_34" typeName="TP"></variables>
+		<variables name="F_TRIG_81" typeName="F_TRIG"></variables>
+		<variables name="TP_35" typeName="TP"></variables>
+		<variables name="F_TRIG_82" typeName="F_TRIG"></variables>
+		<variables name="TP_36" typeName="TP"></variables>
+		<variables name="F_TRIG_83" typeName="F_TRIG"></variables>
+		<variables name="SC_OUT_Roller_Conveyor_V" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Roller_Conveyor_A" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Roller_Conveyor_F" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Roller_Conveyor_NF" typeName="EBOOL"></variables>
+		<variables name="IN_Diffuse_Sensor_20" typeName="EBOOL"></variables>
+		<variables name="IN_Diffuse_Sensor_21" typeName="EBOOL"></variables>
+		<variables name="IN_Diffuse_Sensor_22" typeName="EBOOL"></variables>
+		<variables name="IN_Diffuse_Sensor_23" typeName="EBOOL"></variables>
+		<variables name="IN_Diffuse_Sensor_24" typeName="EBOOL"></variables>
+		<variables name="IN_Diffuse_Sensor_25" typeName="EBOOL"></variables>
+		<variables name="IN_Diffuse_Sensor_26" typeName="EBOOL"></variables>
+		<variables name="F_TRIG_84" typeName="F_TRIG"></variables>
+		<variables name="TON_21" typeName="TON"></variables>
+		<variables name="TP_37" typeName="TP"></variables>
+		<variables name="F_TRIG_85" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_86" typeName="F_TRIG"></variables>
+		<variables name="TP_38" typeName="TP"></variables>
+		<variables name="TP_39" typeName="TP"></variables>
+		<variables name="F_TRIG_87" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_88" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_89" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_90" typeName="F_TRIG"></variables>
+		<variables name="Seguridad_OK" typeName="EBOOL"></variables>
+		<variables name="Modo_AUTO" typeName="EBOOL"></variables>
+		<variables name="Stop_Pulsado" typeName="EBOOL"></variables>
+		<variables name="Cmd_Start" typeName="EBOOL"></variables>
+		<variables name="Cmd_Stop" typeName="EBOOL"></variables>
+		<variables name="Cmd_Reset" typeName="EBOOL"></variables>
+		<variables name="HMI_Start" typeName="EBOOL"></variables>
+		<variables name="HMI_Stop" typeName="EBOOL"></variables>
+		<variables name="HMI_Reset" typeName="EBOOL"></variables>
+		<variables name="F_TRIG_91" typeName="F_TRIG"></variables>
+		<variables name="F_TRIG_92" typeName="F_TRIG"></variables>
+		<variables name="TP_40" typeName="TP"></variables>
+		<variables name="Estado_GEMMA" typeName="DINT"></variables>
+		<variables name="Marcha_General" typeName="BOOL"></variables>
+		<variables name="Reset_General" typeName="BOOL"></variables>
+		<variables name="Mensaje_Sistema" typeName="DINT"></variables>
+		<variables name="R_TRIG_36" typeName="R_TRIG"></variables>
+		<variables name="R_TRIG_37" typeName="R_TRIG"></variables>
+		<variables name="Permiso_Proceso" typeName="EBOOL"></variables>
+		<variables name="SC_Estado_GEMMA" typeName="DINT"></variables>
+		<variables name="SC_Mensaje_Sistema" typeName="DINT"></variables>
+		<variables name="SC_Marcha_General" typeName="BOOL"></variables>
+		<variables name="SC_Permiso_Proceso" typeName="EBOOL"></variables>
+		<variables name="SC_Seguridad_OK" typeName="EBOOL"></variables>
+		<variables name="SC_Modo_AUTO" typeName="EBOOL"></variables>
+		<variables name="SC_Stop_Pulsado" typeName="EBOOL"></variables>
+		<variables name="SC_Reset_General" typeName="BOOL"></variables>
+		<variables name="SC_Reset_Activo" typeName="EBOOL"></variables>
+		<variables name="SC_Cmd_Start" typeName="EBOOL"></variables>
+		<variables name="SC_Cmd_Stop" typeName="EBOOL"></variables>
+		<variables name="SC_Cmd_Reset" typeName="EBOOL"></variables>
+		<variables name="SC_Estado_Parada_Inicial" typeName="BOOL"></variables>
+		<variables name="SC_Estado_Produccion" typeName="BOOL"></variables>
+		<variables name="SC_Estado_Parada_Normal" typeName="BOOL"></variables>
+		<variables name="SC_Estado_Emergencia" typeName="BOOL"></variables>
+		<variables name="SC_Estado_Reset" typeName="BOOL"></variables>
+		<variables name="SC_FACTORY_IO_Running" typeName="EBOOL"></variables>
+		<variables name="SC_FACTORY_IO_Paused" typeName="EBOOL"></variables>
+		<variables name="SC_FACTORY_IO_Reset" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_FACTORY_IO_Run" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_FACTORY_IO_Pause" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_FACTORY_IO_Reset" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Emitter1_Emit" typeName="BOOL"></variables>
+		<variables name="SC_Alarma_Emergencia" typeName="EBOOL"></variables>
+		<variables name="SC_Alarma_Sistema_Detenido" typeName="BOOL"></variables>
+		<variables name="SC_Alarma_Sin_Permiso" typeName="EBOOL"></variables>
+		<variables name="SC_Alarma_Parada_Normal" typeName="BOOL"></variables>
+		<variables name="SC_Alarma_Reset" typeName="BOOL"></variables>
+		<variables name="SC_Alarma_FIFO_Lleno" typeName="BOOL"></variables>
+		<variables name="SC_Alarma_Rack_Azul_Lleno" typeName="BOOL"></variables>
+		<variables name="SC_Alarma_Rack_Verde_Lleno" typeName="BOOL"></variables>
+		<variables name="SC_Alarma_Rack_F_Lleno" typeName="BOOL"></variables>
+		<variables name="SC_Alarma_Rack_NF_Lleno" typeName="BOOL"></variables>
+		<variables name="SC_Alarma_Activa" typeName="EBOOL"></variables>
+		<variables name="SC_IN_Sensor_Presencia_Entrada" typeName="EBOOL"></variables>
+		<variables name="SC_IN_Sensor_Clasificacion" typeName="EBOOL"></variables>
+		<variables name="SC_IN_Sensor_RFID" typeName="EBOOL"></variables>
+		<variables name="SC_Camara_Deteccion" typeName="EBOOL"></variables>
+		<variables name="SC_RFID_Activo" typeName="EBOOL"></variables>
+		<variables name="SC_RFID_Read_Value" typeName="INT"></variables>
+		<variables name="SC_Valor_Capturado" typeName="INT"></variables>
+		<variables name="SC_SlotCount" typeName="DINT"></variables>
+		<variables name="SC_SlotRead" typeName="INT"></variables>
+		<variables name="SC_SlotWrite" typeName="INT"></variables>
+		<variables name="SC_OUT_Pusher_1" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Clasificador_FnF_Plus" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Clasificador_FnF_Right" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Clasificador_NF_Plus" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Clasificador_NF_Right" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Clasificador_F_Plus" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Clasificador_F_Left" typeName="EBOOL"></variables>
+		<variables name="SC_IN_Medicion_Tamano_F" typeName="INT"></variables>
+		<variables name="SC_IN_Medicion_Tamano_NF" typeName="INT"></variables>
+		<variables name="SC_IN_Sensor_Tamano_F" typeName="EBOOL"></variables>
+		<variables name="SC_IN_Sensor_Tamano_NF" typeName="EBOOL"></variables>
+		<variables name="SC_IN_Pieza_Azul_PP" typeName="EBOOL"></variables>
+		<variables name="SC_IN_Pieza_Verde_PP" typeName="EBOOL"></variables>
+		<variables name="SC_IN_Base_Azul" typeName="EBOOL"></variables>
+		<variables name="SC_IN_Base_Verde" typeName="EBOOL"></variables>
+		<variables name="SC_IN_PP_Azul_Detected" typeName="EBOOL"></variables>
+		<variables name="SC_IN_PP_Verde_Detected" typeName="EBOOL"></variables>
+		<variables name="SC_IN_PP_Azul_Moving_X" typeName="EBOOL"></variables>
+		<variables name="SC_IN_PP_Azul_Moving_Z" typeName="EBOOL"></variables>
+		<variables name="SC_IN_PP_Verde_Moving_X" typeName="EBOOL"></variables>
+		<variables name="SC_IN_PP_Verde_Moving_Z" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Right_Positioner_2_Clamp" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Right_Positioner_2_Raise" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Right_Positioner_4_Clamp" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Right_Positioner_4_Raise" typeName="EBOOL"></variables>
+		<variables name="SC_Position_Azul" typeName="INT"></variables>
+		<variables name="SC_Position_Verde" typeName="INT"></variables>
+		<variables name="SC_Position_F" typeName="INT"></variables>
+		<variables name="SC_Rack_Azul_Max" typeName="DINT"></variables>
+		<variables name="SC_Position_NF" typeName="INT"></variables>
+		<variables name="SC_Rack_Verde_Max" typeName="DINT"></variables>
+		<variables name="SC_Rack_F_Max" typeName="DINT"></variables>
+		<variables name="SC_Rack_NF_Max" typeName="DINT"></variables>
+		<variables name="SC_Paso_Azul" typeName="INT"></variables>
+		<variables name="SC_Paso_Verde" typeName="INT"></variables>
+		<variables name="SC_Paso_F" typeName="INT"></variables>
+		<variables name="SC_Paso_NF" typeName="INT"></variables>
+		<variables name="SC_Rack_Azul_Lleno" typeName="BOOL"></variables>
+		<variables name="SC_Rack_Verde_Lleno" typeName="BOOL"></variables>
+		<variables name="SC_Rack_F_Lleno" typeName="BOOL"></variables>
+		<variables name="SC_Rack_NF_Lleno" typeName="BOOL"></variables>
+		<variables name="SC_IN_Entrada_Azul_Roller" typeName="EBOOL"></variables>
+		<variables name="SC_IN_Entrada_Verde_Roller" typeName="EBOOL"></variables>
+		<variables name="SC_IN_Entrada_F_Roller" typeName="EBOOL"></variables>
+		<variables name="SC_IN_Entrada_NF_Roller" typeName="EBOOL"></variables>
+		<variables name="SC_IN_Entrada_Azul_Stacker" typeName="EBOOL"></variables>
+		<variables name="SC_IN_Entrada_Verde_Stacker" typeName="EBOOL"></variables>
+		<variables name="SC_IN_Entrada_F_Stacker" typeName="EBOOL"></variables>
+		<variables name="SC_IN_Entrada_NF_Stacker" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_StCr_1_TargetPosition" typeName="INT"></variables>
+		<variables name="SC_OUT_StCr_2_Target_Position" typeName="INT"></variables>
+		<variables name="SC_OUT_StCr_3_Target_Position" typeName="INT"></variables>
+		<variables name="SC_OUT_StCr_4_Target_Position" typeName="INT"></variables>
+		<variables name="SC_OUT_Stacker_Crane_1_Lift" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Stacker_Crane_1_Left" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Stacker_Crane_1_Right" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Stacker_Crane_2_Lift" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Stacker_Crane_2_Left" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Stacker_Crane_2_Right" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Stacker_Crane_3_Lift" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Stacker_Crane_3_Left" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Stacker_Crane_3_Right" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Stacker_Crane_4_Lift" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Stacker_Crane_4_Left" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Stacker_Crane_4_Right" typeName="EBOOL"></variables>
+		<variables name="SC_Stacker_Azul_Activo" typeName="EBOOL"></variables>
+		<variables name="SC_Stacker_NF_Activo" typeName="EBOOL"></variables>
+		<variables name="SC_Stacker_F_Activo" typeName="EBOOL"></variables>
+		<variables name="SC_Stacker_Verde_Activo" typeName="EBOOL"></variables>
+		<variables name="SC_IN_Sensor_Tamano" typeName="EBOOL"></variables>
+		<variables name="SC_OUT_Clasificador_4" typeName="EBOOL"></variables>
+	</dataBlock>
+	<Motion></Motion>
+	<logicConf>
+		<resource resName="Micro Basic" resIdent="BMX P34 2000 02.70">
+			<taskDesc task="MAST" taskType="cyclic" valueType="0" maxExecTime="250">
+				<sectionDesc name="Inputs" SectionOrder="1"></sectionDesc>
+				<sectionDesc name="Outputs" SectionOrder="2"></sectionDesc>
+				<sectionDesc name="Seguridad" SectionOrder="3"></sectionDesc>
+				<sectionDesc name="Mando" SectionOrder="4"></sectionDesc>
+				<sectionDesc name="Funcionamiento" SectionOrder="5"></sectionDesc>
+				<SRDesc name="PLC_Start"></SRDesc>
+				<SRDesc name="Activ_segunda_cinta"></SRDesc>
+				<SRDesc name="Asignacion_fragil"></SRDesc>
+				<SRDesc name="Activ_tercera_cinta"></SRDesc>
+				<SRDesc name="Desvio_Pusher"></SRDesc>
+				<SRDesc name="Lectura_RFID"></SRDesc>
+				<SRDesc name="Class_F_nF"></SRDesc>
+				<SRDesc name="Tam_fragil"></SRDesc>
+				<SRDesc name="tam_nFragil"></SRDesc>
+				<SRDesc name="Pall_NF"></SRDesc>
+				<SRDesc name="Pall_F"></SRDesc>
+				<SRDesc name="Stacker_Crane_NF"></SRDesc>
+				<SRDesc name="Stacker_Crane_F"></SRDesc>
+				<SRDesc name="Posicionadores_cintas_PP"></SRDesc>
+				<SRDesc name="PP_azul"></SRDesc>
+				<SRDesc name="PP_verde"></SRDesc>
+				<SRDesc name="Class_Colores"></SRDesc>
+				<SRDesc name="Pall_Azul"></SRDesc>
+				<SRDesc name="Pall_Verde"></SRDesc>
+				<SRDesc name="Stacker_Crane_Azul"></SRDesc>
+				<SRDesc name="Stacker_Crane_Verde"></SRDesc>
+				<SRDesc name="Visual"></SRDesc>
+			</taskDesc>
+			<FMDesc name="Proyecto funcional" FMId="ROOT"></FMDesc>
+		</resource>
+	</logicConf>
+	<program>
+		<identProgram name="Inputs" type="section" task="MAST"></identProgram>
+		<STSource>IN_Diffuse_Sensor_1:=%M0;
+IN_Diffuse_Sensor_2:=%M1;
+IN_Diffuse_Sensor_3:=%M2;
+IN_Diffuse_Sensor_4:=%M3;
+IN_Diffuse_Sensor_5:=%M4;
+IN_Diffuse_Sensor_6:=%M5;
+IN_Diffuse_Sensor_7:=%M6;
+IN_Diffuse_Sensor_8:=%M7;
+IN_Diffuse_Sensor_9:=%M8;
+IN_Diffuse_Sensor_10:=%M9;
+IN_Diffuse_Sensor_11:=%M10;
+IN_Diffuse_Sensor_12:=%M11;
+IN_Diffuse_Sensor_13:=%M12;
+IN_Diffuse_Sensor_14:=%M13;
+IN_Diffuse_Sensor_15:=%M14;
+IN_Diffuse_Sensor_16:=%M15;
+IN_Diffuse_Sensor_17:=%M16;
+IN_Emergency_Stop_1:=%M17;
+IN_FACTORY_IO_Paused:=%M18;
+IN_FACTORY_IO_Reset:=%M19;
+IN_FACTORY_IO_Running:=%M20;
+IN_Palletizer_1_Clamped:=%M21;
+IN_Palletizer_2_Clamped:=%M22;
+IN_Palletizer_3_Clamped:=%M23;
+IN_Palletizer_4_Clamped:=%M24;
+IN_Palletizer_1_Plate_Limit:=%M25;
+IN_Palletizer_2_Plate_Limit:=%M26;
+IN_Palletizer_3_Plate_Limit:=%M27;
+IN_Palletizer_4_Plate_Limit:=%M28;
+IN_Palletizer_1_Pusher_Limit:=%M29;
+IN_Palletizer_2_Pusher_Limit:=%M30;
+IN_Palletizer_3_Pusher_Limit:=%M31;
+IN_Palletizer_4_Pusher_Limit:=%M32;
+IN_Palletizer_1_Elevator_Moving:=%M33;
+IN_Palletizer_2_Elevator_Moving:=%M34;
+IN_Palletizer_3_Elevator_Moving:=%M35;
+IN_Palletizer_4_Elevator_Moving:=%M36;
+IN_Pal1_Elevator_Back_Limit:=%M37;
+IN_Pal2_Elevator_Back_Limit:=%M38;
+IN_Pal3_Elevator_Back_Limit:=%M39;
+IN_Pal4_Elevator_Back_Limit:=%M40;
+IN_Pal_1_Elevator_Front_Limit:=%M41;
+IN_Pal_2_Elevator_Front_Limit:=%M42;
+IN_Pal_3_Elevator_Front_Limit:=%M43;
+IN_Pal_4_Elevator_Front_Limit:=%M44;
+IN_Pusher_1_Back_Limit:=%M45;
+IN_Pusher_1_Front_Limit:=%M46;
+IN_Reset_Button_1:=%M47;
+IN_Right_Positioner_1_Limit:=%M48;
+IN_Right_Positioner_2_Limit:=%M49;
+IN_Right_Positioner_3_Limit:=%M50;
+IN_Right_Positioner_1_Clamped:=%M51;
+IN_Right_Positioner_2_Clamped:=%M52;
+IN_Right_Positioner_3_Clamped:=%M53;
+IN_Selector_1_State_0:=%M54;
+IN_Selector_1_State_1:=%M55;
+IN_StackerCrane_1_X:=%M56;
+IN_Stacker_Crane_1_Z:=%M57;
+IN_Stacker_Crane_2_X:=%M58;
+IN_Stacker_Crane_2_Z:=%M59;
+IN_Stacker_Crane_3_X:=%M60;
+IN_Stacker_Crane_3_Z:=%M61;
+IN_Stacker_Crane_4_X:=%M62;
+IN_Stacker_Crane_4_Z:=%M63;
+IN_Stacker_Crane_1_Left_Limit:=%M64;
+IN_Stacker_Crane_2_Left_Limit:=%M65;
+IN_Stacker_Crane_3_Left_Limit:=%M66;
+IN_Stacker_Crane_4_Left_Limit:=%M67;
+IN_Stacker_Crane_1_Right_Limit:=%M68;
+IN_Stacker_Crane_2_Right_Limit:=%M69;
+IN_Stacker_Crane_3_Right_Limit:=%M70;
+IN_Stacker_Crane_4_Right_Limit:=%M71;
+IN_Stacker_Crane_1_Middle_Limit:=%M72;
+IN_Stacker_Crane_2_Middle_Limit:=%M73;
+IN_Stacker_Crane_3_Middle_Limit:=%M74;
+IN_Stacker_Crane_4_Middle_Limit:=%M75;
+IN_Start_Button_1:=%M76;
+IN_Stop_Button_1:=%M77;
+IN_TwoAxis_PickPlace_1_Detected:=%M78;
+IN_TwoAxis_PickPlace_1_Moving_X:=%M79;
+IN_TwoAxis_PickPlace_1_Moving_Z:=%M80;
+IN_TwoAxis_PickPlace_1_Rotating:=%M81;
+IN_TwoAxis_PickPlace_2_Detected:=%M82;
+IN_TwoAxis_PickPlace_2_Moving_X:=%M83;
+IN_TwoAxis_PickPlace_2_Moving_Z:=%M84;
+IN_TwoAxis_PickPlace_2_Rotating:=%M85;
+IN_TAPickP_1_GripperRotating:=%M86;
+IN_TAPickP_2_GripperRotating:=%M87;
+IN_Vision_Sensor_1_Bool_0:=%M88;
+IN_Vision_Sensor_1_Bool_1:=%M89;
+IN_Vision_Sensor_1_Bool_2:=%M90;
+IN_Vision_Sensor_1_Bool_3:=%M91;
+IN_Vision_Sensor_2_Bool_0:=%M92;
+IN_Vision_Sensor_2_Bool_1:=%M93;
+IN_Vision_Sensor_2_Bool_2:=%M94;
+IN_Vision_Sensor_2_Bool_3:=%M95;
+IN_Vision_Sensor_3_Bool_0:=%M96;
+IN_Vision_Sensor_3_Bool_1:=%M97;
+IN_Vision_Sensor_3_Bool_2:=%M98;
+IN_Vision_Sensor_3_Bool_3:=%M99;
+IN_Vision_Sensor_4_Bool_0:=%M100;
+IN_Vision_Sensor_4_Bool_1:=%M101;
+IN_Vision_Sensor_4_Bool_2:=%M102;
+IN_Vision_Sensor_4_Bool_3:=%M103;
+IN_Vision_Sensor_5_Bool_0:=%M104;
+IN_Vision_Sensor_5_Bool_1:=%M105;
+IN_Vision_Sensor_5_Bool_2:=%M106;
+IN_Vision_Sensor_5_Bool_3:=%M107;
+IN_Diffuse_Sensor_18:=%M108;
+IN_Diffuse_Sensor_19:=%M109;
+IN_Right_Positioner_4_Limit:=%M110;
+IN_Right_Positioner_4_Clamped:=%M111;
+IN_Vision_Sensor_6_Bool_0:=%M112;
+IN_Vision_Sensor_6_Bool_1:=%M113;
+IN_Vision_Sensor_6_Bool_2:=%M114;
+IN_Vision_Sensor_6_Bool_3:=%M115;
+IN_Diffuse_Sensor_20:=%M116;
+IN_Diffuse_Sensor_21:=%M117;
+IN_Diffuse_Sensor_22:=%M118;
+IN_Diffuse_Sensor_23:=%M119;
+IN_Diffuse_Sensor_24:=%M120;
+IN_Diffuse_Sensor_25:=%M121;
+IN_Diffuse_Sensor_26:=%M122;
+
+IN_FACTORY_IO_Time_Scale:=%MW0;
+IN_Light_Array_Emitter_1_Value:=%MW1;
+IN_Light_Array_Emitter_2_Value:=%MW2;
+IN_RFIDReader1Status:=%MW3;
+IN_RFIDReader1ReadData:=%MW4;
+IN_RFIDReader1CommandID:=%MW5;
+IN_RFIDReader2Status:=%MW6;
+IN_RFIDReader2ReadData:=%MW7;
+IN_RFIDReader2CommandID:=%MW8;
+</STSource>
+	</program>
+	<program>
+		<identProgram name="Outputs" type="section" task="MAST"></identProgram>
+		<STSource>%M124:=OUT_BeltConveyor_2_1;
+%M125:=OUT_BeltConveyor_4_1;
+%M126:=OUT_BeltConveyor_4_2;
+%M127:=OUT_BeltConveyor_4_3;
+%M128:=OUT_BeltConveyor_4_4;
+%M129:=OUT_BeltConveyor_4_7;
+%M130:=OUT_BeltConveyor_6_1;
+%M131:=OUT_BeltConveyor_6_2;
+%M132:=OUT_BeltConveyor_6_3;
+%M133:=OUT_BeltConveyor_6_4;
+%M134:=OUT_BeltConveyor_6_5;
+%M135:=OUT_BeltConveyor_6_6;
+%M136:=OUT_BeltConveyor_6_7;
+%M137:=OUT_BeltConveyor_6_8;
+%M138:=OUT_BeltConveyor_6_9;
+%M139:=OUT_BeltConveyor_6_10;
+%M140:=OUT_BeltConveyor_6_11;
+%M141:=OUT_BeltConveyor_6_12;
+%M142:=OUT_BeltConveyor_6_13;
+%M143:=OUT_Roller_Conveyor_NF;
+%M144:=OUT_BeltConveyor_6_15;
+%M145:=OUT_BeltConveyor_6_18;
+%M146:=OUT_BeltConveyor_Inclined_1;
+%M147:=OUT_BeltConveyor_Inclined_2;
+%M148:=OUT_BeltConveyor_Inclined_3;
+%M149:=OUT_BeltConveyor_Inclined_4;
+%M150:=OUT_CurvedBeltConveyor4CW;
+%M151:=OUT_CurvedBeltConveyor5CW;
+%M152:=OUT_CurvedBeltConveyor6CW;
+%M153:=OUT_CurvedBeltConveyor1CCW;
+%M154:=OUT_CurvedBeltConveyor2CCW;
+%M155:=OUT_CurvedBeltConveyor3CCW;
+%M156:=OUT_Emitter1_Emit;
+%M157:=OUT_Emitter2_Emit;
+%M158:=OUT_Emitter3_Emit;
+%M159:=OUT_Emitter4_Emit;
+%M160:=OUT_Emitter5_Emit;
+%M161:=OUT_Emitter6_Emit;
+%M162:=OUT_Emitter7_Emit;
+%M163:=OUT_FACTORY_IO_Pause;
+%M164:=OUT_FACTORY_IO_Reset;
+%M165:=OUT_FACTORY_IO_Run;
+%M166:=OUT_Palletizer_1_Push;
+%M167:=OUT_Palletizer_1_Turn;
+%M168:=OUT_Palletizer_2_Push;
+%M169:=OUT_Palletizer_2_Turn;
+%M170:=OUT_Palletizer_3_Push;
+%M171:=OUT_Palletizer_3_Turn;
+%M172:=OUT_Palletizer_4_Push;
+%M173:=OUT_Palletizer_4_Turn;
+%M174:=OUT_Palletizer_1_Clamp;
+%M175:=OUT_Palletizer_2_Clamp;
+%M176:=OUT_Palletizer_3_Clamp;
+%M177:=OUT_Palletizer_4_Clamp;
+%M178:=OUT_Palletizer_1_Belt_Plus;
+%M179:=OUT_Palletizer_1_Belt_Minus;
+%M180:=OUT_Palletizer_2_Belt_Plus;
+%M181:=OUT_Palletizer_2_Belt_Minus;
+%M182:=OUT_Palletizer_3_Belt_Plus;
+%M183:=OUT_Palletizer_3_Belt_Minus;
+%M184:=OUT_Palletizer_4_Belt_Plus;
+%M185:=OUT_Palletizer_4_Belt_Minus;
+%M186:=OUT_Palletizer_1_Chain_Plus;
+%M187:=OUT_Palletizer_1_Chain_Minus;
+%M188:=OUT_Palletizer_2_Chain_Plus;
+%M189:=OUT_Palletizer_2_Chain_Minus;
+%M190:=OUT_Palletizer_3_Chain_Plus;
+%M191:=OUT_Palletizer_3_Chain_Minus;
+%M192:=OUT_Palletizer_4_Chain_Plus;
+%M193:=OUT_Palletizer_4_Chain_Minus;
+%M194:=OUT_Palletizer_1_Open_Plate;
+%M195:=OUT_Palletizer_1_Elevator_Plus;
+%M196:=OUT_Palletizer_1_Elevator_Minus;
+%M197:=OUT_Palletizer_2_Open_Plate;
+%M198:=OUT_Palletizer_2_Elevator_Plus;
+%M199:=OUT_Palletizer_2_Elevator_Minus;
+%M200:=OUT_Palletizer_3_Open_Plate;
+%M201:=OUT_Palletizer_3_Elevator_Plus;
+%M202:=OUT_Palletizer_3_Elevator_Minus;
+%M203:=OUT_Palletizer_4_Open_Plate;
+%M204:=OUT_Palletizer_4_Elevator_Plus;
+%M205:=OUT_Palletizer_4_Elevator_Minus;
+%M206:=OUT_Pal_1_Elevator_Move_Limit;
+%M207:=OUT_Pal_2_Elevator_Move_Limit;
+%M208:=OUT_Pal_3_Elevator_Move_Limit;
+%M209:=OUT_Pal_4_Elevator_Move_Limit;
+%M210:=OUT_Pivot_Arm_Sorter_1_Turn;
+%M211:=OUT_Pivot_Arm_Sorter_2_Turn;
+%M212:=OUT_Pivot_Arm_Sorter_1_Belt_Plus;
+%M213:=OUT_Pivot_Arm_Sorter_1_BeltMinus;
+%M214:=OUT_Pivot_Arm_Sorter_2_Belt_Plus;
+%M215:=OUT_Pivot_Arm_Sorter_2_BeltMinus;
+%M216:=OUT_Pop_Up_Wheel_Sorter_1_Plus;
+%M217:=OUT_Pop_Up_Wheel_Sorter_3_Plus;
+%M218:=OUT_Pop_Up_Wheel_Sorter_4_Plus;
+%M219:=OUT_Pop_Up_Wheel_Sorter_1_Left;
+%M220:=OUT_Pop_Up_Wheel_Sorter_3_Left;
+%M221:=OUT_Pop_Up_Wheel_Sorter_4_Left;
+%M222:=OUT_Pop_Up_Wheel_Sorter_1_Right;
+%M223:=OUT_Pop_Up_Wheel_Sorter_3_Right;
+%M224:=OUT_Pop_Up_Wheel_Sorter_4_Right;
+%M225:=OUT_Pusher_1;
+%M226:=OUT_Remover_1_Remove;
+%M227:=OUT_Remover_2_Remove;
+%M228:=OUT_Remover_3_Remove;
+%M229:=OUT_Right_Positioner_1_Clamp;
+%M230:=OUT_Right_Positioner_1_Raise;
+%M231:=OUT_Right_Positioner_2_Clamp;
+%M232:=OUT_Right_Positioner_2_Raise;
+%M233:=OUT_Right_Positioner_3_Clamp;
+%M234:=OUT_Right_Positioner_3_Raise;
+%M235:=OUT_Stacker_Crane_1_Lift;
+%M236:=OUT_Stacker_Crane_2_Lift;
+%M237:=OUT_Stacker_Crane_3_Lift;
+%M238:=OUT_Stacker_Crane_4_Lift;
+%M239:=OUT_Stacker_Crane_1_Left;
+%M240:=OUT_Stacker_Crane_2_Left;
+%M241:=OUT_Stacker_Crane_3_Left;
+%M242:=OUT_Stacker_Crane_4_Left;
+%M243:=OUT_Stacker_Crane_1_Right;
+%M244:=OUT_Stacker_Crane_2_Right;
+%M245:=OUT_Stacker_Crane_3_Right;
+%M246:=OUT_Stacker_Crane_4_Right;
+%M247:=OUT_Two_Axis_Pick_Place_1_X;
+%M248:=OUT_Two_Axis_Pick_Place_1_Z;
+%M249:=OUT_Two_Axis_Pick_Place_2_X;
+%M250:=OUT_Two_Axis_Pick_Place_2_Z;
+%M251:=OUT_Two_Axis_Pick_Place_1_Grab;
+%M252:=OUT_Two_Axis_Pick_Place_2_Grab;
+%M253:=OUT_TwoAxis_PickPlace_1_CW;
+%M254:=OUT_TwoAxis_PickPlace_2_CW;
+%M255:=OUT_TwoAxis_PickPlace_1_Gr_CW;
+%M256:=OUT_TwoAxis_PickPlace_1_CCW;
+%M257:=OUT_TwoAxis_PickPlace_2_Gr_CW;
+%M258:=OUT_TwoAxis_PickPlace_2_CCW;
+%M259:=OUT_TwoAxis_PickPlace_1_Gr_CCW;
+%M260:=OUT_TwoAxis_PickPlace_2_Gr_CCW;
+%M261:=RFID_READER_1_Executecommand;
+%M262:=RFID_READER_2_Executecommand;
+%M263:=OUT_BeltConveyor_4_5;
+%M264:=OUT_BeltConveyor_4_6;
+%M265:=OUT_Right_Positioner_4_Clamp;
+%M266:=OUT_Right_Positioner_4_Raise;
+%M267:=OUT_Roller_Conveyor_V;
+%M268:=OUT_Roller_Conveyor_A;
+%M269:=OUT_Roller_Conveyor_F;
+%M270:=OUT_Roller_Conveyor_NF;
+%MW9:=OUT_Digital_Display_1;
+%MW10:=OUT_Digital_Display_2;
+%MW11:=OUT_Digital_Display_3;
+%MW12:=OUT_FACTORY_IO_Camera_Position;
+%MW13:=OUT_RFID_Reader_1_Command;
+%MW14:=OUT_RFID_Reader_1_Write_Data;
+%MW15:=OUT_RFID_Reader_1_Memory_Index;
+%MW16:=OUT_StCr_1_TargetPosition;
+%MW17:=OUT_StCr_2_Target_Position;
+%MW18:=OUT_StCr_3_Target_Position;
+%MW19:=OUT_StCr_4_Target_Position;
+%MW20:=OUT_RFID_Reader_2_Command;
+%MW21:=OUT_RFID_Reader_2_Write_Data;
+%MW22:=OUT_RFID_Reader_2_Memory_Index;
+%MW23:=Contador_verdes;
+%MW24:=Contador_azules;
+%MW25:=Contador_gris;
+%MW26:=Contador_PF;
+%MW27:=Contador_P_nF;
+%MW28:=Contador_NF_G;
+%MW29:=Contador_F_G;
+%M271:=SC_Alarma_Emergencia;
+%M272:=SC_IN_Sensor_Tamano;
+%M273:=SC_RFID_Activo;
+%M274:=SC_Camara_Deteccion;
+%M275:=SC_IN_Sensor_Presencia_Entrada;
+%M276:=SC_OUT_Clasificador_4;
+</STSource>
+	</program>
+	<program>
+		<identProgram name="Seguridad" type="section" task="MAST"></identProgram>
+		<STSource>(* ========================================================================== *)
+(* SECCIÓN: SEGURIDAD                                                         *)
+(* Cuando se acciona la seta de emergencia, todo se para                      *)	
+(* ========================================================================== *)
+
+IF NOT Permiso_Proceso THEN
+            (* Transición a estado de EMERGENCIA *)
+  	    (* --- EMITTERS --- *)
+		OUT_Emitter1_Emit := FALSE; (* Cinta 1 principal *)
+		OUT_Emitter2_Emit := FALSE;
+		OUT_Emitter3_Emit := FALSE;
+		OUT_Emitter4_Emit := FALSE; (* Cinta de piezas auxiliares VERDES *)
+		OUT_Emitter5_Emit := FALSE; (* Cinta de piezas auxiliares AZULES *)
+		OUT_Emitter6_Emit := FALSE;
+		OUT_Emitter7_Emit := FALSE;
+
+		(* --- CINTAS (CONVEYORS) --- *)
+		OUT_BeltConveyor_2_1 := FALSE;
+		OUT_BeltConveyor_4_1 := FALSE;
+		OUT_BeltConveyor_4_2 := FALSE; (* Cinta de piezas auxiliares VERDES *)
+		OUT_BeltConveyor_4_3 := FALSE;
+		OUT_BeltConveyor_4_4 := FALSE;
+		OUT_BeltConveyor_4_5 := FALSE;
+		OUT_BeltConveyor_4_6 := FALSE;
+		OUT_BeltConveyor_4_7 := FALSE; (* Cinta de piezas auxiliares AZULES *)
+		OUT_BeltConveyor_6_1 := FALSE;
+		OUT_BeltConveyor_6_2 := FALSE;
+		OUT_BeltConveyor_6_3 := FALSE;
+		OUT_BeltConveyor_6_4 := FALSE;
+		OUT_BeltConveyor_6_5 := FALSE;
+		OUT_BeltConveyor_6_6 := FALSE;
+		OUT_BeltConveyor_6_7 := FALSE;
+		OUT_BeltConveyor_6_8 := FALSE;
+		OUT_BeltConveyor_6_9 := FALSE;
+		OUT_BeltConveyor_6_10 := FALSE;
+		OUT_BeltConveyor_6_11 := FALSE;
+		OUT_BeltConveyor_6_12 := FALSE;
+		OUT_BeltConveyor_6_13 := FALSE; (* Cinta 1 principal *)
+		OUT_BeltConveyor_6_14 := FALSE;
+		OUT_BeltConveyor_6_15 := FALSE;
+		OUT_BeltConveyor_6_18 := FALSE;
+		OUT_BeltConveyor_Inclined_1 := FALSE;
+		OUT_BeltConveyor_Inclined_2 := FALSE;
+		OUT_BeltConveyor_Inclined_3 := FALSE;
+		OUT_BeltConveyor_Inclined_4 := FALSE;
+
+		(* --- CINTAS CURVAS --- *)
+		OUT_CurvedBeltConveyor4CW := FALSE;
+		OUT_CurvedBeltConveyor5CW := FALSE;
+		OUT_CurvedBeltConveyor6CW := FALSE;
+		OUT_CurvedBeltConveyor1CCW := FALSE;
+		OUT_CurvedBeltConveyor2CCW := FALSE;
+		OUT_CurvedBeltConveyor3CCW := FALSE;
+
+		(* --- PALLETIZERS --- *)
+		OUT_Palletizer_1_Push := FALSE;
+		OUT_Palletizer_1_Turn := FALSE;
+		OUT_Palletizer_1_Clamp := FALSE;
+		OUT_Palletizer_1_Belt_Plus := FALSE;
+		OUT_Palletizer_1_Belt_Minus := FALSE;
+		OUT_Palletizer_1_Chain_Plus := FALSE;
+		OUT_Palletizer_1_Chain_Minus := FALSE;
+		OUT_Palletizer_1_Open_Plate := FALSE;
+		OUT_Palletizer_1_Elevator_Plus := FALSE;
+		OUT_Palletizer_1_Elevator_Minus := FALSE;
+
+		OUT_Palletizer_2_Push := FALSE;
+		OUT_Palletizer_2_Turn := FALSE;
+		OUT_Palletizer_2_Clamp := FALSE;
+		OUT_Palletizer_2_Belt_Plus := FALSE;
+		OUT_Palletizer_2_Belt_Minus := FALSE;
+		OUT_Palletizer_2_Chain_Plus := FALSE;
+		OUT_Palletizer_2_Chain_Minus := FALSE;
+		OUT_Palletizer_2_Open_Plate := FALSE;
+		OUT_Palletizer_2_Elevator_Plus := FALSE;
+		OUT_Palletizer_2_Elevator_Minus := FALSE;
+
+		OUT_Palletizer_3_Push := FALSE;
+		OUT_Palletizer_3_Turn := FALSE;
+		OUT_Palletizer_3_Clamp := FALSE;
+		OUT_Palletizer_3_Belt_Plus := FALSE;
+		OUT_Palletizer_3_Belt_Minus := FALSE;
+		OUT_Palletizer_3_Chain_Plus := FALSE;
+		OUT_Palletizer_3_Chain_Minus := FALSE;
+		OUT_Palletizer_3_Open_Plate := FALSE;
+		OUT_Palletizer_3_Elevator_Plus := FALSE;
+		OUT_Palletizer_3_Elevator_Minus := FALSE;
+
+		OUT_Palletizer_4_Push := FALSE;
+		OUT_Palletizer_4_Turn := FALSE;
+		OUT_Palletizer_4_Clamp := FALSE;
+		OUT_Palletizer_4_Belt_Plus := FALSE;
+		OUT_Palletizer_4_Belt_Minus := FALSE;
+		OUT_Palletizer_4_Chain_Plus := FALSE;
+		OUT_Palletizer_4_Chain_Minus := FALSE;
+		OUT_Palletizer_4_Open_Plate := FALSE;
+		OUT_Palletizer_4_Elevator_Plus := FALSE;
+		OUT_Palletizer_4_Elevator_Minus := FALSE;
+
+		OUT_Pal_1_Elevator_Move_Limit := FALSE;
+		OUT_Pal_2_Elevator_Move_Limit := FALSE;
+		OUT_Pal_3_Elevator_Move_Limit := FALSE;
+		OUT_Pal_4_Elevator_Move_Limit := FALSE;
+
+		(* --- SORTERS Y PUSHERS --- *)
+		OUT_Pivot_Arm_Sorter_1_Turn := FALSE;
+		OUT_Pivot_Arm_Sorter_2_Turn := FALSE;
+		OUT_Pivot_Arm_Sorter_1_Belt_Plus := FALSE;
+		OUT_Pivot_Arm_Sorter_1_BeltMinus := FALSE;
+		OUT_Pivot_Arm_Sorter_2_Belt_Plus := FALSE;
+		OUT_Pivot_Arm_Sorter_2_BeltMinus := FALSE;
+		OUT_Pop_Up_Wheel_Sorter_1_Plus := FALSE;
+		OUT_Pop_Up_Wheel_Sorter_3_Plus := FALSE;
+		OUT_Pop_Up_Wheel_Sorter_4_Plus := FALSE;
+		OUT_Pop_Up_Wheel_Sorter_1_Left := FALSE;
+		OUT_Pop_Up_Wheel_Sorter_3_Left := FALSE;
+		OUT_Pop_Up_Wheel_Sorter_4_Left := FALSE;
+		OUT_Pop_Up_Wheel_Sorter_1_Right := FALSE;
+		OUT_Pop_Up_Wheel_Sorter_3_Right := FALSE;
+		OUT_Pop_Up_Wheel_Sorter_4_Right := FALSE;
+		OUT_Pusher_1 := FALSE;
+
+		(* --- REMOVERS Y POSITIONERS --- *)
+		OUT_Remover_1_Remove := FALSE;
+		OUT_Remover_2_Remove := FALSE;
+		OUT_Remover_3_Remove := FALSE;
+		OUT_Right_Positioner_1_Clamp := FALSE;
+		OUT_Right_Positioner_1_Raise := FALSE;
+		OUT_Right_Positioner_2_Clamp := FALSE;
+		OUT_Right_Positioner_2_Raise := FALSE;
+		OUT_Right_Positioner_3_Clamp := FALSE;
+		OUT_Right_Positioner_3_Raise := FALSE;
+		OUT_Right_Positioner_4_Clamp := FALSE;
+		OUT_Right_Positioner_4_Raise := FALSE;
+
+		(* --- STACKER CRANES --- *)
+		OUT_Stacker_Crane_1_Lift := FALSE;
+		OUT_Stacker_Crane_1_Left := FALSE;
+		OUT_Stacker_Crane_1_Right := FALSE;
+		OUT_Stacker_Crane_2_Lift := FALSE;
+		OUT_Stacker_Crane_2_Left := FALSE;
+		OUT_Stacker_Crane_2_Right := FALSE;
+		OUT_Stacker_Crane_3_Lift := FALSE;
+		OUT_Stacker_Crane_3_Left := FALSE;
+		OUT_Stacker_Crane_3_Right := FALSE;
+		OUT_Stacker_Crane_4_Lift := FALSE;
+		OUT_Stacker_Crane_4_Left := FALSE;
+		OUT_Stacker_Crane_4_Right := FALSE;
+
+		(* --- PICK &amp; PLACE --- *)
+		OUT_Two_Axis_Pick_Place_1_X := FALSE;
+		OUT_Two_Axis_Pick_Place_1_Z := FALSE;
+		OUT_Two_Axis_Pick_Place_1_Grab := FALSE;
+		OUT_TwoAxis_PickPlace_1_CW := FALSE;
+		OUT_TwoAxis_PickPlace_1_CCW := FALSE;
+		OUT_TwoAxis_PickPlace_1_Gr_CW := FALSE;
+		OUT_TwoAxis_PickPlace_1_Gr_CCW := FALSE;
+
+		OUT_Two_Axis_Pick_Place_2_X := FALSE;
+		OUT_Two_Axis_Pick_Place_2_Z := FALSE;
+		OUT_Two_Axis_Pick_Place_2_Grab := FALSE;
+		OUT_TwoAxis_PickPlace_2_CW := FALSE;
+		OUT_TwoAxis_PickPlace_2_CCW := FALSE;
+		OUT_TwoAxis_PickPlace_2_Gr_CW := FALSE;
+		OUT_TwoAxis_PickPlace_2_Gr_CCW := FALSE;
+
+		(* --- RFID --- *)
+		RFID_READER_1_Executecommand := FALSE;
+		RFID_READER_2_Executecommand := FALSE;
+
+		(* --- ROLLER CONVEYORS DE ALMACENAMIENTO --- *)
+		OUT_Roller_Conveyor_V := FALSE;
+		OUT_Roller_Conveyor_A := FALSE;
+		OUT_Roller_Conveyor_F := FALSE;
+		OUT_Roller_Conveyor_NF := FALSE;
+
+
+END_IF;
+</STSource>
+	</program>
+	<program>
+		<identProgram name="Mando" type="section" task="MAST"></identProgram>
+		<STSource>(* ========================================================================== *)
+(* SECCIÓN: MANDO                                                            *)
+(* Control de comandos del operador                                          *)
+(* ========================================================================== *)
+
+(* -------------------------------------------------------------------------- *)
+(* 1. Interpretación de entradas físicas y HMI                                 *)
+(* -------------------------------------------------------------------------- *)
+
+Seguridad_OK := IN_Emergency_Stop_1;      (* TRUE = seta liberada *)
+Modo_AUTO := IN_Selector_1_State_1;       (* TRUE = modo automático *)
+
+(* Si el botón STOP es normalmente cerrado, al pulsarlo pasa a FALSE *)
+Stop_Pulsado := NOT IN_Stop_Button_1;
+
+(* Mandos físicos + mandos desde HMI *)
+Cmd_Start := IN_Start_Button_1 OR HMI_Start;
+Cmd_Stop  := Stop_Pulsado OR HMI_Stop;
+Cmd_Reset := IN_Reset_Button_1 OR HMI_Reset;
+
+
+(* -------------------------------------------------------------------------- *)
+(* 2. Flancos de mando                                                         *)
+(* -------------------------------------------------------------------------- *)
+
+R_TRIG_36 (CLK := Cmd_Start);
+R_TRIG_37 (CLK := Cmd_Reset);
+TP_40 (IN := R_TRIG_37.Q, PT := T#300MS);
+
+
+(* -------------------------------------------------------------------------- *)
+(* 3. Control de Factory I/O                                                   *)
+(* -------------------------------------------------------------------------- *)
+
+OUT_FACTORY_IO_Pause := FALSE;
+
+OUT_FACTORY_IO_Run := TRUE;
+
+OUT_FACTORY_IO_Reset := TP_40.Q;
+
+
+(* -------------------------------------------------------------------------- *)
+(* 4. Gestión GEMMA simplificada                                               *)
+(* -------------------------------------------------------------------------- *)
+(* 0  = A1 Parada inicial                                                      *)
+(* 10 = F1 Producción automática                                               *)
+(* 20 = A2 Parada normal                                                       *)
+(* 30 = D1 Parada de emergencia                                                *)
+(* 40 = A6 Puesta a estado inicial / reset                                     *)
+(* -------------------------------------------------------------------------- *)
+
+CASE Estado_GEMMA OF
+
+	0:
+		(* A1 - Parada inicial *)
+		Marcha_General := FALSE;
+		Reset_General := FALSE;
+		Mensaje_Sistema := 0;       (* Sistema listo/parado *)
+
+		IF NOT Seguridad_OK THEN
+			Estado_GEMMA := 30;
+
+		ELSIF R_TRIG_37.Q THEN
+			Estado_GEMMA := 40;
+
+		ELSIF Seguridad_OK AND Modo_AUTO AND R_TRIG_36.Q THEN
+			Estado_GEMMA := 10;
+		END_IF;
+
+
+	10:
+		(* F1 - Producción automática *)
+		Marcha_General := TRUE;
+		Reset_General := FALSE;
+		Mensaje_Sistema := 10;      (* Producción automática *)
+
+		IF NOT Seguridad_OK THEN
+			Estado_GEMMA := 30;
+
+		ELSIF Cmd_Stop THEN
+			Estado_GEMMA := 20;
+
+		ELSIF NOT Modo_AUTO THEN
+			Estado_GEMMA := 20;
+
+		ELSIF R_TRIG_37.Q THEN
+			Estado_GEMMA := 40;
+		END_IF;
+
+
+	20:
+		(* A2 - Parada normal *)
+		Marcha_General := FALSE;
+		Reset_General := FALSE;
+		Mensaje_Sistema := 20;      (* Sistema detenido *)
+
+		IF NOT Seguridad_OK THEN
+			Estado_GEMMA := 30;
+
+		ELSIF R_TRIG_37.Q THEN
+			Estado_GEMMA := 40;
+
+		ELSIF Seguridad_OK AND Modo_AUTO AND R_TRIG_36.Q THEN
+			Estado_GEMMA := 10;
+		END_IF;
+
+
+	30:
+		(* D1 - Parada de emergencia *)
+		Marcha_General := FALSE;
+		Reset_General := FALSE;
+		Mensaje_Sistema := 30;      (* Emergencia activa *)
+
+		(* Para salir de emergencia: liberar seta + pulsar RESET *)
+		IF Seguridad_OK AND R_TRIG_37.Q THEN
+			Estado_GEMMA := 40;
+		END_IF;
+
+
+	40:
+		(* A6 - Puesta a estado inicial *)
+		Marcha_General := FALSE;
+		Reset_General := TRUE;
+		Mensaje_Sistema := 40;      (* Reset / puesta a cero *)
+
+		Estado_GEMMA := 0;
+
+
+ELSE
+	Estado_GEMMA := 0;
+	Marcha_General := FALSE;
+	Reset_General := FALSE;
+	Mensaje_Sistema := 99;
+
+END_CASE;
+
+
+(* -------------------------------------------------------------------------- *)
+(* 5. Permiso general de proceso                                               *)
+(* -------------------------------------------------------------------------- *)
+
+Permiso_Proceso := Seguridad_OK AND Modo_AUTO AND Marcha_General;
+
+
+(* -------------------------------------------------------------------------- *)
+(* 6. Arranque básico de línea                                                 *)
+(* -------------------------------------------------------------------------- *)
+
+IF Permiso_Proceso THEN
+
+	OUT_Emitter1_Emit := TRUE;          (* Emisor principal *)
+	OUT_BeltConveyor_6_13 := TRUE;      (* Cinta principal *)
+
+END_IF;
+
+(* ========================================================================== *)
+(* SECCIÓN: RESET_GENERAL                                                     *)
+(* Reinicio de contadores, pasos, posiciones y variables internas             *)
+(* ========================================================================== *)
+
+IF Reset_General THEN
+
+	(* ---------------------------------------------------------------------- *)
+	(* 1. Contadores principales de visualización                              *)
+	(* ---------------------------------------------------------------------- *)
+
+	Contador_verdes := 0;
+	Contador_azules := 0;
+	Contador_gris := 0;
+	Contador_PF := 0;
+	Contador_P_nF := 0;
+	Contador_NF_G := 0;
+	Contador_F_G := 0;
+
+	OUT_Digital_Display_1 := 0;
+	OUT_Digital_Display_2 := 0;
+	OUT_Digital_Display_3 := 0;
+
+
+	(* ---------------------------------------------------------------------- *)
+	(* 2. Contadores internos de palletizado                                   *)
+	(* ---------------------------------------------------------------------- *)
+
+	cont_azul := 0;
+	cont_verde := 0;
+	cont_F := 0;
+	cont_NF := 0;
+
+
+	(* ---------------------------------------------------------------------- *)
+	(* 3. Pasos de secuencia de los stacker cranes                             *)
+	(* ---------------------------------------------------------------------- *)
+
+	Paso := 0;
+	Paso_V := 0;
+	Paso_F := 0;
+	Paso_NF := 0;
+
+
+	(* ---------------------------------------------------------------------- *)
+	(* 4. Posiciones de almacenamiento                                         *)
+	(* ---------------------------------------------------------------------- *)
+
+	Position := 0;
+	Position_V := 0;
+	Position_F := 0;
+	Position_NF := 0;
+
+	OUT_StCr_1_TargetPosition := 0;
+	OUT_StCr_2_Target_Position := 0;
+	OUT_StCr_3_Target_Position := 0;
+	OUT_StCr_4_Target_Position := 0;
+
+
+	(* ---------------------------------------------------------------------- *)
+	(* 5. FIFO / RFID                                                          *)
+	(* ---------------------------------------------------------------------- *)
+
+	SlotRead := 0;
+	SlotWrite := 0;
+	SlotCount := 0;
+
+	SeqIndex := 0;
+	SeqDir := 1;
+
+	RFID_Read_Value := 0;
+	Valor_Capturado := 0;
+
+	RFID_READER_1_Executecommand := FALSE;
+	RFID_READER_2_Executecommand := FALSE;
+
+	OUT_RFID_Reader_1_Command := 0;
+	OUT_RFID_Reader_2_Command := 0;
+
+	OUT_RFID_Reader_1_Memory_Index := 0;
+	OUT_RFID_Reader_2_Memory_Index := 0;
+
+	OUT_RFID_Reader_1_Write_Data := 0;
+	OUT_RFID_Reader_2_Write_Data := 0;
+
+END_IF;
+</STSource>
+	</program>
+	<program>
+		<identProgram name="Funcionamiento" type="section" task="MAST"></identProgram>
+		<FBDSource nbRows="24" nbColumns="36">
+			<networkFBD>
+				<FFBBlock instanceName=".1" typeName="SR_CALL" additionnalPinNumber="2" enEnO="true" width="9" height="5">
+					<objPosition posX="39" posY="3"></objPosition>
+					<descriptionFFB execAfter="">
+						<inputVariable invertedPin="false" formalParameter="EN" effectiveParameter="Permiso_Proceso"></inputVariable>
+						<inputVariable invertedPin="false" formalParameter="SR_NAME" effectiveParameter="Posicionadores_cintas_PP"></inputVariable>
+						<outputVariable invertedPin="false" formalParameter="ENO"></outputVariable>
+					</descriptionFFB>
+				</FFBBlock>
+				<FFBBlock instanceName=".2" typeName="SR_CALL" additionnalPinNumber="2" enEnO="true" width="9" height="5">
+					<objPosition posX="43" posY="13"></objPosition>
+					<descriptionFFB execAfter="">
+						<inputVariable invertedPin="false" formalParameter="EN" effectiveParameter="Permiso_Proceso"></inputVariable>
+						<inputVariable invertedPin="false" formalParameter="SR_NAME" effectiveParameter="Activ_segunda_cinta"></inputVariable>
+						<outputVariable invertedPin="false" formalParameter="ENO"></outputVariable>
+					</descriptionFFB>
+				</FFBBlock>
+				<FFBBlock instanceName=".3" typeName="SR_CALL" additionnalPinNumber="2" enEnO="true" width="9" height="5">
+					<objPosition posX="79" posY="5"></objPosition>
+					<descriptionFFB execAfter="">
+						<inputVariable invertedPin="false" formalParameter="EN" effectiveParameter="Permiso_Proceso"></inputVariable>
+						<inputVariable invertedPin="false" formalParameter="SR_NAME" effectiveParameter="Activ_tercera_cinta"></inputVariable>
+						<outputVariable invertedPin="false" formalParameter="ENO"></outputVariable>
+					</descriptionFFB>
+				</FFBBlock>
+				<FFBBlock instanceName=".4" typeName="SR_CALL" additionnalPinNumber="2" enEnO="true" width="9" height="5">
+					<objPosition posX="109" posY="5"></objPosition>
+					<descriptionFFB execAfter="">
+						<inputVariable invertedPin="false" formalParameter="EN" effectiveParameter="Permiso_Proceso"></inputVariable>
+						<inputVariable invertedPin="false" formalParameter="SR_NAME" effectiveParameter="Asignacion_fragil"></inputVariable>
+						<outputVariable invertedPin="false" formalParameter="ENO"></outputVariable>
+					</descriptionFFB>
+				</FFBBlock>
+				<FFBBlock instanceName=".5" typeName="SR_CALL" additionnalPinNumber="2" enEnO="true" width="9" height="5">
+					<objPosition posX="109" posY="15"></objPosition>
+					<descriptionFFB execAfter="">
+						<inputVariable invertedPin="false" formalParameter="EN" effectiveParameter="Permiso_Proceso"></inputVariable>
+						<inputVariable invertedPin="false" formalParameter="SR_NAME" effectiveParameter="Desvio_Pusher"></inputVariable>
+						<outputVariable invertedPin="false" formalParameter="ENO"></outputVariable>
+					</descriptionFFB>
+				</FFBBlock>
+				<FFBBlock instanceName=".6" typeName="SR_CALL" additionnalPinNumber="2" enEnO="true" width="9" height="5">
+					<objPosition posX="139" posY="5"></objPosition>
+					<descriptionFFB execAfter="">
+						<inputVariable invertedPin="false" formalParameter="EN" effectiveParameter="Permiso_Proceso"></inputVariable>
+						<inputVariable invertedPin="false" formalParameter="SR_NAME" effectiveParameter="Lectura_RFID"></inputVariable>
+						<outputVariable invertedPin="false" formalParameter="ENO"></outputVariable>
+					</descriptionFFB>
+				</FFBBlock>
+				<FFBBlock instanceName=".7" typeName="SR_CALL" additionnalPinNumber="2" enEnO="true" width="9" height="5">
+					<objPosition posX="139" posY="15"></objPosition>
+					<descriptionFFB execAfter="">
+						<inputVariable invertedPin="false" formalParameter="EN" effectiveParameter="Permiso_Proceso"></inputVariable>
+						<inputVariable invertedPin="false" formalParameter="SR_NAME" effectiveParameter="PLC_Start"></inputVariable>
+						<outputVariable invertedPin="false" formalParameter="ENO"></outputVariable>
+					</descriptionFFB>
+				</FFBBlock>
+				<FFBBlock instanceName=".8" typeName="SR_CALL" additionnalPinNumber="2" enEnO="true" width="9" height="5">
+					<objPosition posX="43" posY="21"></objPosition>
+					<descriptionFFB execAfter="">
+						<inputVariable invertedPin="false" formalParameter="EN" effectiveParameter="Permiso_Proceso"></inputVariable>
+						<inputVariable invertedPin="false" formalParameter="SR_NAME" effectiveParameter="Class_F_nF"></inputVariable>
+						<outputVariable invertedPin="false" formalParameter="ENO"></outputVariable>
+					</descriptionFFB>
+				</FFBBlock>
+				<FFBBlock instanceName=".9" typeName="SR_CALL" additionnalPinNumber="2" enEnO="true" width="9" height="5">
+					<objPosition posX="79" posY="21"></objPosition>
+					<descriptionFFB execAfter="">
+						<inputVariable invertedPin="false" formalParameter="EN" effectiveParameter="Permiso_Proceso"></inputVariable>
+						<inputVariable invertedPin="false" formalParameter="SR_NAME" effectiveParameter="Tam_fragil"></inputVariable>
+						<outputVariable invertedPin="false" formalParameter="ENO"></outputVariable>
+					</descriptionFFB>
+				</FFBBlock>
+				<FFBBlock instanceName=".10" typeName="SR_CALL" additionnalPinNumber="2" enEnO="true" width="9" height="5">
+					<objPosition posX="109" posY="24"></objPosition>
+					<descriptionFFB execAfter="">
+						<inputVariable invertedPin="false" formalParameter="EN" effectiveParameter="Permiso_Proceso"></inputVariable>
+						<inputVariable invertedPin="false" formalParameter="SR_NAME" effectiveParameter="tam_nFragil"></inputVariable>
+						<outputVariable invertedPin="false" formalParameter="ENO"></outputVariable>
+					</descriptionFFB>
+				</FFBBlock>
+				<FFBBlock instanceName=".11" typeName="SR_CALL" additionnalPinNumber="2" enEnO="true" width="9" height="5">
+					<objPosition posX="139" posY="24"></objPosition>
+					<descriptionFFB execAfter="">
+						<inputVariable invertedPin="false" formalParameter="EN" effectiveParameter="Permiso_Proceso"></inputVariable>
+						<inputVariable invertedPin="false" formalParameter="SR_NAME" effectiveParameter="Class_Colores"></inputVariable>
+						<outputVariable invertedPin="false" formalParameter="ENO"></outputVariable>
+					</descriptionFFB>
+				</FFBBlock>
+				<FFBBlock instanceName=".12" typeName="SR_CALL" additionnalPinNumber="2" enEnO="true" width="9" height="5">
+					<objPosition posX="43" posY="30"></objPosition>
+					<descriptionFFB execAfter="">
+						<inputVariable invertedPin="false" formalParameter="EN" effectiveParameter="Permiso_Proceso"></inputVariable>
+						<inputVariable invertedPin="false" formalParameter="SR_NAME" effectiveParameter="PP_azul"></inputVariable>
+						<outputVariable invertedPin="false" formalParameter="ENO"></outputVariable>
+					</descriptionFFB>
+				</FFBBlock>
+				<FFBBlock instanceName=".13" typeName="SR_CALL" additionnalPinNumber="2" enEnO="true" width="9" height="5">
+					<objPosition posX="79" posY="31"></objPosition>
+					<descriptionFFB execAfter="">
+						<inputVariable invertedPin="false" formalParameter="EN" effectiveParameter="Permiso_Proceso"></inputVariable>
+						<inputVariable invertedPin="false" formalParameter="SR_NAME" effectiveParameter="PP_verde"></inputVariable>
+						<outputVariable invertedPin="false" formalParameter="ENO"></outputVariable>
+					</descriptionFFB>
+				</FFBBlock>
+				<FFBBlock instanceName=".14" typeName="SR_CALL" additionnalPinNumber="2" enEnO="true" width="9" height="5">
+					<objPosition posX="109" posY="32"></objPosition>
+					<descriptionFFB execAfter="">
+						<inputVariable invertedPin="false" formalParameter="EN"></inputVariable>
+						<inputVariable invertedPin="false" formalParameter="SR_NAME" effectiveParameter="Visual"></inputVariable>
+						<outputVariable invertedPin="false" formalParameter="ENO"></outputVariable>
+					</descriptionFFB>
+				</FFBBlock>
+				<FFBBlock instanceName=".15" typeName="SR_CALL" additionnalPinNumber="2" enEnO="true" width="12" height="5">
+					<objPosition posX="138" posY="33"></objPosition>
+					<descriptionFFB execAfter="">
+						<inputVariable invertedPin="false" formalParameter="EN" effectiveParameter="Permiso_Proceso"></inputVariable>
+						<inputVariable invertedPin="false" formalParameter="SR_NAME" effectiveParameter="Pall_Azul"></inputVariable>
+						<outputVariable invertedPin="false" formalParameter="ENO"></outputVariable>
+					</descriptionFFB>
+				</FFBBlock>
+				<FFBBlock instanceName=".16" typeName="SR_CALL" additionnalPinNumber="2" enEnO="true" width="12" height="5">
+					<objPosition posX="41" posY="38"></objPosition>
+					<descriptionFFB execAfter="">
+						<inputVariable invertedPin="false" formalParameter="EN" effectiveParameter="Permiso_Proceso"></inputVariable>
+						<inputVariable invertedPin="false" formalParameter="SR_NAME" effectiveParameter="Pall_Verde"></inputVariable>
+						<outputVariable invertedPin="false" formalParameter="ENO"></outputVariable>
+					</descriptionFFB>
+				</FFBBlock>
+				<FFBBlock instanceName=".17" typeName="SR_CALL" additionnalPinNumber="2" enEnO="true" width="12" height="5">
+					<objPosition posX="77" posY="38"></objPosition>
+					<descriptionFFB execAfter="">
+						<inputVariable invertedPin="false" formalParameter="EN" effectiveParameter="Permiso_Proceso"></inputVariable>
+						<inputVariable invertedPin="false" formalParameter="SR_NAME" effectiveParameter="Pall_F"></inputVariable>
+						<outputVariable invertedPin="false" formalParameter="ENO"></outputVariable>
+					</descriptionFFB>
+				</FFBBlock>
+				<FFBBlock instanceName=".18" typeName="SR_CALL" additionnalPinNumber="2" enEnO="true" width="12" height="5">
+					<objPosition posX="107" posY="41"></objPosition>
+					<descriptionFFB execAfter="">
+						<inputVariable invertedPin="false" formalParameter="EN" effectiveParameter="Permiso_Proceso"></inputVariable>
+						<inputVariable invertedPin="false" formalParameter="SR_NAME" effectiveParameter="Pall_NF"></inputVariable>
+						<outputVariable invertedPin="false" formalParameter="ENO"></outputVariable>
+					</descriptionFFB>
+				</FFBBlock>
+				<FFBBlock instanceName=".19" typeName="SR_CALL" additionnalPinNumber="2" enEnO="true" width="12" height="5">
+					<objPosition posX="138" posY="41"></objPosition>
+					<descriptionFFB execAfter="">
+						<inputVariable invertedPin="false" formalParameter="EN" effectiveParameter="Permiso_Proceso"></inputVariable>
+						<inputVariable invertedPin="false" formalParameter="SR_NAME" effectiveParameter="Stacker_Crane_Azul"></inputVariable>
+						<outputVariable invertedPin="false" formalParameter="ENO"></outputVariable>
+					</descriptionFFB>
+				</FFBBlock>
+				<FFBBlock instanceName=".20" typeName="SR_CALL" additionnalPinNumber="2" enEnO="true" width="12" height="5">
+					<objPosition posX="41" posY="46"></objPosition>
+					<descriptionFFB execAfter="">
+						<inputVariable invertedPin="false" formalParameter="EN" effectiveParameter="Permiso_Proceso"></inputVariable>
+						<inputVariable invertedPin="false" formalParameter="SR_NAME" effectiveParameter="Stacker_Crane_Verde"></inputVariable>
+						<outputVariable invertedPin="false" formalParameter="ENO"></outputVariable>
+					</descriptionFFB>
+				</FFBBlock>
+				<FFBBlock instanceName=".21" typeName="SR_CALL" additionnalPinNumber="2" enEnO="true" width="12" height="5">
+					<objPosition posX="76" posY="45"></objPosition>
+					<descriptionFFB execAfter="">
+						<inputVariable invertedPin="false" formalParameter="EN" effectiveParameter="Permiso_Proceso"></inputVariable>
+						<inputVariable invertedPin="false" formalParameter="SR_NAME" effectiveParameter="Stacker_Crane_NF"></inputVariable>
+						<outputVariable invertedPin="false" formalParameter="ENO"></outputVariable>
+					</descriptionFFB>
+				</FFBBlock>
+				<FFBBlock instanceName=".22" typeName="SR_CALL" additionnalPinNumber="2" enEnO="true" width="12" height="5">
+					<objPosition posX="78" posY="13"></objPosition>
+					<descriptionFFB execAfter="">
+						<inputVariable invertedPin="false" formalParameter="EN" effectiveParameter="Permiso_Proceso"></inputVariable>
+						<inputVariable invertedPin="false" formalParameter="SR_NAME" effectiveParameter="Stacker_Crane_F"></inputVariable>
+						<outputVariable invertedPin="false" formalParameter="ENO"></outputVariable>
+					</descriptionFFB>
+				</FFBBlock>
+			</networkFBD>
+		</FBDSource>
+	</program>
+	<program>
+		<identProgram name="PLC_Start" type="SR" task="MAST"></identProgram>
+		<LDSource nbColumns="11">
+			<networkLD>
+				<typeLine>
+					<shortCircuit>
+						<VLink></VLink>
+						<contact typeContact="openContact" contactVariableName="%S21"></contact>
+					</shortCircuit>
+					<operateBlock width="4">
+						<statement>RFID_Write_LastID :=IN_RFIDReader2CommandID;</statement>
+					</operateBlock>
+					<HLink nbCells="6"></HLink>
+				</typeLine>
+				<typeLine>
+					<emptyCell nbCells="1"></emptyCell>
+					<operateBlock width="4">
+						<statement>RFID_Read_LastID :=IN_RFIDReader1CommandID;</statement>
+					</operateBlock>
+					<HLink nbCells="6"></HLink>
+				</typeLine>
+				<typeLine>
+					<emptyLine nbRows="98"></emptyLine>
+				</typeLine>
+			</networkLD>
+		</LDSource>
+	</program>
+	<program>
+		<identProgram name="Activ_segunda_cinta" type="SR" task="MAST"></identProgram>
+		<STSource>(* ========================================================================== *)
+(* SECCIÓN: Activ_segunda_cinta                                               *)
+(* Cinta 2 desde Sensor 1 hasta Sensor 2  			              *)
+(* ========================================================================== *)
+
+(* CINTA 2: Se activa cuando sensor 1 detecta *)
+IF IN_Diffuse_Sensor_1 THEN
+	OUT_BeltConveyor_6_10 := TRUE;
+END_IF;
+</STSource>
+	</program>
+	<program>
+		<identProgram name="Asignacion_fragil" type="SR" task="MAST"></identProgram>
+		<STSource>(* ========================================================================== *)
+(* SECCIÓN: Asignacion_fragil                                                 *)
+(* Las piezas al entrar en el programa no tienen valor RFID, por lo que se le *)
+(* asigna uno aleatorio en esta parte del código                              *)	
+(* ========================================================================== *)
+
+R_TRIG_0 (CLK := IN_Diffuse_Sensor_1);
+
+IF R_TRIG_0.Q AND NOT IN_Vision_Sensor_4_Bool_3 AND NOT IN_Vision_Sensor_4_Bool_2 AND NOT IN_Vision_Sensor_4_Bool_1 AND NOT IN_Vision_Sensor_4_Bool_0 
+AND (SlotCount &lt; 10) THEN 
+
+    OUT_RFID_Reader_2_Memory_Index := SlotWrite;
+    OUT_RFID_Reader_2_Write_Data  := Seq[SeqIndex];
+    RFID_Slots[SlotWrite] := Seq[SeqIndex];
+    OUT_RFID_Reader_2_Command     := 3;
+    RFID_READER_2_Executecommand  := TRUE;
+
+        IF SeqIndex = 14 THEN
+        SeqDir := -1;
+    ELSIF SeqIndex = 0 THEN
+        SeqDir := 1;
+    END_IF;
+
+    SeqIndex := SeqIndex + SeqDir;
+
+        SlotWrite := (SlotWrite + 1) MOD 10;
+    SlotCount := SlotCount + 1;
+
+END_IF;
+
+IF IN_RFIDReader2CommandID &lt;&gt; RFID_Write_LastID THEN
+    RFID_READER_2_Executecommand := FALSE;
+END_IF;
+
+RFID_Write_LastID := IN_RFIDReader2CommandID;
+</STSource>
+	</program>
+	<program>
+		<identProgram name="Activ_tercera_cinta" type="SR" task="MAST"></identProgram>
+		<STSource>(* ========================================================================== *)
+(* SECCIÓN: Activ_tercera_cinta                                               *)
+(* Cinta 3 desde Sensor 2 hasta Sensor 4  			              *)
+(* ========================================================================== *)
+
+(* CINTA 3: Se activa cuando sensor 2 detecta *)
+
+IF IN_Diffuse_Sensor_2 AND NOT IN_Vision_Sensor_1_Bool_0 AND NOT IN_Vision_Sensor_1_Bool_1 AND NOT IN_Vision_Sensor_1_Bool_2 AND NOT IN_Vision_Sensor_1_Bool_3 THEN
+ OUT_BeltConveyor_6_18 := TRUE;
+END_IF;
+
+(*Aqui viene el pusher para la cinta secundaria*)
+
+F_TRIG_67 (CLK := IN_Diffuse_Sensor_5);
+
+IF f_TRIG_67.Q THEN
+OUT_BeltConveyor_6_18 := FALSE;
+END_IF;
+</STSource>
+	</program>
+	<program>
+		<identProgram name="Desvio_Pusher" type="SR" task="MAST"></identProgram>
+		<STSource>(* ========================================================================== *)
+(* SECCIÓN: Desvío_pusher                                                     *)
+(* Cuando llegan las piezas al evaluador de tipo y vemos si se desvían o no   *)
+(* ========================================================================== *)
+
+
+IF IN_Diffuse_Sensor_2 AND (IN_Vision_Sensor_1_Bool_0 OR IN_Vision_Sensor_1_Bool_1 OR IN_Vision_Sensor_1_Bool_2 OR IN_Vision_Sensor_1_Bool_3) THEN
+		OUT_Pusher_1 := TRUE;
+END_IF;
+
+IF OUT_Pusher_1 THEN
+		OUT_BeltConveyor_6_2 := TRUE;
+		OUT_CurvedBeltConveyor3CCW := TRUE;
+		OUT_BeltConveyor_4_4 :=TRUE ;
+		OUT_BeltConveyor_4_5 :=TRUE ;
+END_IF;
+
+IF OUT_Pusher_1 THEN
+	TON_5(IN := TRUE, PT := T#1.5S);
+	ELSE
+	TON_5(IN := FALSE); 
+END_IF;
+
+IF TON_5.Q THEN
+	OUT_Pusher_1 := FALSE;
+END_IF;
+</STSource>
+	</program>
+	<program>
+		<identProgram name="Lectura_RFID" type="SR" task="MAST"></identProgram>
+		<STSource>(* ========================================================================== *)
+(* SECCIÓN: Lectura_RFID                                                      *)
+(* Al pasar las cajas de cartón en la cinta principal, las lee un sensor de   *)
+(* RFID para saber para donde se tienen que enviar                            *)	
+(* ========================================================================== *)
+
+R_TRIG_1 (CLK := IN_Diffuse_Sensor_5);
+
+IF R_TRIG_1.Q AND (SlotCount &gt; 0) THEN
+    (* --- Lectura RFID del slot correspondiente --- *)
+    OUT_RFID_Reader_1_Memory_Index := SlotRead;
+    OUT_RFID_Reader_1_Command      := 2;
+    RFID_READER_1_Executecommand   := TRUE;
+END_IF;
+
+IF IN_RFIDReader1CommandID &lt;&gt; RFID_Read_LastID THEN
+    RFID_READER_1_Executecommand := FALSE;
+
+    IF IN_RFIDReader1Status = 0 THEN
+        RFID_Read_Value := IN_RFIDReader1ReadData;
+
+        (* --- Liberar slot FIFO --- *)
+        SlotRead  := (SlotRead + 1) MOD 10;
+        SlotCount := SlotCount - 1;
+    END_IF;
+END_IF;
+
+RFID_Read_LastID := IN_RFIDReader1CommandID;
+</STSource>
+	</program>
+	<program>
+		<identProgram name="Class_F_nF" type="SR" task="MAST"></identProgram>
+		<STSource>(* ========================================================================== *)
+(* SECCIÓN: Class_F_nF		                                              *)
+(* Cuando leemos el valor del RFID, y enviamos las piezas en una de las dos   *)
+(* opciones							              *)	
+(* ========================================================================== *)
+
+R_TRIG_2 (CLK := IN_Diffuse_Sensor_5);
+
+IF R_TRIG_2.Q THEN
+OUT_Pop_Up_Wheel_Sorter_4_Plus := true;
+Valor_Capturado := RFID_Read_Value;   
+  IF  Valor_Capturado = 0 THEN
+
+	    OUT_BeltConveyor_6_3 := TRUE;
+	    OUT_CurvedBeltConveyor1CCW :=TRUE;
+    	    OUT_Pop_Up_Wheel_Sorter_4_Right := true;
+	    
+    ELSE    
+           OUT_BeltConveyor_6_1 := true;
+	   OUT_Pop_Up_Wheel_Sorter_4_Right := false;
+	   
+	   
+	   
+   END_IF;
+
+END_IF;
+</STSource>
+	</program>
+	<program>
+		<identProgram name="Tam_fragil" type="SR" task="MAST"></identProgram>
+		<STSource>(* ========================================================================== *)
+(* SECCIÓN: Tam_fragil                                                        *)
+(* Se evalua el tamaño de las piezas frágiles para ver si se envía o almacena *)
+(* ========================================================================== *)
+
+R_TRIG_3 (CLK := IN_Diffuse_Sensor_8);
+
+IF R_TRIG_3.Q THEN
+OUT_Pop_Up_Wheel_Sorter_3_Plus := TRUE;
+   IF IN_Light_Array_Emitter_1_Value &gt; 191 THEN
+	    OUT_Pop_Up_Wheel_Sorter_3_Left := TRUE;
+	    OUT_BeltConveyor_6_7 := TRUE;
+	    OUT_CurvedBeltConveyor4CW :=TRUE;
+	    OUT_Remover_2_Remove:=TRUE;
+    	  
+  ELSE    
+           OUT_Pop_Up_Wheel_Sorter_3_Left := FALSE;
+	   OUT_BeltConveyor_6_6 := TRUE;
+     	   	     
+    END_IF;
+
+END_IF;
+
+F_TRIG_69 (CLK := IN_Diffuse_Sensor_8);
+
+IF F_TRIG_69.Q THEN
+OUT_BeltConveyor_6_1 := FALSE;
+END_IF;
+</STSource>
+	</program>
+	<program>
+		<identProgram name="tam_nFragil" type="SR" task="MAST"></identProgram>
+		<STSource>(* ========================================================================== *)
+(* SECCIÓN: tam_nfragil                                                       *)
+(* Se evalua el tamaño de las piezas no frágiles para ver si se envía o       *)
+(* almacena							              *)	
+(* ========================================================================== *)
+
+R_TRIG_4 (CLK := IN_Diffuse_Sensor_3); 
+
+IF R_TRIG_4 .Q THEN
+OUT_Pop_Up_Wheel_Sorter_1_Plus := true;
+OUT_CurvedBeltConveyor1CCW :=FALSE;
+   IF IN_Light_Array_Emitter_2_Value &lt; 191 THEN
+
+	    OUT_BeltConveyor_6_12 := TRUE;
+	    OUT_BeltConveyor_6_15 := TRUE;
+	    OUT_BeltConveyor_6_5 := TRUE;
+	    OUT_CurvedBeltConveyor2CCW :=TRUE;
+    	    OUT_Pop_Up_Wheel_Sorter_1_Right := TRUE;
+	    OUT_BeltConveyor_2_1 := TRUE;
+	    
+    ELSE    
+           OUT_BeltConveyor_6_4 := TRUE;
+	   OUT_Pop_Up_Wheel_Sorter_1_Right := FALSE;
+	   OUT_Remover_3_Remove:=TRUE;
+	 	   	     
+    END_IF;
+
+END_IF;
+
+F_TRIG_74 (CLK := IN_Diffuse_Sensor_3);
+
+IF F_TRIG_74.Q THEN
+OUT_BeltConveyor_6_3 := FALSE;
+END_IF;
+</STSource>
+	</program>
+	<program>
+		<identProgram name="Pall_NF" type="SR" task="MAST"></identProgram>
+		<STSource>(* ========================================================================== *)
+(* SECCIÓN: Pall_NF                                    	                      *)
+(* La programación del palletizador de las piezas pequeñas no frágiles        *)
+(* ========================================================================== *) 
+
+R_TRIG_29 (CLK := IN_Diffuse_Sensor_7);
+
+IF R_TRIG_29.Q THEN
+	OUT_BeltConveyor_Inclined_1:=TRUE;
+	OUT_Palletizer_1_Belt_Plus:=TRUE;
+END_IF;
+
+IF OUT_BeltConveyor_Inclined_1 AND OUT_Palletizer_1_Belt_Plus THEN
+	TON_17 (IN := TRUE, PT := t#10S);
+ELSE
+	TON_17 (IN := FALSE);
+END_IF;
+
+IF TON_17.Q THEN
+	OUT_BeltConveyor_Inclined_1:=FALSE;
+	OUT_Palletizer_1_Belt_Plus:=FALSE;
+	cont_NF:= cont_NF+1; 
+END_IF;
+
+IF cont_NF=2 THEN
+	SET (OUT =&gt; OUT_Palletizer_1_Push);
+	cont_NF:= 0;
+	SET (OUT =&gt; OUT_Emitter2_Emit);
+END_IF;
+
+TP_18 (IN := OUT_Palletizer_1_Push,
+      PT := T#2S);
+
+F_TRIG_54 (CLK := TP_18.Q);
+
+IF F_TRIG_54.Q THEN
+	RESET (OUT =&gt; OUT_Palletizer_1_Push);
+	RESET (OUT =&gt; OUT_Emitter2_Emit);
+END_IF;
+
+F_TRIG_55 (CLK := OUT_Palletizer_1_Push);
+
+IF F_TRIG_55.Q and OUT_BeltConveyor_6_10 THEN
+	SET (OUT =&gt; OUT_Pal_1_Elevator_Move_Limit);
+	SET (OUT =&gt; OUT_Palletizer_1_Elevator_Plus);
+	SET (OUT =&gt; OUT_Palletizer_1_Clamp);
+END_IF;
+
+TP_19 (IN := F_TRIG_55.Q,
+      PT := t#2s);
+
+F_TRIG_56 (CLK := TP_19.Q );
+
+IF F_TRIG_56.Q AND OUT_BeltConveyor_6_10  THEN
+	SET (OUT =&gt; OUT_Palletizer_1_Open_Plate);
+	RESET (OUT =&gt; OUT_Palletizer_1_Clamp);
+END_IF;
+
+TP_20 (IN := OUT_Palletizer_1_Open_Plate,
+      PT := T#1S);
+
+F_TRIG_57 (CLK := TP_20.Q);
+
+IF F_TRIG_57.Q AND OUT_BeltConveyor_6_10 THEN
+	RESET (OUT =&gt; OUT_Palletizer_1_Elevator_Plus);
+	SET (OUT =&gt; OUT_Palletizer_1_Elevator_Minus);
+END_IF;
+
+TP_21 (IN := OUT_Palletizer_1_Elevator_Minus,
+      PT := t#2s);
+
+F_TRIG_58 (CLK := TP_21.Q);
+
+IF F_TRIG_58.Q AND OUT_Palletizer_1_Open_Plate THEN
+	RESET (OUT =&gt; OUT_Palletizer_1_Elevator_Minus);
+	RESET (OUT =&gt; OUT_Palletizer_1_Open_Plate);
+	SET (OUT =&gt; OUT_Roller_Conveyor_NF);
+	SET (OUT =&gt; OUT_Palletizer_1_Chain_Plus);
+END_IF;
+</STSource>
+	</program>
+	<program>
+		<identProgram name="Pall_F" type="SR" task="MAST"></identProgram>
+		<STSource>(* ========================================================================== *)
+(* SECCIÓN: Pall_F                                    	                      *)
+(* La programación del palletizador de las piezas pequeñas frágiles           *)
+(* ========================================================================== *) 
+
+R_TRIG_30 (CLK := IN_Diffuse_Sensor_6);
+
+IF R_TRIG_30.Q THEN
+	OUT_BeltConveyor_Inclined_2:=TRUE;
+	OUT_Palletizer_2_Belt_Plus:=TRUE;
+END_IF;
+
+IF OUT_BeltConveyor_Inclined_2 AND OUT_Palletizer_2_Belt_Plus THEN
+	TON_19 (IN := TRUE, PT := t#10S);
+ELSE
+	TON_19 (IN := FALSE);
+END_IF;
+
+IF TON_19.Q THEN
+	OUT_BeltConveyor_Inclined_2:=FALSE;
+	OUT_Palletizer_2_Belt_Plus:=FALSE;
+	cont_F:= cont_F+1; 
+END_IF;
+
+IF cont_F=2 THEN
+	SET (OUT =&gt; OUT_Palletizer_2_Push);
+	cont_F:= 0;
+	SET (OUT =&gt; OUT_Emitter3_Emit);
+END_IF;
+
+TP_23 (IN := OUT_Palletizer_2_Push,
+      PT := T#2S);
+
+F_TRIG_60 (CLK := TP_23.Q);
+
+IF F_TRIG_60.Q THEN
+	RESET (OUT =&gt; OUT_Palletizer_2_Push);
+	RESET (OUT =&gt; OUT_Emitter3_Emit);
+END_IF;
+
+F_TRIG_61 (CLK := OUT_Palletizer_2_Push);
+
+IF  F_TRIG_61.Q and OUT_BeltConveyor_6_10 THEN
+	SET (OUT =&gt; OUT_Pal_2_Elevator_Move_Limit);
+	SET (OUT =&gt; OUT_Palletizer_2_Elevator_Plus);
+	SET (OUT =&gt; OUT_Palletizer_2_Clamp);
+END_IF;
+
+TP_24 (IN := F_TRIG_61.Q,
+      PT := t#2s);
+
+F_TRIG_62 (CLK := TP_24.Q);
+
+IF F_TRIG_62.Q and OUT_BeltConveyor_6_10 THEN
+	SET (OUT =&gt; OUT_Palletizer_2_Open_Plate);
+	RESET (OUT =&gt; OUT_Palletizer_2_Clamp);
+END_IF;
+
+TP_25 (IN := OUT_Palletizer_2_Open_Plate,
+      PT := T#1S);
+
+F_TRIG_63 (CLK := TP_25.Q);
+
+IF F_TRIG_63.Q AND OUT_BeltConveyor_6_10 THEN
+	RESET (OUT =&gt; OUT_Palletizer_2_Elevator_Plus);
+	SET (OUT =&gt; OUT_Palletizer_2_Elevator_Minus);
+END_IF;
+
+TP_26 (IN := OUT_Palletizer_2_Elevator_Minus,
+      PT := t#2s);
+
+F_TRIG_64 (CLK := TP_26.Q);
+
+IF F_TRIG_64.Q AND OUT_Palletizer_2_Open_Plate THEN
+	RESET (OUT =&gt; OUT_Palletizer_2_Elevator_Minus);
+	RESET (OUT =&gt; OUT_Palletizer_2_Open_Plate);
+	SET (OUT =&gt; OUT_Roller_Conveyor_F);
+	SET (OUT =&gt; OUT_Palletizer_2_Chain_Plus);
+END_IF;
+</STSource>
+	</program>
+	<program>
+		<identProgram name="Stacker_Crane_NF" type="SR" task="MAST"></identProgram>
+		<STSource>(* ========================================================================== *)
+(* SECCIÓN: Stacker_Crane_NF                                                  *)
+(* Almacenamiento de los pallets con las piezas no frágiles                   *)
+(* ========================================================================== *)
+
+IF IN_Diffuse_Sensor_21 THEN
+	OUT_Roller_Conveyor_NF := 1;
+END_IF;
+
+F_TRIG_89 (CLK := IN_Diffuse_Sensor_21);
+
+IF F_TRIG_89.Q THEN
+	RESET (OUT =&gt; OUT_Palletizer_1_Chain_Plus);
+END_IF;
+
+F_TRIG_48 (CLK := IN_Diffuse_Sensor_20);
+
+IF F_TRIG_48.Q THEN
+	OUT_Roller_Conveyor_NF := 0;
+	Paso_NF := 0;
+END_IF;
+
+TP_33 (IN := F_TRIG_48.Q, PT := T#1S);
+
+F_TRIG_80 (CLK :=TP_33.Q);
+
+IF F_TRIG_80.Q AND Paso_NF = 0 THEN
+	OUT_StCr_2_Target_Position := Position_NF;
+	Position_NF := Position_NF + 1;
+	OUT_Stacker_Crane_2_Lift:= 1;
+END_IF;
+
+F_TRIG_81 (CLK := IN_Stacker_Crane_2_Z);
+
+IF F_TRIG_81.Q AND Paso_NF = 0 THEN
+	OUT_Stacker_Crane_2_Left := 1;
+	Paso_NF := 1;
+END_IF;
+
+IF IN_Stacker_Crane_2_Left_Limit and Paso_NF = 1 THEN
+	OUT_Stacker_Crane_2_Lift:= 0;
+	Paso_NF := 2;
+END_IF;
+ 
+IF F_TRIG_81.Q AND Paso_NF = 2  THEN
+	OUT_Stacker_Crane_2_Left := 0;
+	Paso_NF := 3;
+END_IF;
+
+IF IN_Stacker_Crane_2_Middle_Limit and Paso_NF = 3 THEN
+	OUT_StCr_2_Target_Position:= 55;
+END_IF;
+</STSource>
+	</program>
+	<program>
+		<identProgram name="Stacker_Crane_F" type="SR" task="MAST"></identProgram>
+		<STSource>(* ========================================================================== *)
+(* SECCIÓN: Stacker_Crane_F                                                   *)
+(* Almacenamiento de los pallets con las piezas  frágiles                     *)
+(* ========================================================================== *)
+
+IF IN_Diffuse_Sensor_23 THEN
+	OUT_Roller_Conveyor_F := 1;
+END_IF;
+
+F_TRIG_90 (CLK := IN_Diffuse_Sensor_23);
+
+IF F_TRIG_90.Q THEN
+	RESET (OUT =&gt; OUT_Palletizer_2_Chain_Plus);
+END_IF;
+
+F_TRIG_51 (CLK := IN_Diffuse_Sensor_22);
+
+IF F_TRIG_51.Q THEN
+	OUT_Roller_Conveyor_F := 0;
+	Paso_F := 0;	
+END_IF;
+
+TP_35 (IN := F_TRIG_51.Q, PT := T#1S);
+
+F_TRIG_82 (CLK := TP_35.Q);
+
+IF F_TRIG_82.Q AND Paso_F = 0 THEN
+	OUT_StCr_3_Target_Position:= Position_F;
+	Position_F := Position_F + 1;
+	OUT_Stacker_Crane_3_Lift:= 1;
+END_IF;
+
+F_TRIG_83 (CLK := IN_Stacker_Crane_3_Z);
+
+IF F_TRIG_83.Q AND Paso_F = 0 THEN
+	OUT_Stacker_Crane_3_Left:= 1 ;
+	Paso_F := 1;
+END_IF;
+
+IF IN_Stacker_Crane_3_Left_Limit AND Paso_F = 1 THEN
+	OUT_Stacker_Crane_3_Lift:= 0;
+	Paso_F := 2;
+END_IF;
+ 
+IF F_TRIG_83.Q AND Paso_F = 2 THEN
+	OUT_Stacker_Crane_3_Left:= 0;
+	Paso_F := 3;
+END_IF;
+
+IF IN_Stacker_Crane_3_Middle_Limit AND Paso_F = 3 THEN
+	OUT_StCr_3_Target_Position := 55;
+END_IF;
+</STSource>
+	</program>
+	<program>
+		<identProgram name="Posicionadores_cintas_PP" type="SR" task="MAST"></identProgram>
+		<STSource>(* ========================================================================== *)
+(* SECCIÓN: Posicionadores_cintas_PP                                          *)
+(* Se trata de la colocación de las piezas en cada pick and place junto con   *)
+(*  la activación de las cintas siguientes                                    *)	
+(* ========================================================================== *)
+
+
+F_TRIG_0 (CLK := IN_Diffuse_Sensor_12);
+F_TRIG_1 (CLK := IN_Diffuse_Sensor_15);
+F_TRIG_2 (CLK := IN_Diffuse_Sensor_19);
+F_TRIG_3 (CLK := IN_Vision_Sensor_3_Bool_1);
+F_TRIG_23 (CLK := IN_Diffuse_Sensor_14);
+
+
+(* ========================================================================== *)
+
+IF F_TRIG_1.Q THEN
+	OUT_Right_Positioner_3_Clamp := TRUE;
+END_IF;
+IF IN_Right_Positioner_3_Clamped = TRUE THEN
+	OUT_Right_Positioner_3_Clamp := FALSE;
+END_IF;
+
+(* ========================================================================== *)
+
+IF F_TRIG_0.Q THEN
+	OUT_Right_Positioner_1_Clamp := TRUE;
+END_IF;
+IF IN_Right_Positioner_1_Clamped = TRUE THEN
+	OUT_Right_Positioner_1_Clamp := FALSE;
+END_IF;
+
+(* ========================================================================== *)
+
+IF  (IN_Vision_Sensor_3_Bool_0 AND IN_Vision_Sensor_3_Bool_3) THEN
+	SET(OUT=&gt;OUT_Right_Positioner_2_Raise) ;
+END_IF;
+
+IF F_TRIG_2.Q THEN 
+
+RESET(OUT=&gt;OUT_Right_Positioner_2_Raise) ;
+
+END_IF;
+IF  (IN_Vision_Sensor_6_Bool_0 AND IN_Vision_Sensor_6_Bool_3) THEN
+	SET(OUT=&gt;OUT_Right_Positioner_4_Raise) ;
+END_IF;
+
+IF F_TRIG_23.Q THEN 
+
+RESET(OUT=&gt;OUT_Right_Positioner_4_Raise) ;
+
+END_IF;
+
+IF  (IN_Vision_Sensor_3_Bool_0 AND IN_Vision_Sensor_3_Bool_1) THEN
+	SET(OUT=&gt;OUT_Right_Positioner_2_Raise) ;
+END_IF;
+
+IF F_TRIG_2.Q THEN 
+
+RESET(OUT=&gt;OUT_Right_Positioner_2_Raise) ;
+
+END_IF;
+
+IF IN_Vision_Sensor_6_Bool_2 THEN
+	SET(OUT=&gt;OUT_Right_Positioner_4_Raise) ;
+END_IF;
+
+IF F_TRIG_23.Q THEN 
+
+RESET(OUT=&gt;OUT_Right_Positioner_4_Raise) ;
+
+END_IF;
+
+
+(* ========================================================================== *)
+
+
+IF IN_Vision_Sensor_3_Bool_0 OR IN_Vision_Sensor_3_Bool_1 OR IN_Vision_Sensor_3_Bool_2 OR IN_Vision_Sensor_3_Bool_3 THEN
+		OUT_CurvedBeltConveyor5CW:= TRUE;
+		OUT_BeltConveyor_4_1:=TRUE;
+		OUT_BeltConveyor_6_2 := FALSE;
+		OUT_CurvedBeltConveyor3CCW := FALSE;
+
+END_IF;
+
+(* ========================================================================== *)
+
+F_TRIG_70 (CLK := IN_Vision_Sensor_3_Bool_0);
+F_TRIG_71 (CLK := IN_Vision_Sensor_3_Bool_1);
+F_TRIG_72 (CLK := IN_Vision_Sensor_3_Bool_2);
+F_TRIG_73 (CLK := IN_Vision_Sensor_3_Bool_3);
+
+IF F_TRIG_70.Q OR F_TRIG_71.Q OR F_TRIG_72.Q OR F_TRIG_73.Q THEN
+	OUT_CurvedBeltConveyor5CW:= TRUE;
+	OUT_BeltConveyor_4_1:=TRUE;
+END_IF;
+</STSource>
+	</program>
+	<program>
+		<identProgram name="PP_azul" type="SR" task="MAST"></identProgram>
+		<STSource>(* ========================================================================== *)
+(* SECCIÓN: PP_azul                                               	      *)
+(* Gestion del pick and place para piezas azules			      *)	
+(* ========================================================================== *)
+
+IF IN_Vision_Sensor_3_Bool_0 and IN_Vision_Sensor_3_Bool_1   THEN
+	OUT_Emitter5_Emit:= TRUE;
+END_IF;
+ 
+IF OUT_Emitter5_Emit THEN
+	SET (OUT =&gt; OUT_BeltConveyor_4_7); 
+END_IF;
+
+F_TRIG_5 (CLK := IN_Diffuse_Sensor_15);
+
+IF F_TRIG_5.Q THEN
+	RESET (OUT =&gt;OUT_BeltConveyor_4_7);
+	SET(OUT =&gt; OUT_Two_Axis_Pick_Place_2_Z);
+	OUT_Emitter5_Emit:= FAlSE;
+END_IF;
+
+R_TRIG_27 (CLK := IN_TwoAxis_PickPlace_2_Detected); 
+
+IF R_TRIG_27.Q THEN 
+	SET ( OUT =&gt; OUT_Two_Axis_Pick_Place_2_Grab);
+
+END_IF;
+ 
+R_TRIG_24 (CLK := OUT_Two_Axis_Pick_Place_2_Grab);
+
+
+IF R_TRIG_24.Q THEN 
+	RESET( OUT =&gt; OUT_Two_Axis_Pick_Place_2_Z);
+END_IF;
+ 
+F_TRIG_6 (CLK := IN_TwoAxis_PickPlace_2_Moving_Z );
+
+IF F_TRIG_6.Q then
+	SET( OUT_Two_Axis_Pick_Place_2_X );
+END_IF;
+
+F_TRIG_9 (CLK := IN_Diffuse_Sensor_13);
+
+ 
+IF OUT_TWO_AXIS_PICK_PLACE_2_X and IN_Right_Positioner_4_Clamped THEN
+	SET ( OUT_Two_Axis_Pick_Place_2_Z );
+END_IF;
+
+F_TRIG_10 (CLK := IN_TwoAxis_PickPlace_2_Moving_Z);
+
+
+IF OUT_Two_Axis_Pick_Place_2_Z  and OUT_Two_Axis_Pick_Place_2_X and F_TRIG_10.Q THEN
+	RESET (OUT_Two_Axis_Pick_Place_2_Grab);
+	RESET( OUT =&gt; OUT_Two_Axis_Pick_Place_2_Z); 
+END_IF;
+ 
+IF F_TRIG_9.Q THEN
+	SET ( OUT_Right_Positioner_4_Clamp);
+END_IF;
+
+F_TRIG_20 (CLK := IN_TwoAxis_PickPlace_2_Moving_Z);
+
+IF F_TRIG_20.Q and OUT_Right_Positioner_4_Clamp THEN
+	RESET( OUT =&gt; OUT_Two_Axis_Pick_Place_2_X);
+END_IF;
+
+F_TRIG_21 (CLK := IN_TwoAxis_PickPlace_2_Moving_X);
+
+IF  F_TRIG_21.Q AND OUT_Right_Positioner_4_Clamp THEN
+	RESET ( OUT_Right_Positioner_4_Clamp);
+	SET (OUT_Right_Positioner_4_Raise);
+END_IF;
+
+F_TRIG_22 (CLK := IN_Diffuse_Sensor_14);
+
+IF F_TRIG_22.Q THEN 
+	RESET(OUT=&gt;OUT_Right_Positioner_4_Raise);
+	RESET(OUT=&gt;OUT_Right_Positioner_4_Clamp);
+END_IF;
+</STSource>
+	</program>
+	<program>
+		<identProgram name="PP_verde" type="SR" task="MAST"></identProgram>
+		<STSource>(* ========================================================================== *)
+(* SECCIÓN: PP_verde		                                              *)
+(* Gestion del pick and place para piezas verdes			      *)
+(* ========================================================================== *)
+
+IF IN_Vision_Sensor_1_Bool_2 and IN_Vision_Sensor_1_Bool_1  THEN
+OUT_Emitter4_Emit:= TRUE;
+END_IF;
+ 
+IF OUT_Emitter4_Emit then
+SET (OUT =&gt; OUT_BeltConveyor_4_2); 
+END_IF;
+
+F_TRIG_12 (CLK := IN_Diffuse_Sensor_12);
+
+IF F_TRIG_12.Q THEN
+RESET (OUT =&gt;OUT_BeltConveyor_4_2);
+SET(OUT =&gt; OUT_Two_Axis_Pick_Place_1_Z);
+OUT_Emitter4_Emit:= FAlSE;
+END_IF;
+ 
+
+R_TRIG_26 (CLK := IN_TwoAxis_PickPlace_1_Detected );
+
+IF R_TRIG_26.Q THEN 
+set ( OUT =&gt; OUT_Two_Axis_Pick_Place_1_Grab);
+END_IF;;
+ 
+R_TRIG_25 (CLK := OUT_Two_Axis_Pick_Place_1_Grab);
+
+IF R_TRIG_25.Q THEN 
+
+RESET( OUT =&gt; OUT_Two_Axis_Pick_Place_1_Z);
+
+END_IF;
+
+F_TRIG_13 (CLK := IN_TwoAxis_PickPlace_1_Moving_Z); 
+
+IF F_TRIG_13.Q THEN
+Set( OUT_Two_Axis_Pick_Place_1_X );
+END_IF;
+
+F_TRIG_14 (CLK := IN_Diffuse_Sensor_18);
+
+
+IF OUT_TWO_AXIS_PICK_PLACE_1_X AND IN_Right_Positioner_2_Clamped THEN
+Set ( OUT_Two_Axis_Pick_Place_1_Z );
+END_IF;;
+
+F_TRIG_15 (CLK := IN_TwoAxis_PickPlace_1_Moving_Z);
+
+IF OUT_Two_Axis_Pick_Place_1_Z  AND OUT_Two_Axis_Pick_Place_1_X AND F_TRIG_15.Q then
+Reset (OUT_Two_Axis_Pick_Place_1_Grab); 
+RESET( OUT =&gt; OUT_Two_Axis_Pick_Place_1_Z);
+END_IF;
+
+
+IF F_TRIG_14.Q THEN
+SET ( OUT_Right_Positioner_2_Clamp);
+END_IF;
+
+
+
+F_TRIG_16 (CLK := IN_TwoAxis_PickPlace_1_Moving_Z);
+
+IF F_TRIG_16.Q AND OUT_Right_Positioner_2_Clamp THEN
+RESET( OUT =&gt; OUT_Two_Axis_Pick_Place_1_X);
+END_IF;;
+
+F_TRIG_19 (CLK := IN_TwoAxis_PickPlace_1_Moving_X);
+
+IF F_TRIG_19.Q AND OUT_Right_Positioner_2_Clamp THEN
+
+RESET ( OUT_Right_Positioner_2_Clamp);
+SET (OUT_Right_Positioner_2_Raise);
+END_IF;
+
+
+F_TRIG_18 (CLK := IN_Diffuse_Sensor_19);
+
+IF F_TRIG_18.Q THEN 
+RESET(OUT=&gt;OUT_Right_Positioner_2_Raise);
+RESET(OUT=&gt;OUT_Right_Positioner_2_Clamp);
+END_IF;
+</STSource>
+	</program>
+	<program>
+		<identProgram name="Class_Colores" type="SR" task="MAST"></identProgram>
+		<STSource>(* ========================================================================== *)
+(* SECCIÓN: Class_Colores                                                     *)
+(* Cuando pasan las piezas el pick and place, vamos a almacenarla o no por    *)
+(* color							              *)	
+(* ========================================================================== *)
+
+IF IN_Vision_Sensor_2_Bool_1  THEN
+		OUT_BeltConveyor_6_8:=TRUE;
+		OUT_Pivot_Arm_Sorter_1_Turn:=TRUE;
+		OUT_Pivot_Arm_Sorter_1_Belt_Plus:=TRUE;
+		OUT_CurvedBeltConveyor6CW:= true;
+		OUT_BeltConveyor_4_6:=TRUE;
+	ELSIF IN_Vision_Sensor_2_Bool_2 OR IN_Vision_Sensor_2_Bool_3 THEN
+		OUT_BeltConveyor_6_8:=TRUE;
+		OUT_CurvedBeltConveyor6CW:= true;
+		OUT_Pivot_Arm_Sorter_1_Turn:=FALSE;
+		OUT_Pivot_Arm_Sorter_1_Belt_Plus:=FALSE;
+		OUT_BeltConveyor_4_6:=TRUE;
+		END_IF;
+
+R_TRIG_5 (CLK := IN_Diffuse_Sensor_9);
+
+IF R_TRIG_5.Q THEN
+OUT_BeltConveyor_6_9:=TRUE;
+END_IF;
+
+R_TRIG_6 (CLK := IN_Diffuse_Sensor_10);
+
+IF R_TRIG_6.Q THEN
+	OUT_BeltConveyor_6_11:=TRUE;
+END_IF;
+
+IF IN_Vision_Sensor_5_Bool_0 and IN_Vision_Sensor_5_Bool_2  THEN
+	OUT_Pivot_Arm_Sorter_2_Turn:=TRUE;
+	OUT_Pivot_Arm_Sorter_2_Belt_Plus:=TRUE;
+
+	ELSIF IN_Vision_Sensor_5_Bool_0 or IN_Vision_Sensor_5_Bool_3  THEN
+
+	OUT_Pivot_Arm_Sorter_2_Turn:=false;
+	OUT_Pivot_Arm_Sorter_2_Belt_Plus:=false;	
+END_IF;
+
+R_TRIG_7 (CLK := IN_Diffuse_Sensor_11);
+
+IF R_TRIG_7.Q THEN
+OUT_BeltConveyor_4_3:=TRUE;
+OUT_Remover_1_Remove:= TRUE;
+END_IF;
+</STSource>
+	</program>
+	<program>
+		<identProgram name="Pall_Azul" type="SR" task="MAST"></identProgram>
+		<STSource>(* ========================================================================== *)
+(* SECCIÓN: Pall_Azul                                      	              *)
+(* La programación del palletizador de las piezas azules 		      *)
+(* ========================================================================== *)  
+
+R_TRIG_8 (CLK := IN_Diffuse_Sensor_16);
+
+IF R_TRIG_8.Q THEN
+OUT_BeltConveyor_Inclined_3:=TRUE;
+OUT_Palletizer_3_Belt_Plus:=TRUE;
+END_IF;
+
+IF OUT_BeltConveyor_Inclined_3 AND OUT_Palletizer_3_Belt_Plus THEN
+TON_13 (IN := TRUE, PT := t#10S);
+ELSE
+TON_13 (IN := FALSE);
+END_IF;
+
+IF TON_13.Q THEN
+OUT_BeltConveyor_Inclined_3:=FALSE;
+OUT_Palletizer_3_Belt_Plus:=FALSE;
+cont_azul:= cont_azul+1;  
+END_IF;
+
+IF cont_azul=2 THEN
+SET (OUT =&gt; OUT_Palletizer_3_Push);
+cont_azul:= 0;
+SET (OUT =&gt; OUT_Emitter7_Emit);
+END_IF;
+ 
+R_TRIG_34 (CLK := IN_Palletizer_3_Pusher_Limit);
+
+IF  R_TRIG_34.Q THEN
+RESET (OUT =&gt; OUT_Palletizer_3_Push);
+RESET (OUT =&gt; OUT_Emitter7_Emit);
+END_IF;
+
+F_TRIG_29 (CLK := OUT_Palletizer_3_Push); 
+
+IF F_TRIG_29.Q and OUT_BeltConveyor_6_10 THEN
+SET (OUT =&gt; OUT_Pal_3_Elevator_Move_Limit);
+SET (OUT =&gt; OUT_Palletizer_3_Elevator_Plus);
+SET (OUT =&gt; OUT_Palletizer_3_Clamp);
+END_IF;
+
+TP_2 (IN := F_TRIG_29.Q,
+      PT := t#2s);
+
+F_TRIG_27 (CLK := TP_2.Q); 
+
+IF F_TRIG_27.Q and OUT_BeltConveyor_6_10 THEN
+SET (OUT =&gt; OUT_Palletizer_3_Open_Plate);
+RESET (OUT =&gt; OUT_Palletizer_3_Clamp);
+END_IF;
+
+TP_5 (IN := OUT_Palletizer_3_Open_Plate,
+      PT := T#1S);
+
+F_TRIG_31 (CLK := TP_5.Q);
+
+IF F_TRIG_31.Q AND OUT_BeltConveyor_6_10 THEN
+RESET (OUT =&gt; OUT_Palletizer_3_Elevator_Plus);
+SET (OUT =&gt; OUT_Palletizer_3_Elevator_Minus);
+END_IF;
+
+
+TP_3 (IN := OUT_Palletizer_3_Elevator_Minus,
+      PT := t#2s);
+F_TRIG_25 (CLK := TP_3.Q);
+
+IF F_TRIG_25.Q AND OUT_Palletizer_3_Open_Plate THEN
+
+RESET (OUT =&gt; OUT_Palletizer_3_Elevator_Minus);
+RESET (OUT =&gt; OUT_Palletizer_3_Open_Plate);
+SET (OUT =&gt; OUT_Roller_Conveyor_A);
+SET (OUT =&gt; OUT_Palletizer_3_Chain_Plus);
+END_IF;
+</STSource>
+	</program>
+	<program>
+		<identProgram name="Pall_Verde" type="SR" task="MAST"></identProgram>
+		<STSource>(* ========================================================================== *)
+(* SECCIÓN: Pall_Verd                                     	              *)
+(* La programación del palletizador de las piezas verdes 		      *)
+(* ========================================================================== *) 
+
+R_TRIG_28 (CLK := IN_Diffuse_Sensor_17);
+
+IF R_TRIG_28.Q THEN
+	OUT_BeltConveyor_Inclined_4:=TRUE;
+	OUT_Palletizer_4_Belt_Plus:=TRUE;
+END_IF;
+
+IF OUT_BeltConveyor_Inclined_4 AND OUT_Palletizer_4_Belt_Plus THEN
+	TON_15 (IN := TRUE, PT := t#10S);
+ELSE
+	TON_15 (IN := FALSE);
+END_IF;
+
+IF TON_15.Q THEN
+	OUT_BeltConveyor_Inclined_4:=FALSE;
+	OUT_Palletizer_4_Belt_Plus:=FALSE;
+	cont_verde:= cont_verde+1; 
+END_IF;
+
+IF cont_verde=2 THEN
+	SET (OUT =&gt; OUT_Palletizer_4_Push);
+	cont_verde:= 0;
+	SET (OUT =&gt; OUT_Emitter6_Emit);
+END_IF;
+
+IF OUT_Palletizer_4_Push AND OUT_Emitter6_Emit THEN
+	TON_16 (IN := TRUE, PT := t#2S);
+ELSE
+	TON_16 (IN := FALSE);
+END_IF;
+
+IF TON_16.Q THEN
+	RESET (OUT =&gt; OUT_Palletizer_4_Push);
+	RESET (OUT =&gt; OUT_Emitter6_Emit);
+END_IF;
+
+F_TRIG_40 (CLK := OUT_Palletizer_4_Push);
+
+IF F_TRIG_40.Q AND OUT_BeltConveyor_6_10 THEN
+	SET (OUT =&gt; OUT_Pal_4_Elevator_Move_Limit);
+	SET (OUT =&gt; OUT_Palletizer_4_Elevator_Plus);
+	SET (OUT =&gt; OUT_Palletizer_4_Clamp);
+END_IF;
+
+TP_11 (IN := F_TRIG_40.Q,
+       PT := t#2s);
+
+F_TRIG_41 (CLK := TP_11.Q);
+
+IF F_TRIG_41.Q AND OUT_BeltConveyor_6_10 THEN
+	SET (OUT =&gt; OUT_Palletizer_4_Open_Plate);
+	RESET (OUT =&gt; OUT_Palletizer_4_Clamp);
+END_IF;
+
+TP_12 (IN := OUT_Palletizer_4_Open_Plate,
+      PT := T#1S);
+
+F_TRIG_42 (CLK := TP_12.Q);
+
+IF F_TRIG_42.Q and OUT_BeltConveyor_6_10 THEN
+	RESET (OUT =&gt; OUT_Palletizer_4_Elevator_Plus);
+	SET (OUT =&gt; OUT_Palletizer_4_Elevator_Minus);
+END_IF;
+
+TP_13 (IN := OUT_Palletizer_4_Elevator_Minus,
+      PT := t#2s);
+
+F_TRIG_43 (CLK := TP_13.Q);
+
+IF F_TRIG_43.Q AND OUT_Palletizer_4_Open_Plate THEN
+	RESET (OUT =&gt; OUT_Palletizer_4_Elevator_Minus);
+	RESET (OUT =&gt; OUT_Palletizer_4_Open_Plate);
+	SET (OUT =&gt; OUT_Roller_Conveyor_V);
+	SET (OUT =&gt; OUT_Palletizer_4_Chain_Plus);
+END_IF;
+</STSource>
+	</program>
+	<program>
+		<identProgram name="Stacker_Crane_Azul" type="SR" task="MAST"></identProgram>
+		<STSource>(* ========================================================================== *)
+(* SECCIÓN: Stacker_Crane_Azul                                                *)
+(* Almacenamiento de los pallets con las piezas azules en su interior         *)
+(* ========================================================================== *)
+
+IF IN_Diffuse_Sensor_24 THEN
+	OUT_Roller_Conveyor_A := 1;
+END_IF;
+
+F_TRIG_87 (CLK := IN_Diffuse_Sensor_24); 
+
+IF F_TRIG_87.Q THEN
+	RESET (OUT =&gt; OUT_Palletizer_3_Chain_Plus);
+END_IF;
+
+F_TRIG_84 (CLK := IN_Diffuse_Sensor_25);
+
+IF F_TRIG_84.Q THEN
+	OUT_Roller_Conveyor_A := 0;
+	Paso := 0;
+END_IF;
+
+TP_37 (IN := F_TRIG_84.Q, PT := T#1S);
+
+F_TRIG_86 (CLK := TP_37.Q);
+
+IF Paso = 0 AND F_TRIG_86.Q THEN
+	OUT_StCr_1_TargetPosition := Position;
+	Position := Position + 1;
+	OUT_Stacker_Crane_1_Lift := 1;
+END_IF; 
+
+F_TRIG_85 (CLK := IN_Stacker_Crane_1_Z);
+
+IF Paso = 0 AND F_TRIG_85.Q THEN
+	OUT_Stacker_Crane_1_Left := 1;
+	Paso := 1;	
+END_IF;
+
+IF Paso = 1 AND IN_Stacker_Crane_1_Left_Limit = 1 THEN
+	OUT_Stacker_Crane_1_Lift := 0;
+	Paso := 2;
+END_IF;
+
+IF Paso = 2 AND F_TRIG_85.Q THEN
+	OUT_Stacker_Crane_1_Left := 0;
+	Paso := 3;
+END_IF;
+
+IF Paso = 3 AND IN_Stacker_Crane_1_Middle_Limit THEN
+	OUT_StCr_1_TargetPosition := 55;
+END_IF;
+</STSource>
+	</program>
+	<program>
+		<identProgram name="Stacker_Crane_Verde" type="SR" task="MAST"></identProgram>
+		<STSource>(* ========================================================================== *)
+(* SECCIÓN: Stacker_Crane_Verde                                               *)
+(* Almacenamiento de los pallets con las piezas verdes en su interior         *)
+(* ========================================================================== *)
+
+IF IN_Diffuse_Sensor_4 THEN
+	OUT_Roller_Conveyor_V := 1;
+END_IF;
+
+F_TRIG_88 (CLK := IN_Diffuse_Sensor_4);
+
+IF F_TRIG_88.Q THEN
+	RESET (OUT =&gt; OUT_Palletizer_4_Chain_Plus);
+END_IF;
+
+F_TRIG_45 (CLK := IN_Diffuse_Sensor_26);
+
+IF F_TRIG_45.Q THEN
+	OUT_Roller_Conveyor_V := 0;
+	Paso_V := 0;
+END_IF;
+
+TP_29 (IN := F_TRIG_45.Q,
+       PT := T#1S);
+
+F_TRIG_77 (CLK := TP_29.Q);
+
+
+IF Paso_V = 0 AND F_TRIG_77.Q THEN
+	OUT_StCr_4_Target_Position := Position_V;
+	Position_V := Position_V + 1;
+	OUT_Stacker_Crane_4_Lift := 1;
+END_IF;
+
+F_TRIG_78 (CLK := IN_Stacker_Crane_4_Z);
+
+IF Paso_V = 0 AND F_TRIG_78.Q THEN
+	OUT_Stacker_Crane_4_Left := 1;
+	Paso_V:= 1;
+END_IF;
+ 
+
+IF Paso_V = 1 AND IN_Stacker_Crane_4_Left_Limit = 1 THEN
+	OUT_Stacker_Crane_4_Lift:= 0;
+	Paso_V := 2;
+END_IF;
+
+
+IF Paso_V = 2 AND F_TRIG_78.Q THEN
+	OUT_Stacker_Crane_4_Left := 0;
+	Paso_V := 3;
+END_IF;
+
+IF IN_Stacker_Crane_4_Middle_Limit and Paso_V = 3 THEN
+	OUT_StCr_4_Target_Position := 55;
+END_IF;
+</STSource>
+	</program>
+	<program>
+		<identProgram name="Visual" type="SR" task="MAST"></identProgram>
+		<STSource>R_TRIG_13 (CLK := IN_Diffuse_Sensor_16);
+R_TRIG_14 (CLK := IN_Diffuse_Sensor_17);
+R_TRIG_15 (CLK := IN_Diffuse_Sensor_6);
+R_TRIG_16 (CLK := IN_Diffuse_Sensor_11);
+R_TRIG_21 (CLK := IN_Light_Array_Emitter_1_Value &gt; 193);
+R_TRIG_22 (CLK := IN_Light_Array_Emitter_2_Value &gt; 193);
+R_TRIG_19 (CLK := IN_Diffuse_Sensor_7);
+
+IF R_TRIG_13.Q THEN
+Contador_azules := Contador_azules + 1;
+OUT_Digital_Display_1 := Contador_azules;
+END_IF;
+ 
+IF R_TRIG_14.Q THEN
+Contador_verdes := Contador_verdes + 1;
+OUT_Digital_Display_2:= Contador_verdes;
+END_IF;
+ 
+IF R_TRIG_15.Q THEN
+Contador_PF := Contador_PF + 1;
+END_IF;
+
+IF R_TRIG_16.Q THEN
+Contador_gris := Contador_gris + 1;
+OUT_Digital_Display_3:= Contador_gris;
+END_IF;
+
+IF R_TRIG_21.Q THEN
+Contador_F_G := Contador_F_G + 1;
+END_IF;
+
+IF R_TRIG_22.Q THEN
+Contador_NF_G := Contador_NF_G + 1;
+END_IF;
+
+IF R_TRIG_19.Q THEN
+Contador_P_nF := Contador_P_nF + 1;
+END_IF;
+
+
+SC_Selector_0 := IN_Selector_1_State_0 ;
+SC_Selector_1 := IN_Selector_1_State_1 ;
+SC_IN_Emergency_Stop_1 := IN_Emergency_Stop_1;
+SC_IN_Reset_Button_1 := IN_Reset_Button_1;
+SC_IN_Start_Button_1 := IN_Start_Button_1;
+SC_IN_Stop_Button_1 := IN_Stop_Button_1;
+
+SC_OUT_BeltConveyor_Inclined_1 := OUT_BeltConveyor_Inclined_1;
+SC_OUT_BeltConveyor_Inclined_2 := OUT_BeltConveyor_Inclined_2;
+SC_OUT_BeltConveyor_Inclined_3 := OUT_BeltConveyor_Inclined_3;
+SC_OUT_BeltConveyor_Inclined_4 := OUT_BeltConveyor_Inclined_4;
+
+SC_OUT_BeltConveyor_4_5 := OUT_BeltConveyor_4_5;
+SC_OUT_BeltConveyor_4_6 := OUT_BeltConveyor_4_6;
+
+SC_OUT_Two_Axis_Pick_Place_1_X := OUT_Two_Axis_Pick_Place_1_X;
+SC_OUT_Two_Axis_Pick_Place_1_Z := OUT_Two_Axis_Pick_Place_1_Z;
+SC_OUT_Two_Axis_Pick_Place_2_X := OUT_Two_Axis_Pick_Place_2_X;
+SC_OUT_Two_Axis_Pick_Place_2_Z := OUT_Two_Axis_Pick_Place_2_Z;
+
+SC_OUT_Two_Axis_PP_1_Grab := OUT_Two_Axis_Pick_Place_1_Grab;
+SC_OUT_Two_Axis_PP_2_Grab := OUT_Two_Axis_Pick_Place_2_Grab;
+
+SC_OUT_Emitter4_Emit := OUT_Emitter4_Emit;
+SC_OUT_Emitter5_Emit := OUT_Emitter5_Emit;
+
+SC_OUT_Roller_Conveyor_V:=OUT_Roller_Conveyor_V;
+SC_OUT_Roller_Conveyor_A:=OUT_Roller_Conveyor_A;
+SC_OUT_Roller_Conveyor_F:=OUT_Roller_Conveyor_F;
+SC_OUT_Roller_Conveyor_NF:=OUT_Roller_Conveyor_NF;
+
+(* ========================================================================== *)
+(* VARIABLES SCADA ADICIONALES - MANDO / GEMMA / ESTADO GENERAL               *)
+(* ========================================================================== *)
+
+SC_Estado_GEMMA := Estado_GEMMA;
+SC_Mensaje_Sistema := Mensaje_Sistema;
+
+SC_Marcha_General := Marcha_General;
+SC_Permiso_Proceso := Permiso_Proceso;
+SC_Seguridad_OK := Seguridad_OK;
+SC_Modo_AUTO := Modo_AUTO;
+SC_Stop_Pulsado := Stop_Pulsado;
+SC_Reset_General := Reset_General;
+SC_Reset_Activo := OUT_FACTORY_IO_Reset;
+
+SC_Cmd_Start := Cmd_Start;
+SC_Cmd_Stop := Cmd_Stop;
+SC_Cmd_Reset := Cmd_Reset;
+
+SC_Estado_Parada_Inicial := Estado_GEMMA = 0;
+SC_Estado_Produccion := Estado_GEMMA = 10;
+SC_Estado_Parada_Normal := Estado_GEMMA = 20;
+SC_Estado_Emergencia := Estado_GEMMA = 30;
+SC_Estado_Reset := Estado_GEMMA = 40;
+
+
+(* ========================================================================== *)
+(* FACTORY I/O Y CINTA PRINCIPAL                                               *)
+(* ========================================================================== *)
+
+SC_FACTORY_IO_Running := IN_FACTORY_IO_Running;
+SC_FACTORY_IO_Paused := IN_FACTORY_IO_Paused;
+SC_FACTORY_IO_Reset := IN_FACTORY_IO_Reset;
+
+SC_OUT_FACTORY_IO_Run := OUT_FACTORY_IO_Run;
+SC_OUT_FACTORY_IO_Pause := OUT_FACTORY_IO_Pause;
+SC_OUT_FACTORY_IO_Reset := OUT_FACTORY_IO_Reset;
+
+SC_OUT_Emitter1_Emit := OUT_Emitter1_Emit;
+SC_OUT_BeltConveyor_6_13 := OUT_BeltConveyor_6_13;
+
+
+(* ========================================================================== *)
+(* ALARMAS                                                                     *)
+(* ========================================================================== *)
+
+SC_Alarma_Emergencia := NOT Seguridad_OK;
+SC_Alarma_Sistema_Detenido := NOT Marcha_General;
+SC_Alarma_Sin_Permiso := NOT Permiso_Proceso;
+SC_Alarma_Parada_Normal := Estado_GEMMA = 20;
+SC_Alarma_Reset := Estado_GEMMA = 40;
+SC_Alarma_FIFO_Lleno := SlotCount &gt;= 10;
+
+SC_Alarma_Rack_Azul_Lleno := Position &gt;= 54;
+SC_Alarma_Rack_Verde_Lleno := Position_V &gt;= 54;
+SC_Alarma_Rack_F_Lleno := Position_F &gt;= 54;
+SC_Alarma_Rack_NF_Lleno := Position_NF &gt;= 54;
+
+SC_Alarma_Activa :=
+	SC_Alarma_Emergencia OR
+	SC_Alarma_Sin_Permiso OR
+	SC_Alarma_FIFO_Lleno OR
+	SC_Alarma_Rack_Azul_Lleno OR
+	SC_Alarma_Rack_Verde_Lleno OR
+	SC_Alarma_Rack_F_Lleno OR
+	SC_Alarma_Rack_NF_Lleno;
+
+
+(* ========================================================================== *)
+(* IDENTIFICACIÓN Y CLASIFICACIÓN                                              *)
+(* ========================================================================== *)
+
+SC_IN_Sensor_Presencia_Entrada := IN_Diffuse_Sensor_1;
+SC_IN_Sensor_Clasificacion := IN_Diffuse_Sensor_2;
+SC_IN_Sensor_RFID := IN_Diffuse_Sensor_5;
+
+SC_Camara_Deteccion :=
+	IN_Vision_Sensor_1_Bool_0 OR
+	IN_Vision_Sensor_1_Bool_1 OR
+	IN_Vision_Sensor_1_Bool_2 OR
+	IN_Vision_Sensor_1_Bool_3;
+
+SC_RFID_Activo := RFID_READER_1_Executecommand OR RFID_READER_2_Executecommand;
+SC_RFID_Read_Value := RFID_Read_Value;
+SC_Valor_Capturado := Valor_Capturado;
+
+SC_SlotCount := SlotCount;
+SC_SlotRead := SlotRead;
+SC_SlotWrite := SlotWrite;
+
+SC_OUT_Pusher_1 := OUT_Pusher_1;
+
+SC_OUT_Clasificador_4 := 
+	SC_OUT_Clasificador_FnF_Plus OR
+	SC_OUT_Clasificador_FnF_Right;
+
+SC_OUT_Clasificador_FnF_Plus := OUT_Pop_Up_Wheel_Sorter_4_Plus;
+SC_OUT_Clasificador_FnF_Right := OUT_Pop_Up_Wheel_Sorter_4_Right;
+
+SC_OUT_Clasificador_NF_Plus := OUT_Pop_Up_Wheel_Sorter_1_Plus;
+SC_OUT_Clasificador_NF_Right := OUT_Pop_Up_Wheel_Sorter_1_Right;
+
+SC_OUT_Clasificador_F_Plus := OUT_Pop_Up_Wheel_Sorter_3_Plus;
+SC_OUT_Clasificador_F_Left := OUT_Pop_Up_Wheel_Sorter_3_Left;
+
+SC_IN_Medicion_Tamano_F := IN_Light_Array_Emitter_1_Value;
+SC_IN_Medicion_Tamano_NF := IN_Light_Array_Emitter_2_Value;
+
+SC_IN_Sensor_Tamano_F := IN_Diffuse_Sensor_8;
+SC_IN_Sensor_Tamano_NF := IN_Diffuse_Sensor_3;
+
+SC_IN_Sensor_Tamano :=
+
+	SC_IN_Sensor_Tamano_NF OR
+	SC_IN_Sensor_Tamano_F;
+
+
+(* ========================================================================== *)
+(* PICK &amp; PLACE                                                                *)
+(* ========================================================================== *)
+
+SC_IN_Pieza_Azul_PP := IN_Diffuse_Sensor_15;
+SC_IN_Pieza_Verde_PP := IN_Diffuse_Sensor_12;
+
+SC_IN_Base_Azul := IN_Right_Positioner_4_Clamped;
+SC_IN_Base_Verde := IN_Right_Positioner_2_Clamped;
+
+SC_IN_PP_Azul_Detected := IN_TwoAxis_PickPlace_2_Detected;
+SC_IN_PP_Verde_Detected := IN_TwoAxis_PickPlace_1_Detected;
+
+SC_IN_PP_Azul_Moving_X := IN_TwoAxis_PickPlace_2_Moving_X;
+SC_IN_PP_Azul_Moving_Z := IN_TwoAxis_PickPlace_2_Moving_Z;
+SC_IN_PP_Verde_Moving_X := IN_TwoAxis_PickPlace_1_Moving_X;
+SC_IN_PP_Verde_Moving_Z := IN_TwoAxis_PickPlace_1_Moving_Z;
+
+SC_OUT_Right_Positioner_2_Clamp := OUT_Right_Positioner_2_Clamp;
+SC_OUT_Right_Positioner_2_Raise := OUT_Right_Positioner_2_Raise;
+SC_OUT_Right_Positioner_4_Clamp := OUT_Right_Positioner_4_Clamp;
+SC_OUT_Right_Positioner_4_Raise := OUT_Right_Positioner_4_Raise;
+
+SC_OUT_BeltConveyor_4_2 := OUT_BeltConveyor_4_2;
+SC_OUT_BeltConveyor_4_7 := OUT_BeltConveyor_4_7;
+
+
+(* ========================================================================== *)
+(* ALMACENAMIENTO / RACKS                                                      *)
+(* ========================================================================== *)
+
+SC_IN_Entrada_Azul_Roller := IN_Diffuse_Sensor_24;
+SC_IN_Entrada_Verde_Roller := IN_Diffuse_Sensor_4;
+SC_IN_Entrada_F_Roller := IN_Diffuse_Sensor_23;
+SC_IN_Entrada_NF_Roller := IN_Diffuse_Sensor_21;
+
+SC_IN_Entrada_Azul_Stacker := IN_Diffuse_Sensor_25;
+SC_IN_Entrada_Verde_Stacker := IN_Diffuse_Sensor_26;
+SC_IN_Entrada_F_Stacker := IN_Diffuse_Sensor_22;
+SC_IN_Entrada_NF_Stacker := IN_Diffuse_Sensor_20;
+
+SC_OUT_StCr_1_TargetPosition := OUT_StCr_1_TargetPosition;
+SC_OUT_StCr_2_Target_Position := OUT_StCr_2_Target_Position;
+SC_OUT_StCr_3_Target_Position := OUT_StCr_3_Target_Position;
+SC_OUT_StCr_4_Target_Position := OUT_StCr_4_Target_Position;
+
+
+(* ========================================================================== *)
+(* STACKER CRANES                                                              *)
+(* ========================================================================== *)
+
+SC_OUT_Stacker_Crane_1_Lift := OUT_Stacker_Crane_1_Lift;
+SC_OUT_Stacker_Crane_1_Left := OUT_Stacker_Crane_1_Left;
+SC_OUT_Stacker_Crane_1_Right := OUT_Stacker_Crane_1_Right;
+
+SC_OUT_Stacker_Crane_2_Lift := OUT_Stacker_Crane_2_Lift;
+SC_OUT_Stacker_Crane_2_Left := OUT_Stacker_Crane_2_Left;
+SC_OUT_Stacker_Crane_2_Right := OUT_Stacker_Crane_2_Right;
+
+SC_OUT_Stacker_Crane_3_Lift := OUT_Stacker_Crane_3_Lift;
+SC_OUT_Stacker_Crane_3_Left := OUT_Stacker_Crane_3_Left;
+SC_OUT_Stacker_Crane_3_Right := OUT_Stacker_Crane_3_Right;
+
+SC_OUT_Stacker_Crane_4_Lift := OUT_Stacker_Crane_4_Lift;
+SC_OUT_Stacker_Crane_4_Left := OUT_Stacker_Crane_4_Left;
+SC_OUT_Stacker_Crane_4_Right := OUT_Stacker_Crane_4_Right;
+
+SC_Stacker_Azul_Activo :=
+	OUT_Stacker_Crane_1_Lift OR
+	OUT_Stacker_Crane_1_Left OR
+	OUT_Stacker_Crane_1_Right;
+
+SC_Stacker_NF_Activo :=
+	OUT_Stacker_Crane_2_Lift OR
+	OUT_Stacker_Crane_2_Left OR
+	OUT_Stacker_Crane_2_Right;
+
+SC_Stacker_F_Activo :=
+	OUT_Stacker_Crane_3_Lift OR
+	OUT_Stacker_Crane_3_Left OR
+	OUT_Stacker_Crane_3_Right;
+
+SC_Stacker_Verde_Activo :=
+	OUT_Stacker_Crane_4_Lift OR
+	OUT_Stacker_Crane_4_Left OR
+	OUT_Stacker_Crane_4_Right;
+
+
+(* ========================================================================== *)
+(* CONTADORES INTERNOS DE PALLETIZADO                                          *)
+(* ========================================================================== *)
+
+SC_Contador_verdes := Contador_verdes;
+SC_Contador_azules:= Contador_azules;
+SC_Contador_gris:= Contador_gris;
+SC_Contador_PF := Contador_PF;
+SC_Contador_P_nF:= Contador_P_nF;
+SC_Contador_NF_G := Contador_NF_G;
+SC_Contador_F_G := Contador_F_G;
+</STSource>
+	</program>
+	<animationTable name="Prueba_datos" location="" version="1.0" dateTime="date_and_time#2026-6-22-23:43:38" ExtStringAnim="0" ExtStringAnimLen="100" PouOwner="Proyecto">
+		<elementDescription displayBase="4" name="cont_azul"></elementDescription>
+		<elementDescription displayBase="4" name="Position"></elementDescription>
+	</animationTable>
+	<IOScreen version="V1.0"></IOScreen>
+	<Documentation version="V1.0">
+		<Station bDocumentationSave="0"></Station>
+		<Program_ST nMode="0" bXRef="0" bVariableUsed="0"></Program_ST>
+		<Program_IL nMode="0"></Program_IL>
+		<Program_FBD nMode="0"></Program_FBD>
+		<Program_LD nMode="0" bXRef="0" bVariableUsed="0"></Program_LD>
+		<Program_SFC nMode="0"></Program_SFC>
+		<OperatorScreens nSort="0" bMessageList="0" bGraphic="1" bVariable="0"></OperatorScreens>
+		<Variables_FBInstances nSort="0" bExpandArray="0" bExpandStructure="0" nProfile="0" b984Address="0"></Variables_FBInstances>
+		<TitlePage sDesigner="" sProject=""></TitlePage>
+		<General sGeneralInfo=""></General>
+		<Footer sAuthor="" sDepartment="" sBitmapPath="" sFreeText1="" sFreeText2="" sIndustrialProperty=""></Footer>
+	</Documentation>
+	<settings version="410">
+		<!--group unity.Settings-->
+		<!--group unity.General-->
+		<!--group unity.ManageBuildMessages-->
+		<entryvalue ident="unity.variableNotUsed" value="0"></entryvalue>
+		<entryvalue ident="unity.multiWritingOfVar" value="0"></entryvalue>
+		<entryvalue ident="unity.paramNotAssign" value="0"></entryvalue>
+		<entryvalue ident="unity.multiFBInstance" value="0"></entryvalue>
+		<entryvalue ident="unity.ddtMappingCompat" value="0"></entryvalue>
+		<entryvalue ident="unity.overlOfAdd" value="1"></entryvalue>
+		<entryvalue ident="unity.missingGatewayIPaddress" value="1"></entryvalue>
+		<entryvalue ident="unity.WarningsActif" value="1"></entryvalue>
+		<entryvalue ident="unity.NbWarnings" value="500"></entryvalue>
+		<entryvalue ident="unity.ErrorsActif" value="1"></entryvalue>
+		<entryvalue ident="unity.NbErrors" value="500"></entryvalue>
+		<!--group unity.BuildSettings-->
+		<entryvalue ident="unity.createNewDataBlockOnline" value="1"></entryvalue>
+		<entryvalue ident="unity.freeKbytes" value="1"></entryvalue>
+		<entryvalue ident="unity.virtCodeGenEnable" value="0"></entryvalue>
+		<entryvalue ident="unity.ldLink" value="1"></entryvalue>
+		<entryvalue ident="unity.ldOptCode" value="0"></entryvalue>
+		<entryvalue ident="unity.ApplyOnLineModif" value="1"></entryvalue>
+		<entryvalue ident="unity.IOScanningMode" value="0"></entryvalue>
+		<!--group unity.SaveOnDownload-->
+		<entryvalue ident="unity.SaveOnDownloadSTA" value="1"></entryvalue>
+		<entryvalue ident="unity.SaveOnDownloadSTU" value="0"></entryvalue>
+		<entryvalue ident="unity.SaveOnDownloadXVM" value="0"></entryvalue>
+		<!--group unity.PLCEmbeddedData-->
+		<entryvalue ident="unity.dataDictionary" value="0"></entryvalue>
+		<entryvalue ident="unity.dataDictionaryPreload" value="0"></entryvalue>
+		<entryvalue ident="unity.dataDictionaryChangeTimeOut" value="40"></entryvalue>
+		<entryvalue ident="unity.dataDictionaryOnlyHMIvariables" value="0"></entryvalue>
+		<entryvalue ident="unity.dataDictionaryWithProcessNamespace" value="0"></entryvalue>
+		<entryvalue ident="unity.actif" value="1"></entryvalue>
+		<entryvalue ident="unity.comment" value="1"></entryvalue>
+		<entryvalue ident="unity.animTable" value="0"></entryvalue>
+		<entryvalue ident="unity.ETSManagementMode" value="1"></entryvalue>
+		<entryvalue ident="unity.OptimizeOnlineChange" value="0"></entryvalue>
+		<!--group unity.PLCdiagnostics-->
+		<entryvalue ident="unity.application" value="0"></entryvalue>
+		<entryvalue ident="unity.applevel" value="0"></entryvalue>
+		<entryvalue ident="unity.system" value="1"></entryvalue>
+		<entryvalue ident="unity.language" value="3"></entryvalue>
+		<entryvalue ident="unity.RackViewerDiag" value="1"></entryvalue>
+		<entryvalue ident="unity.RackViewerVariableNames" value="0"></entryvalue>
+		<entryvalue ident="unity.ProgViewerDiag" value="0"></entryvalue>
+		<entryvalue ident="unity.PLCEventLogging" value="0"></entryvalue>
+		<entryvalue ident="unity.SYSLOGServerAddress" value="0.0.0.0"></entryvalue>
+		<entryvalue ident="unity.SYSLOGServerPort" value="601"></entryvalue>
+		<entryvalue ident="unity.SYSLOGServerProtocol" value="0"></entryvalue>
+		<!--group unity.PLCBehaviour-->
+		<entryvalue ident="unity.Reset_M_Stop_Run" value="0"></entryvalue>
+		<!--group unity.Path-->
+		<entryvalue ident="unity.HyperlinkRootPath" value=""></entryvalue>
+		<!--group unity.Time-->
+		<entryvalue ident="unity.TimeStampingMode" value="1"></entryvalue>
+		<entryvalue ident="unity.MaxEventsSored" value="0"></entryvalue>
+		<entryvalue ident="unity.CustomTimeZone" value="0"></entryvalue>
+		<entryvalue ident="unity.TimeZone" value="37"></entryvalue>
+		<entryvalue ident="unity.TimeZoneOffset" value="60"></entryvalue>
+		<entryvalue ident="unity.AdjustClock" value="0"></entryvalue>
+		<entryvalue ident="unity.DaylightSavingStartMonth" value="2"></entryvalue>
+		<entryvalue ident="unity.DaylightSavingStartDay" value="0"></entryvalue>
+		<entryvalue ident="unity.DaylightSavingStartOccurrence" value="5"></entryvalue>
+		<entryvalue ident="unity.DaylightSavingStartHour" value="2"></entryvalue>
+		<entryvalue ident="unity.DaylightSavingStartMinute" value="0"></entryvalue>
+		<entryvalue ident="unity.DaylightSavingStartSecond" value="0"></entryvalue>
+		<entryvalue ident="unity.DaylightSavingStartOffset" value="60"></entryvalue>
+		<entryvalue ident="unity.DaylightSavingEndMonth" value="9"></entryvalue>
+		<entryvalue ident="unity.DaylightSavingEndDay" value="0"></entryvalue>
+		<entryvalue ident="unity.DaylightSavingEndOccurrence" value="5"></entryvalue>
+		<entryvalue ident="unity.DaylightSavingEndHour" value="3"></entryvalue>
+		<entryvalue ident="unity.DaylightSavingEndMinute" value="0"></entryvalue>
+		<entryvalue ident="unity.DaylightSavingEndSecond" value="0"></entryvalue>
+		<entryvalue ident="unity.DaylightSavingEndOffset" value="0"></entryvalue>
+		<!--group unity.Configuration-->
+		<entryvalue ident="unity.PreferredIOVision" value="0"></entryvalue>
+		<entryvalue ident="unity.PreferredIOVision_Q_EIO" value="0"></entryvalue>
+		<!--group unity.Variables-->
+		<entryvalue ident="unity.leadingDigit" value="0"></entryvalue>
+		<entryvalue ident="unity.CharSet" value="0"></entryvalue>
+		<entryvalue ident="unity.EBoolEdge" value="1"></entryvalue>
+		<entryvalue ident="unity.intDIntAsWordDWord" value="1"></entryvalue>
+		<entryvalue ident="unity.extractAnyBit" value="1"></entryvalue>
+		<entryvalue ident="unity.directRepArray" value="0"></entryvalue>
+		<entryvalue ident="unity.dynamicArray" value="0"></entryvalue>
+		<entryvalue ident="unity.arraySizeCompCheck" value="0"></entryvalue>
+		<entryvalue ident="unity.FastScanningForTrending" value="0"></entryvalue>
+		<entryvalue ident="unity.ForceReferenceInit" value="1"></entryvalue>
+		<entryvalue ident="unity.SaveRestoreDataRequest" value="0"></entryvalue>
+		<!--group unity.Program-->
+		<!--group unity.Languages-->
+		<entryvalue ident="unity.withFBD" value="1"></entryvalue>
+		<entryvalue ident="unity.withLD" value="1"></entryvalue>
+		<entryvalue ident="unity.withSFC" value="1"></entryvalue>
+		<entryvalue ident="unity.withIL" value="1"></entryvalue>
+		<entryvalue ident="unity.withST" value="1"></entryvalue>
+		<entryvalue ident="unity.with984" value="1"></entryvalue>
+		<!--group unity.languagecommon-->
+		<entryvalue ident="unity.generalProc" value="1"></entryvalue>
+		<entryvalue ident="unity.generalSub" value="1"></entryvalue>
+		<entryvalue ident="unity.nestedComment" value="0"></entryvalue>
+		<entryvalue ident="unity.multiAssign" value="0"></entryvalue>
+		<entryvalue ident="unity.emptyParam" value="1"></entryvalue>
+		<entryvalue ident="unity.STExpressions" value="1"></entryvalue>
+		<entryvalue ident="unity.RemanentLink" value="0"></entryvalue>
+		<entryvalue ident="unity.LDStructComment" value="0"></entryvalue>
+		<entryvalue ident="unity.implicitTypeConv" value="0"></entryvalue>
+		<!--group unity.FBD-->
+		<entryvalue ident="unity.FBDNbRow" value="240"></entryvalue>
+		<entryvalue ident="unity.FBDNbColumn" value="360"></entryvalue>
+		<!--group unity.LD-->
+		<entryvalue ident="unity.LDRightJustify" value="0"></entryvalue>
+		<entryvalue ident="unity.LDNbColumn" value="11"></entryvalue>
+		<entryvalue ident="unity.LDCellWidth" value="0"></entryvalue>
+		<entryvalue ident="unity.SingleScanEdgeDetectionEBool" value="0"></entryvalue>
+		<!--group unity.MixedDisplay-->
+		<entryvalue ident="unity.LDNbLinesCmt" value="1"></entryvalue>
+		<entryvalue ident="unity.LDNbLinesSym" value="1"></entryvalue>
+		<entryvalue ident="unity.LDNbLinesAdr" value="1"></entryvalue>
+		<!--group unity.SFC-->
+		<entryvalue ident="unity.macroSections" value="1"></entryvalue>
+		<entryvalue ident="unity.multiToken" value="0"></entryvalue>
+		<!--group unity.SFCmultiToken-->
+		<entryvalue ident="unity.nbActiveStep" value="32"></entryvalue>
+		<entryvalue ident="unity.nbActiveActions" value="96"></entryvalue>
+		<entryvalue ident="unity.setStep" value="1"></entryvalue>
+		<entryvalue ident="unity.parallelBranches" value="1"></entryvalue>
+		<entryvalue ident="unity.multiEvolution" value="1"></entryvalue>
+		<!--group unity.ST-->
+		<entryvalue ident="unity.jumpAndLabel" value="0"></entryvalue>
+		<!--group unity.LL984-->
+		<entryvalue ident="unity.SKPenabled" value="1"></entryvalue>
+		<!--group unity.NetworkDisplay-->
+		<!--group unity.View1-->
+		<entryvalue ident="unity.View1Line1" value="0"></entryvalue>
+		<entryvalue ident="unity.View1Line2" value="0"></entryvalue>
+		<entryvalue ident="unity.View1Line3" value="0"></entryvalue>
+		<entryvalue ident="unity.View1Line4" value="0"></entryvalue>
+		<entryvalue ident="unity.View1Line5" value="0"></entryvalue>
+		<entryvalue ident="unity.View1Line6" value="0"></entryvalue>
+		<entryvalue ident="unity.View1Line7" value="1"></entryvalue>
+		<entryvalue ident="unity.View1FontHeight" value="10"></entryvalue>
+		<!--group unity.View2-->
+		<entryvalue ident="unity.View2Line1" value="0"></entryvalue>
+		<entryvalue ident="unity.View2Line2" value="0"></entryvalue>
+		<entryvalue ident="unity.View2Line3" value="0"></entryvalue>
+		<entryvalue ident="unity.View2Line4" value="0"></entryvalue>
+		<entryvalue ident="unity.View2Line5" value="0"></entryvalue>
+		<entryvalue ident="unity.View2Line6" value="3"></entryvalue>
+		<entryvalue ident="unity.View2Line7" value="1"></entryvalue>
+		<entryvalue ident="unity.View2FontHeight" value="10"></entryvalue>
+		<!--group unity.View3-->
+		<entryvalue ident="unity.View3Line1" value="0"></entryvalue>
+		<entryvalue ident="unity.View3Line2" value="0"></entryvalue>
+		<entryvalue ident="unity.View3Line3" value="0"></entryvalue>
+		<entryvalue ident="unity.View3Line4" value="0"></entryvalue>
+		<entryvalue ident="unity.View3Line5" value="0"></entryvalue>
+		<entryvalue ident="unity.View3Line6" value="2"></entryvalue>
+		<entryvalue ident="unity.View3Line7" value="1"></entryvalue>
+		<entryvalue ident="unity.View3FontHeight" value="10"></entryvalue>
+		<!--group unity.View4-->
+		<entryvalue ident="unity.View4Line1" value="0"></entryvalue>
+		<entryvalue ident="unity.View4Line2" value="0"></entryvalue>
+		<entryvalue ident="unity.View4Line3" value="0"></entryvalue>
+		<entryvalue ident="unity.View4Line4" value="0"></entryvalue>
+		<entryvalue ident="unity.View4Line5" value="4"></entryvalue>
+		<entryvalue ident="unity.View4Line6" value="3"></entryvalue>
+		<entryvalue ident="unity.View4Line7" value="1"></entryvalue>
+		<entryvalue ident="unity.View4FontHeight" value="10"></entryvalue>
+		<entryvalue ident="unity.LL984PrintingView" value="3"></entryvalue>
+		<entryvalue ident="unity.LL984ColumnWidth" value="1,000000"></entryvalue>
+		<!--group unity.OperatorScreens-->
+		<entryvalue ident="unity.fullScreen" value="0"></entryvalue>
+		<!--group unity.ControlledScreen-->
+		<entryvalue ident="unity.varCtrlScreen" value=""></entryvalue>
+		<entryvalue ident="unity.displayScreenControl" value="0"></entryvalue>
+		<entryvalue ident="unity.displayScreenNumber" value="0"></entryvalue>
+		<!--group unity.LastOpenedScreen-->
+		<entryvalue ident="unity.varDispScreen" value=""></entryvalue>
+	</settings>
+</FEFExchangeFile>
